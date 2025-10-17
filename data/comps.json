@@ -1,0 +1,1234 @@
+[
+  {
+    "name": "Mighty Mecha Karma-Senna Carrys",
+    "champions": [
+      8,
+      1,
+      7,
+      16,
+      37,
+      46,
+      48,
+      52,
+      63,
+      63
+    ],
+    "coreChampions": [
+      {
+        "id": 8,
+        "weight": 2,
+        "isEarlyCore": true
+      },
+      {
+        "id": 37,
+        "weight": 2.5
+      },
+      {
+        "id": 46,
+        "weight": 3
+      },
+      {
+        "id": 48,
+        "weight": 3
+      }
+    ],
+    "requiredTraits": [
+      {
+        "name": "Mighty Mech",
+        "minUnits": 3,
+        "weight": 3
+      },
+      {
+        "name": "Mighty Mech",
+        "minUnits": 5,
+        "weight": 5
+      },
+      {
+        "name": "Mighty Mech",
+        "minUnits": 7,
+        "weight": 7
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 8,
+        "weight": 3,
+        "maxEffective": 5
+      },
+      {
+        "id": 4,
+        "weight": 2,
+        "maxEffective": 3
+      }
+    ],
+    "recommendedItems": [
+      {
+        "id": 3,
+        "weight": 1.5,
+        "maxEffective": 3
+      },
+      {
+        "id": 2,
+        "weight": 1.5,
+        "maxEffective": 2
+      },
+      {
+        "id": 1,
+        "weight": 1,
+        "maxEffective": 2
+      }
+    ],
+    "tier": "B"
+  },
+  {
+    "Id": 2,
+    "name": "Mentor Mighty Mech Ryze",
+    "description": "Composición con synergy Mentor + Mighty Mech, carry principal Ryze. Lucian hold items for Ryze",
+    "tier": "B",
+    "champions": [ 1, 8, 16, 21, 37, 40, 42, 46, 52, 55 ],
+    "coreChampions": [
+      {
+        "id": 8,
+        "weight": 2,
+        "isEarlyCore": true
+      },
+      {
+        "id": 52,
+        "weight": 4
+      },
+      {
+        "id": 55,
+        "weight": 4
+      }
+    ],
+    "requiredTraits": [
+      {
+        "name": "Mentor",
+        "minUnits": 1,
+        "weight": 1
+      },
+        {
+          "name": "Mentor",
+          "minUnits": 4,
+          "weight": 6
+        },
+        {
+          "name": "Mighty Mech",
+          "minUnits": 3,
+          "weight": 4
+        }
+      ],
+      "recommendedItems":
+      [
+        {
+          "id": 4,
+          "weight": 2,
+          "maxEffective": 1
+        },
+        {
+          "id": 1,
+          "weight": 2,
+          "maxEffective": 3
+        },
+        {
+          "id": 2,
+          "weight": 1,
+          "maxEffective": 2
+        },
+        {
+          "id": 5,
+          "weight": 1,
+          "maxEffective": 1
+        }
+      ],
+    "coreItems": [
+      {
+        "id": 6,
+        "weight": 3,
+        "maxEffective": 4
+      },
+      {
+        "id": 8,
+        "weight": 2,
+        "maxEffective": 3
+      }
+    ]
+  },
+
+  {
+    "Id": 3,
+    "name": "Varus/Tf Fast 9",
+    "description": "Legendary cap version of Varus and a duo carry in TF or Zyra. Make sure you have a mana item for Varus (Blue Buff \u003E Shojin but both are good). Itemize whichever duo carry you 2* first (TF 2 \u003E Zyra 2 \u003E TF \u00601).",
+    "tier": "C",
+    "champions": [
+      1,
+      4,
+      15,
+      17,
+      18,
+      39,
+      46,
+      49,
+      57,
+      61,
+      62,
+      64
+    ],
+    "coreChampions": [
+      {
+        "id": 4,
+        "weight": 2,
+        "isEarlyCore": true
+      },
+      {
+        "id": 15,
+        "weight": 2,
+        "isEarlyCore": true
+      },
+      {
+        "id": 49,
+        "weight": 3
+      },
+      {
+        "id": 61,
+        "weight": 3
+      },
+      {
+        "id": 62,
+        "weight": 3
+      },
+      {
+        "id": 64,
+        "weight": 3
+      }
+    ],
+    "requiredTraits": [],
+    "recommendedItems": [
+      {
+        "id": 3,
+        "weight": 1.5,
+        "maxEffective": 6
+      },
+      {
+        "id": 8,
+        "weight": 1.5,
+        "maxEffective": 5
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 1,
+        "weight": 1,
+        "maxEffective": 1
+      },
+      {
+        "id": 6,
+        "weight": 2,
+        "maxEffective": 3
+      },
+      {
+        "id": 4,
+        "weight": 2,
+        "maxEffective": 3
+      },
+      {
+        "id": 7,
+        "weight": 1.5,
+        "maxEffective": 3
+      }
+    ]
+  },
+
+  {
+    "id": 4,
+    "name": "Star Guardians Jinx Carry",
+    "description": "Syndra hold items for jinx and Rell for Poppy",
+    "champions": [
+      11,
+      13,
+      24,
+      26,
+      21,
+      35,
+      49,
+      51,
+      47,
+      60,
+      62,
+      57
+    ],
+    "coreChampions": [
+      {
+        "id": 11,
+        "weight": 2,
+        "isEarlyCore": true
+      },
+      {
+        "id": 13,
+        "weight": 2,
+        "isEarlyCore": true
+      },
+      {
+        "id": 51,
+        "weight": 3
+      },
+      {
+        "id": 47,
+        "weight": 3
+      },
+      {
+        "id": 60,
+        "weight": 2
+      }
+    ],
+    "requiredTraits": [
+      {
+        "name": "Star Guardian",
+        "minUnits": 1,
+        "weight": 1
+      },
+      {
+        "name": "Star Guardian",
+        "minUnits": 2,
+        "weight": 1.5
+      },
+      {
+        "name": "Star Guardian",
+        "minUnits": 3,
+        "weight": 2
+      },
+      {
+        "name": "Star Guardian",
+        "minUnits": 4,
+        "weight": 2.5
+      },
+      {
+        "name": "Star Guardian",
+        "minUnits": 5,
+        "weight": 3
+      },
+      {
+        "name": "Star Guardian",
+        "minUnits": 6,
+        "weight": 4.5
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 1,
+        "weight": 2.5,
+        "maxEffective": 3
+      },
+      {
+        "id": 8,
+        "weight": 1.5,
+        "maxEffective": 2
+      },
+      {
+        "id": 2,
+        "weight": 2,
+        "maxEffective": 2
+      }
+    ],
+    "recommendedItems": [
+      {
+        "id": 3,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 5,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 7,
+        "weight": 1,
+        "maxEffective": 3
+      }
+    ],
+    "tier": "A"
+  },
+  {
+    "id" : 5,
+    "name": "Kog\u0027Maw",
+    "champions": [
+      3,
+      11,
+      24,
+      27,
+      50,
+      39,
+      42,
+      32,
+      33
+    ],
+    "coreChampions": [
+      {
+        "id": 32 ,
+        "weight": 3
+      },
+      {
+        "id": 33,
+        "weight": 3
+      },
+      {
+        "id": 39,
+        "weight": 3
+      },    
+      {
+        "id": 42,
+        "weight": 2.5
+      }    
+    ],
+    "requiredTraits": [
+      {
+        "name": "Bastion",
+        "minUnits": 2,
+        "weight": 2
+      },
+      {
+        "name": "Bastion",
+        "minUnits": 4,
+        "weight": 3
+      },
+      {
+        "name": "Bastion",
+        "minUnits": 6,
+        "weight": 4
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 8,
+        "weight": 2,
+        "maxEffective": 2
+      },
+      {
+        "id": 1,
+        "weight": 1.5,
+        "maxEffective": 1
+      }
+    ],
+    "recommendedItems": [
+      {
+        "id": 6,
+        "weight": 1,
+        "maxEffective": 1
+      },
+      {
+        "id": 2,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 3,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 7,
+        "weight": 1,
+        "maxEffective": 3
+      }
+    ],
+    "tier": "A"
+  },
+  {
+    "id": 6,
+    "name": "Rerroll Janna \u002B Kobuko",
+    "champions": [
+      1,
+      17,
+      21,
+      37,
+      40,
+      49,
+      46,
+      52
+    ],
+    "coreChampions": [
+      {
+        "id": 17,
+        "weight": 3
+      },
+      {
+        "id": 21,
+        "weight": 3
+      }
+    ],
+    "requiredTraits": [
+      {
+        "name": "Strategist",
+        "minUnits": 2,
+        "weight": 2.5
+      },
+      {
+        "name": "Strategist",
+        "minUnits": 3,
+        "weight": 3
+      },
+      {
+        "name": "Mighty Mech",
+        "minUnits": 3,
+        "weight": 2.5
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 8,
+        "weight": 2.5,
+        "maxEffective": 5
+      },
+      {
+        "id": 4,
+        "weight": 1.5,
+        "maxEffective": 3
+      }
+    ],
+    "recommendedItems": [
+      {
+        "id": 2,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 3,
+        "weight": 1,
+        "maxEffective": 3
+      },
+      {
+        "id": 1,
+        "weight": 1,
+        "maxEffective": 1
+      },
+      {
+        "id": 6,
+        "weight": 1,
+        "maxEffective": 1
+      }
+    ],
+    "tier": "S"
+  },
+  {
+    "id": 7,
+    "name": "Katarina Assasin Battle Academia",
+    "description": "Ezreal can hold ap items for Yuumi",
+    "champions": [
+      2,
+      3,
+      5,
+      23,
+      20,
+      31,
+      50,
+      52,
+      56
+    ],
+    "coreChampions": [
+      {
+        "id": 23,
+        "weight": 2
+      },
+      {
+        "id": 20,
+        "weight": 3
+      },
+      {
+        "id": 56,
+        "weight": 3
+      }
+    ],
+    "requiredTraits": [
+      {
+        "name": "Battle Academia",
+        "minUnits": 3,
+        "weight": 3
+      },
+      {
+        "name": "Battle Academia",
+        "minUnits": 5,
+        "weight": 4
+      },
+      {
+        "name": "Executioner",
+        "minUnits": 2,
+        "weight": 2
+      },
+      {
+        "name": "Battle Academia",
+        "minUnits": 7,
+        "weight": 5
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 2,
+        "weight": 1,
+        "maxEffective": 3
+      },
+      {
+        "id": 7,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 8,
+        "weight": 1.5,
+        "maxEffective": 2
+      },
+      {
+        "id": 4,
+        "weight": 1.5,
+        "maxEffective": 3
+      }
+    ],
+    "recommendedItems": [
+      {
+        "id": 3,
+        "weight": 1,
+        "maxEffective": 4
+      },
+      {
+        "id": 1,
+        "weight": 1,
+        "maxEffective": 1
+      },
+      {
+        "id": 6,
+        "weight": 1.5,
+        "maxEffective": 2
+      }
+    ],
+    "tier": "A"
+  },
+  {
+    "id": 8,
+    "name": "Soul fighters Samira \u0026 Gwen Carrys",
+    "champions": [
+      1,
+      5,
+      14,
+      10,
+      22,
+      27,
+      41,
+      54,
+      55,
+      53,
+      58
+    ],
+    "coreChampions": [
+      {
+        "id": 10,
+        "weight": 1.5,
+        "isEarlyCore": true
+
+      },
+      {
+        "id": 54,
+        "weight": 2
+      },
+      {
+        "id": 53,
+        "weight": 3
+      },
+      {
+        "id": 58,
+        "weight": 4
+      }
+    ],
+    "requiredTraits": [
+      {
+        "name": "Soul Fighter",
+        "minUnits": 2,
+        "weight": 2
+      },
+      {
+        "name": "Soul Fighter",
+        "minUnits": 4,
+        "weight": 2.5
+      },
+      {
+        "name": "Soul Fighter",
+        "minUnits": 6,
+        "weight": 3
+      },
+      {
+        "name": "Soul Fighter",
+        "minUnits": 8,
+        "weight": 4
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 1,
+        "weight": 2,
+        "maxEffective": 3
+      },
+      {
+        "id": 7,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 8,
+        "weight": 1,
+        "maxEffective": 2
+      }
+    ],
+    "recommendedItems": [
+      {
+        "id": 6,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 4,
+        "weight": 1,
+        "maxEffective": 1
+      },
+      {
+        "id": 2,
+        "weight": 1,
+        "maxEffective": 3
+      },
+      {
+        "id": 3,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 5,
+        "weight": 1,
+        "maxEffective": 1
+      }
+    ],
+    "tier": "A"
+  },
+  {
+    "id": 9,
+    "name": "Heavy Malza",
+    "champions": [
+      1,
+      14,
+      13,
+      34,
+      30,
+      21,
+      31,
+      51,
+      60
+    ],
+    "coreChampions": [
+      {
+        "id": 34,
+        "weight": 3
+      },
+      {
+        "id": 30,
+        "weight": 2
+      },
+      {
+        "id": 51,
+        "weight": 2
+      }
+    ],
+    "requiredTraits": [
+      {
+        "name": "Heavyweight",
+        "minUnits": 2,
+        "weight": 2
+      },
+      {
+        "name": "Heavyweight",
+        "minUnits": 4,
+        "weight": 2.5
+      },
+      {
+        "name": "Heavyweight",
+        "minUnits": 6,
+        "weight": 4
+      }
+    ],
+    "coreItems": [],
+    "recommendedItems": [],
+    "tier": "A"
+  },
+  {
+    "id": 9,
+    "description": "Play when have aerly 3 crystals. At 5 play for winstreak",
+    "name": "Crystals Malza",
+    "champions": [
+      13,
+      25,
+      39,
+      34
+    ],
+    "coreChampions": [
+      {
+        "id": 39,
+        "weight": 3,
+        "isEarlyCore": false
+      },
+      {
+        "id": 34,
+        "weight": 1,
+        "isEarlyCore": false
+      }
+    ],
+    "requiredTraits": [
+      {
+        "name": "Crystal Gambit",
+        "minUnits": 3,
+        "weight": 4
+      },
+      {
+        "name": "Crystal Gambit",
+        "minUnits": 5,
+        "weight": 5
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 8,
+        "weight": 2,
+        "maxEffective": 3
+      },
+      {
+        "id": 4,
+        "weight": 1.5,
+        "maxEffective": 4
+      }
+    ],
+    "recommendedItems": [
+      {
+        "id": 7,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 3,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 5,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 2,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 1,
+        "weight": 1,
+        "maxEffective": 1
+      }
+    ],
+    "tier": "B"
+  },
+  {
+    "id": 10,
+    "name": "Bastion Yasuo",
+    "description": "Yasuo \u002B Kog\u0027Maw carry. Reroll 3 cost. Bastion emblem on yasuo or Sniper\u0027s Focus otherwise go fast 8 for 6 bastions.",
+    "champions": [
+      3,
+      11,
+      24,
+      27,
+      42,
+      39,
+      33,
+      32,
+      50,
+      57
+    ],
+    "coreChampions": [
+      {
+        "id": 42,
+        "weight": 3,
+        "isEarlyCore": false
+      },
+      {
+        "id": 39,
+        "weight": 2,
+        "isEarlyCore": false
+      },
+      {
+        "id": 33,
+        "weight": 2,
+        "isEarlyCore": false
+      },
+      {
+        "id": 32,
+        "weight": 2,
+        "isEarlyCore": false
+      }
+    ],
+    "requiredTraits": [
+      {
+        "name": "Bastion",
+        "minUnits": 2,
+        "weight": 1.5
+      },
+      {
+        "name": "Bastion",
+        "minUnits": 4,
+        "weight": 2.5
+      },
+      {
+        "name": "Bastion",
+        "minUnits": 6,
+        "weight": 5
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 7,
+        "weight": 2,
+        "maxEffective": 2
+      },
+      {
+        "id": 1,
+        "weight": 2,
+        "maxEffective": 2
+      },
+      {
+        "id": 8,
+        "weight": 1,
+        "maxEffective": 3
+      },
+      {
+        "id": 3,
+        "weight": 1.5,
+        "maxEffective": 5
+      }
+    ],
+    "recommendedItems": [
+      {
+        "id": 4,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 2,
+        "weight": 1,
+        "maxEffective": 1
+      }
+    ],
+    "tier": "A"
+  },
+  {
+    "id": 11,
+    "name": "Mecha Akali-Ryze",
+    "description": "Fast 8. Ideal Supreme cells emblem on ryze. Otherwise go fast 9",
+    "champions": [
+      1,
+      7,
+      8,
+      16,
+      30,
+      37,
+      44,
+      46,
+      49,
+      52
+    ],
+    "coreChampions": [
+      {
+        "id": 8,
+        "weight": 1,
+        "isEarlyCore": true
+      },
+      {
+        "id": 44,
+        "weight": 3,
+        "isEarlyCore": false
+      },
+      {
+        "id": 49,
+        "weight": 2,
+        "isEarlyCore": false
+      },
+      {
+        "id": 52,
+        "weight": 2,
+        "isEarlyCore": false
+      }
+    ],
+    "requiredTraits": [
+      {
+        "name": "Supreme Cells",
+        "minUnits": 2,
+        "weight": 2
+      },
+      {
+        "name": "Supreme Cells",
+        "minUnits": 3,
+        "weight": 3
+      },
+      {
+        "name": "Supreme Cells",
+        "minUnits": 4,
+        "weight": 4.5
+      },
+      {
+        "name": "Executioner",
+        "minUnits": 2,
+        "weight": 1.5
+      },
+      {
+        "name": "Executioner",
+        "minUnits": 3,
+        "weight": 3
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 6,
+        "weight": 3,
+        "maxEffective": 3
+      },
+      {
+        "id": 7,
+        "weight": 1,
+        "maxEffective": 2
+      }
+    ],
+    "recommendedItems": [
+      {
+        "id": 8,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 2,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 3,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 5,
+        "weight": 1,
+        "maxEffective": 1
+      }
+    ],
+    "tier": "A"
+  },
+  {
+    "id": 12,
+    "name": "The Crew",
+    "description": "1 Cost reroll. Prio defensive items on Malphite.",
+    "champions": [
+      7,
+      4,
+      9,
+      12,
+      24,
+      17,
+      43,
+      46,
+      52,
+      61
+    ],
+    "coreChampions": [
+      {
+        "id": 9,
+        "weight": 2.5,
+        "isEarlyCore": false
+      },
+      {
+        "id": 12,
+        "weight": 2,
+        "isEarlyCore": true
+      },
+      {
+        "id": 43,
+        "weight": 3,
+        "isEarlyCore": false
+      },
+      {
+        "id": 61,
+        "weight": 1,
+        "isEarlyCore": false
+      }
+    ],
+    "requiredTraits": [
+      {
+        "name": "The Crew",
+        "minUnits": 2,
+        "weight": 2
+      },
+      {
+        "name": "The Crew",
+        "minUnits": 3,
+        "weight": 3
+      },
+      {
+        "name": "Strategist",
+        "minUnits": 2,
+        "weight": 2
+      },
+      {
+        "name": "Strategist",
+        "minUnits": 3,
+        "weight": 2.5
+      },
+      {
+        "name": "Strategist",
+        "minUnits": 4,
+        "weight": 4
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 6,
+        "weight": 2.5,
+        "maxEffective": 5
+      },
+      {
+        "id": 4,
+        "weight": 2,
+        "maxEffective": 3
+      }
+    ],
+    "recommendedItems": [
+      {
+        "id": 1,
+        "weight": 1,
+        "maxEffective": 1
+      },
+      {
+        "id": 8,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 7,
+        "weight": 1,
+        "maxEffective": 3
+      },
+      {
+        "id": 3,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 2,
+        "weight": 1,
+        "maxEffective": 3
+      },
+      {
+        "id": 5,
+        "weight": 1,
+        "maxEffective": 1
+      }
+    ],
+    "tier": "B"
+  },
+  {
+    "id": 13,
+    "name": "Kayle \u0026 Zac ",
+    "description": "1 Cost Reroll. Move Zac items to k\u0027Sante 2 in late game.",
+    "champions": [
+      1,
+      14,
+      6,
+      16,
+      18,
+      34,
+      35,
+      40,
+      49,
+      51,
+      62
+    ],
+    "coreChampions": [
+      {
+        "id": 14,
+        "weight": 2.5,
+        "isEarlyCore": false
+      },
+      {
+        "id": 6,
+        "weight": 2.5,
+        "isEarlyCore": false
+      },
+      {
+        "id": 62,
+        "weight": 1,
+        "isEarlyCore": false
+      }
+    ],
+    "requiredTraits": [
+      {
+        "name": "Wraith",
+        "minUnits": 2,
+        "weight": 2
+      },
+      {
+        "name": "Wraith",
+        "minUnits": 4,
+        "weight": 3
+      },
+      {
+        "name": "Wraith",
+        "minUnits": 6,
+        "weight": 4.5
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 6,
+        "weight": 3,
+        "maxEffective": 4
+      },
+      {
+        "id": 1,
+        "weight": 2,
+        "maxEffective": 3
+      },
+      {
+        "id": 7,
+        "weight": 1.5,
+        "maxEffective": 3
+      }
+    ],
+    "recommendedItems": [
+      {
+        "id": 4,
+        "weight": 1,
+        "maxEffective": 1
+      },
+      {
+        "id": 3,
+        "weight": 1,
+        "maxEffective": 3
+      },
+      {
+        "id": 8,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 2,
+        "weight": 1,
+        "maxEffective": 1
+      },
+      {
+        "id": 5,
+        "weight": 1,
+        "maxEffective": 1
+      }
+    ],
+    "tier": "B"
+  }
+
+]
