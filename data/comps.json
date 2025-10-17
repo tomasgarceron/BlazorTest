@@ -107,40 +107,39 @@
         "minUnits": 1,
         "weight": 1
       },
-        {
-          "name": "Mentor",
-          "minUnits": 4,
-          "weight": 6
-        },
-        {
-          "name": "Mighty Mech",
-          "minUnits": 3,
-          "weight": 4
-        }
-      ],
-      "recommendedItems":
-      [
-        {
-          "id": 4,
-          "weight": 2,
-          "maxEffective": 1
-        },
-        {
-          "id": 1,
-          "weight": 2,
-          "maxEffective": 3
-        },
-        {
-          "id": 2,
-          "weight": 1,
-          "maxEffective": 2
-        },
-        {
-          "id": 5,
-          "weight": 1,
-          "maxEffective": 1
-        }
-      ],
+      {
+        "name": "Mentor",
+        "minUnits": 4,
+        "weight": 6
+      },
+      {
+        "name": "Mighty Mech",
+        "minUnits": 3,
+        "weight": 4
+      }
+    ],
+    "recommendedItems": [
+      {
+        "id": 4,
+        "weight": 2,
+        "maxEffective": 1
+      },
+      {
+        "id": 1,
+        "weight": 2,
+        "maxEffective": 3
+      },
+      {
+        "id": 2,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 5,
+        "weight": 1,
+        "maxEffective": 1
+      }
+    ],
     "coreItems": [
       {
         "id": 6,
@@ -350,7 +349,7 @@
     "tier": "A"
   },
   {
-    "id" : 5,
+    "id": 5,
     "name": "Kog\u0027Maw",
     "champions": [
       3,
@@ -365,7 +364,7 @@
     ],
     "coreChampions": [
       {
-        "id": 32 ,
+        "id": 32,
         "weight": 3
       },
       {
@@ -375,11 +374,11 @@
       {
         "id": 39,
         "weight": 3
-      },    
+      },
       {
         "id": 42,
         "weight": 2.5
-      }    
+      }
     ],
     "requiredTraits": [
       {
@@ -1226,6 +1225,422 @@
         "id": 5,
         "weight": 1,
         "maxEffective": 1
+      }
+    ],
+    "tier": "B"
+  },
+  {
+    "id": 14,
+    "name": "Bastion Guardians Xayah",
+    "description": "2 cost reroll",
+    "champions": [
+      3,
+      11,
+      27,
+      26,
+      24,
+      39,
+      50,
+      47,
+      57
+    ],
+    "coreChampions": [
+      {
+        "id": 26,
+        "weight": 2,
+        "isEarlyCore": false
+      },
+      {
+        "id": 24,
+        "weight": 2,
+        "isEarlyCore": false
+      }
+    ],
+    "requiredTraits": [
+      {
+        "name": "Bastion",
+        "minUnits": 2,
+        "weight": 2
+      },
+      {
+        "name": "Bastion",
+        "minUnits": 4,
+        "weight": 3
+      },
+      {
+        "name": "Bastion",
+        "minUnits": 6,
+        "weight": 4
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 6,
+        "weight": 3,
+        "maxEffective": 3
+      },
+      {
+        "id": 1,
+        "weight": 1,
+        "maxEffective": 1
+      },
+      {
+        "id": 5,
+        "weight": 2,
+        "maxEffective": 2
+      }
+    ],
+    "recommendedItems": [
+      {
+        "id": 4,
+        "weight": 1.5,
+        "maxEffective": 1
+      },
+      {
+        "id": 3,
+        "weight": 1,
+        "maxEffective": 3
+      },
+      {
+        "id": 2,
+        "weight": 1,
+        "maxEffective": 1
+      },
+      {
+        "id": 8,
+        "weight": 1,
+        "maxEffective": 1
+      }
+    ],
+    "tier": "B"
+  },
+  {
+    "id": 15,
+    "name": "Karma Sorcs",
+    "description": "Fast 8. Play Kennen until Gwen. Itemize Swain 2 before J4 2. Anti heal goes on Gwen. Ksante 2 is also strong frontline, but you keep Kennen. If you get Sorc emblem, put on Ryze and play Xin Zhao over Lux. Otherwise, level 9 is Braum.",
+    "champions": [
+      1,
+      7,
+      8,
+      16,
+      22,
+      28,
+      39,
+      46,
+      48,
+      52,
+      58
+    ],
+    "coreChampions": [
+      {
+        "id": 8,
+        "weight": 1,
+        "isEarlyCore": true
+      },
+      {
+        "id": 48,
+        "weight": 1,
+        "isEarlyCore": false
+      },
+      {
+        "id": 58,
+        "weight": 1,
+        "isEarlyCore": false
+      }
+    ],
+    "requiredTraits": [
+      {
+        "name": "Sorcerer",
+        "minUnits": 2,
+        "weight": 2
+      },
+      {
+        "name": "Sorcerer",
+        "minUnits": 4,
+        "weight": 3
+      },
+      {
+        "name": "Sorcerer",
+        "minUnits": 6,
+        "weight": 4
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 8,
+        "weight": 2.5,
+        "maxEffective": 4
+      },
+      {
+        "id": 3,
+        "weight": 2,
+        "maxEffective": 4
+      },
+      {
+        "id": 7,
+        "weight": 1.5,
+        "maxEffective": 3
+      }
+    ],
+    "recommendedItems": [
+      {
+        "id": 4,
+        "weight": 1.5,
+        "maxEffective": 2
+      },
+      {
+        "id": 1,
+        "weight": 1,
+        "maxEffective": 1
+      },
+      {
+        "id": 6,
+        "weight": 1,
+        "maxEffective": 1
+      },
+      {
+        "id": 2,
+        "weight": 1,
+        "maxEffective": 2
+      }
+    ],
+    "tier": "B"
+  },
+  {
+    "id": 16,
+    "name": "Yuumi Battle Academia",
+    "description": "4 Cost reroll. 2 Tanks with items. Ideal fast 9 for Seraphine",
+    "champions": [
+      2,
+      3,
+      11,
+      13,
+      23,
+      34,
+      49,
+      50,
+      56,
+      60
+    ],
+    "coreChampions": [
+      {
+        "id": 11,
+        "weight": 1.5,
+        "isEarlyCore": true
+      },
+      {
+        "id": 13,
+        "weight": 1.5,
+        "isEarlyCore": true
+      },
+      {
+        "id": 49,
+        "weight": 2,
+        "isEarlyCore": false
+      },
+      {
+        "id": 50,
+        "weight": 2,
+        "isEarlyCore": false
+      },
+      {
+        "id": 56,
+        "weight": 2.5,
+        "isEarlyCore": false
+      },
+      {
+        "id": 60,
+        "weight": 3,
+        "isEarlyCore": false
+      }
+    ],
+    "requiredTraits": [
+      {
+        "name": "Prodigy",
+        "minUnits": 2,
+        "weight": 1.5
+      },
+      {
+        "name": "Prodigy",
+        "minUnits": 3,
+        "weight": 2
+      },
+      {
+        "name": "Prodigy",
+        "minUnits": 4,
+        "weight": 3
+      },
+      {
+        "name": "Prodigy",
+        "minUnits": 5,
+        "weight": 4
+      },
+      {
+        "name": "Battle Academia",
+        "minUnits": 3,
+        "weight": 3
+      },
+      {
+        "name": "Battle Academia",
+        "minUnits": 5,
+        "weight": 4
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 4,
+        "weight": 2.5,
+        "maxEffective": 5
+      },
+      {
+        "id": 7,
+        "weight": 1.5,
+        "maxEffective": 3
+      },
+      {
+        "id": 3,
+        "weight": 2,
+        "maxEffective": 5
+      }
+    ],
+    "recommendedItems": [
+      {
+        "id": 1,
+        "weight": 1,
+        "maxEffective": 1
+      },
+      {
+        "id": 2,
+        "weight": 1.5,
+        "maxEffective": 3
+      },
+      {
+        "id": 8,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 6,
+        "weight": 1,
+        "maxEffective": 3
+      }
+    ],
+    "tier": "B"
+  },
+  {
+    "id": 17,
+    "name": "Tf - Zyra",
+    "description": "Fast 9. Juggernaut emblem in Lee is ideal. Take econ augments aggressively",
+    "champions": [
+      1,
+      3,
+      18,
+      15,
+      10,
+      25,
+      40,
+      54,
+      59,
+      61,
+      64,
+      4
+    ],
+    "coreChampions": [
+      {
+        "id": 3,
+        "weight": 1,
+        "isEarlyCore": true
+      },
+      {
+        "id": 15,
+        "weight": 2,
+        "isEarlyCore": true
+      },
+      {
+        "id": 54,
+        "weight": 2.5,
+        "isEarlyCore": false
+      },
+      {
+        "id": 59,
+        "weight": 3,
+        "isEarlyCore": false
+      },
+      {
+        "id": 61,
+        "weight": 3,
+        "isEarlyCore": false
+      },
+      {
+        "id": 64,
+        "weight": 3,
+        "isEarlyCore": false
+      },
+      {
+        "id": 4,
+        "weight": 1.5,
+        "isEarlyCore": true
+      }
+    ],
+    "requiredTraits": [
+      {
+        "name": "Juggernaut",
+        "minUnits": 2,
+        "weight": 2
+      },
+      {
+        "name": "Juggernaut",
+        "minUnits": 4,
+        "weight": 3
+      },
+      {
+        "name": "Juggernaut",
+        "minUnits": 6,
+        "weight": 4
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 6,
+        "weight": 2.5,
+        "maxEffective": 2
+      },
+      {
+        "id": 1,
+        "weight": 2,
+        "maxEffective": 4
+      },
+      {
+        "id": 4,
+        "weight": 2.5,
+        "maxEffective": 5
+      }
+    ],
+    "recommendedItems": [
+      {
+        "id": 8,
+        "weight": 1.5,
+        "maxEffective": 2
+      },
+      {
+        "id": 7,
+        "weight": 1.5,
+        "maxEffective": 2
+      },
+      {
+        "id": 3,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 4,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 2,
+        "weight": 1,
+        "maxEffective": 2
       }
     ],
     "tier": "B"
