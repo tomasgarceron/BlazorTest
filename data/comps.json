@@ -87,7 +87,7 @@
         "maxEffective": 2
       }
     ],
-    "tier": "B"
+    "tier": "S"
   },
   {
     "Id": 2,
@@ -168,7 +168,7 @@
     "Id": 3,
     "name": "Varus/Tf Fast 9",
     "description": "Legendary cap version of Varus and a duo carry in TF or Zyra. Make sure you have a mana item for Varus (Blue Buff \u003E Shojin but both are good). Itemize whichever duo carry you 2* first (TF 2 \u003E Zyra 2 \u003E TF \u00601).",
-    "tier": "C",
+    "tier": "B",
     "champions": [
       1,
       4,
@@ -356,7 +356,7 @@
         "maxEffective": 3
       }
     ],
-    "tier": "A"
+    "tier": "B"
   },
   {
     "id" : 5,
@@ -441,7 +441,7 @@
         "maxEffective": 3
       }
     ],
-    "tier": "A"
+    "tier": "B"
   },
   {
     "id": 6,
@@ -517,7 +517,7 @@
         "maxEffective": 1
       }
     ],
-    "tier": "S"
+    "tier": "B"
   },
   {
     "id": 7,
@@ -713,7 +713,7 @@
         "maxEffective": 1
       }
     ],
-    "tier": "A"
+    "tier": "B"
   },
   {
     "id": 9,
@@ -878,7 +878,7 @@
         "maxEffective": 1
       }
     ],
-    "tier": "A"
+    "tier": "C"
   },
   {
     "id": 10,
@@ -969,7 +969,7 @@
         "maxEffective": 1
       }
     ],
-    "tier": "A"
+    "tier": "C"
   },
   {
     "id": 11,
@@ -1070,7 +1070,7 @@
         "maxEffective": 1
       }
     ],
-    "tier": "A"
+    "tier": "C"
   },
   {
     "id": 12,
@@ -1278,7 +1278,7 @@
         "maxEffective": 1
       }
     ],
-    "tier": "B"
+    "tier": "A"
   },
   {
     "id": 14,
@@ -1455,7 +1455,7 @@
         "maxEffective": 2
       }
     ],
-    "tier": "B"
+    "tier": "C"
   },
   {
     "id": 16,
@@ -1576,7 +1576,7 @@
         "maxEffective": 3
       }
     ],
-    "tier": "B"
+    "tier": "C"
   },
   {
     "id": 17,
@@ -1597,7 +1597,7 @@
       4
     ],
     "coreChampions": [
-      
+
       {
         "id": 15,
         "weight": 2,
@@ -1690,7 +1690,126 @@
         "maxEffective": 2
       }
     ],
-    "tier": "B"
+    "tier": "A"
+  },
+  {
+    "id": 18,
+    "name": "Bastions TF and 5 costs. Fast 9",
+    "description": "Play when have strong early like Rageblade Gnar",
+    "champions": [
+      1,
+      14,
+      4,
+      15,
+      11,
+      24,
+      27,
+      39,
+      50,
+      57,
+      60,
+      61,
+      64
+    ],
+    "coreChampions": [
+      {
+        "id": 4,
+        "weight": 2,
+        "isEarlyCore": true
+      },
+      {
+        "id": 15,
+        "weight": 2,
+        "isEarlyCore": true
+      },
+      {
+        "id": 50,
+        "weight": 3,
+        "isEarlyCore": false
+      },
+      {
+        "id": 57,
+        "weight": 4,
+        "isEarlyCore": false
+      },
+      {
+        "id": 60,
+        "weight": 4,
+        "isEarlyCore": false
+      },
+      {
+        "id": 61,
+        "weight": 4,
+        "isEarlyCore": false
+      },
+      {
+        "id": 64,
+        "weight": 4,
+        "isEarlyCore": false
+      }
+    ],
+    "requiredTraits": [
+      {
+        "name": "Bastion",
+        "minUnits": 2,
+        "weight": 2
+      },
+      {
+        "name": "Bastion",
+        "minUnits": 4,
+        "weight": 3
+      },
+      {
+        "name": "Bastion",
+        "minUnits": 6,
+        "weight": 4
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 6,
+        "weight": 3,
+        "maxEffective": 4
+      },
+      {
+        "id": 1,
+        "weight": 2.5,
+        "maxEffective": 4
+      },
+      {
+        "id": 4,
+        "weight": 3,
+        "maxEffective": 5
+      }
+    ],
+    "recommendedItems": [
+      {
+        "id": 8,
+        "weight": 1.5,
+        "maxEffective": 2
+      },
+      {
+        "id": 7,
+        "weight": 1,
+        "maxEffective": 3
+      },
+      {
+        "id": 3,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 2,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 5,
+        "weight": 1,
+        "maxEffective": 2
+      }
+    ],
+    "tier": "A"
   }
 
 ]
