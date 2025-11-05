@@ -1905,7 +1905,7 @@
         "maxEffective": 1
       }
     ],
-    "tier": "A"
+    "tier": "S"
   },
   {
     "id": 20,
@@ -2000,6 +2000,129 @@
         "id": 5,
         "weight": 1,
         "maxEffective": 1
+      }
+    ],
+    "tier": "A"
+  },
+  {
+    "id": 21,
+    "name": "Edgelord Bastions Voli and 5 costs carrys",
+    "description": "Fast 9. Play around itemized Xayah, Samira or Yasuo until get your level 9 cap with Yone",
+    "champions": [
+      3,
+      11,
+      24,
+      26,
+      27,
+      39,
+      42,
+      53,
+      55,
+      50,
+      63,
+      57
+    ],
+    "coreChampions": [
+      {
+        "id": 26,
+        "weight": 2.5,
+        "isEarlyCore": true
+      },
+      {
+        "id": 42,
+        "weight": 3,
+        "isEarlyCore": true
+      },
+      {
+        "id": 53,
+        "weight": 2.5,
+        "isEarlyCore": false
+      },
+      {
+        "id": 55,
+        "weight": 3,
+        "isEarlyCore": false
+      },
+      {
+        "id": 50,
+        "weight": 3,
+        "isEarlyCore": false
+      },
+      {
+        "id": 63,
+        "weight": 3,
+        "isEarlyCore": false
+      },
+      {
+        "id": 57,
+        "weight": 3,
+        "isEarlyCore": false
+      }
+    ],
+    "requiredTraits": [
+      {
+        "name": "Edgelord",
+        "minUnits": 2,
+        "weight": 3
+      },
+      {
+        "name": "Edgelord",
+        "minUnits": 4,
+        "weight": 4
+      },
+      {
+        "name": "Bastion",
+        "minUnits": 2,
+        "weight": 2
+      },
+      {
+        "name": "Bastion",
+        "minUnits": 4,
+        "weight": 3
+      },
+      {
+        "name": "Bastion",
+        "minUnits": 6,
+        "weight": 4
+      }
+    ],
+    "coreItems": [
+      {
+        "id": 1,
+        "weight": 3,
+        "maxEffective": 5
+      },
+      {
+        "id": 3,
+        "weight": 2.5,
+        "maxEffective": 6
+      },
+      {
+        "id": 7,
+        "weight": 2,
+        "maxEffective": 2
+      },
+      {
+        "id": 8,
+        "weight": 2,
+        "maxEffective": 4
+      }
+    ],
+    "recommendedItems": [
+      {
+        "id": 6,
+        "weight": 1,
+        "maxEffective": 2
+      },
+      {
+        "id": 2,
+        "weight": 1.5,
+        "maxEffective": 3
+      },
+      {
+        "id": 5,
+        "weight": 1,
+        "maxEffective": 2
       }
     ],
     "tier": "A"
