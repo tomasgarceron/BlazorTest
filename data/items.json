@@ -1,42 +1,499 @@
 [
   {
     "Id": 1,
-    "Name": "B.F Sword",
-    "Icon": "images/items/botrk.png"
+    "Name": "B.F. Sword",
+    "ApiName": "TFT_Item_BFSword",
+    "Icon": "images/items/bfsword.png",
+    "Category": "Component"
   },
   {
     "Id": 2,
     "Name": "Chain Vest",
-    "Icon": "images/items/ie.png"
+    "ApiName": "TFT_Item_ChainVest",
+    "Icon": "images/items/chainvest.png",
+    "Category": "Component"
   },
   {
     "Id": 3,
-    "Name": "Giant's' Belt",
-    "Icon": "images/items/rabadon.png"
+    "Name": "Giant's Belt",
+    "ApiName": "TFT_Item_GiantsBelt",
+    "Icon": "images/items/giantsbelt.png",
+    "Category": "Component"
   },
   {
     "Id": 4,
     "Name": "Needlessly Large Rod",
-    "Icon": "images/items/fh.png"
+    "ApiName": "TFT_Item_NeedlesslyLargeRod",
+    "Icon": "images/items/needlesslylargerod.png",
+    "Category": "Component"
   },
   {
     "Id": 5,
     "Name": "Negatron Cloak",
-    "Icon": "images/items/ga.png"
+    "ApiName": "TFT_Item_NegatronCloak",
+    "Icon": "images/items/negatroncloak.png",
+    "Category": "Component"
   },
   {
     "Id": 6,
     "Name": "Recurve Bow",
-    "Icon": "images/items/jg.png"
+    "ApiName": "TFT_Item_RecurveBow",
+    "Icon": "images/items/recurvebow.png",
+    "Category": "Component"
   },
   {
     "Id": 7,
     "Name": "Sparring Gloves",
-    "Icon": "images/items/dd.png"
+    "ApiName": "TFT_Item_SparringGloves",
+    "Icon": "images/items/sparringgloves.png",
+    "Category": "Component"
   },
   {
     "Id": 8,
     "Name": "Tear of the Goddess",
-    "Icon": "images/items/morello.png"
+    "ApiName": "TFT_Item_TearOfTheGoddess",
+    "Icon": "images/items/tearofthegoddess.png",
+    "Category": "Component"
+  },
+  {
+    "Id": 9,
+    "Name": "Spatula",
+    "ApiName": "TFT_Item_Spatula",
+    "Icon": "images/items/spatula.png",
+    "Category": "Component"
+  },
+  {
+    "Id": 10,
+    "Name": "Frying Pan",
+    "ApiName": "TFT_Item_FryingPan",
+    "Icon": "images/items/fryingpan.png",
+    "Category": "Component"
+  },
+  {
+    "Id": 11,
+    "Name": "Rabadon's Deathcap",
+    "ApiName": "TFT_Item_RabadonsDeathcap",
+    "Icon": "images/items/rabadonsdeathcap.png",
+    "Category": "Completed",
+    "Components": [ 4, 4 ]
+  },
+  {
+    "Id": 12,
+    "Name": "Infinity Edge",
+    "ApiName": "TFT_Item_InfinityEdge",
+    "Icon": "images/items/infinityedge.png",
+    "Category": "Completed",
+    "Components": [ 1, 7 ]
+  },
+  {
+    "Id": 13,
+    "Name": "Innervating Locket",
+    "ApiName": "TFT_Item_Artifact_InnervatingLocket",
+    "Icon": "images/items/artifact_innervatinglocket.png",
+    "Category": "Artifact"
+  },
+  {
+    "Id": 14,
+    "Name": "Protector's Vow",
+    "ApiName": "TFT_Item_FrozenHeart",
+    "Icon": "images/items/frozenheart.png",
+    "Category": "Completed",
+    "Components": [ 2, 8 ]
+  },
+  {
+    "Id": 15,
+    "Name": "The Indomitable",
+    "ApiName": "TFT_Item_Artifact_TheIndomitable",
+    "Icon": "images/items/artifact_theindomitable.png",
+    "Category": "Artifact"
+  },
+  {
+    "Id": 16,
+    "Name": "Spirit Visage",
+    "ApiName": "TFT_Item_Redemption",
+    "Icon": "images/items/redemption.png",
+    "Category": "Completed",
+    "Components": [ 3, 8 ]
+  },
+  {
+    "Id": 17,
+    "Name": "Thief's Gloves",
+    "ApiName": "TFT_Item_ThiefsGloves",
+    "Icon": "images/items/thiefsgloves.png",
+    "Category": "Completed",
+    "Components": [ 7, 7 ]
+  },
+  {
+    "Id": 18,
+    "Name": "Guinsoo's Rageblade",
+    "ApiName": "TFT_Item_GuinsoosRageblade",
+    "Icon": "images/items/guinsoosrageblade.png",
+    "Category": "Completed",
+    "Components": [ 4, 6 ]
+  },
+  {
+    "Id": 19,
+    "Name": "Ionic Spark",
+    "ApiName": "TFT_Item_IonicSpark",
+    "Icon": "images/items/ionicspark.png",
+    "Category": "Completed",
+    "Components": [ 4, 5 ]
+  },
+  {
+    "Id": 20,
+    "Name": "Sterak's Gage",
+    "ApiName": "TFT_Item_SteraksGage",
+    "Icon": "images/items/steraksgage.png",
+    "Category": "Completed",
+    "Components": [ 1, 3 ]
+  },
+  {
+    "Id": 21,
+    "Name": "Dragon's Claw",
+    "ApiName": "TFT_Item_DragonsClaw",
+    "Icon": "images/items/dragonsclaw.png",
+    "Category": "Completed",
+    "Components": [ 5, 5 ]
+  },
+  {
+    "Id": 22,
+    "Name": "Striker's Flail",
+    "ApiName": "TFT_Item_PowerGauntlet",
+    "Icon": "images/items/powergauntlet.png",
+    "Category": "Completed",
+    "Components": [ 3, 7 ]
+  },
+  {
+    "Id": 23,
+    "Name": "Fishbones",
+    "ApiName": "TFT_Item_Artifact_Fishbones",
+    "Icon": "images/items/artifact_fishbones.png",
+    "Category": "Artifact"
+  },
+  {
+    "Id": 24,
+    "Name": "Gargoyle Stoneplate",
+    "ApiName": "TFT_Item_GargoyleStoneplate",
+    "Icon": "images/items/gargoylestoneplate.png",
+    "Category": "Completed",
+    "Components": [ 2, 5 ]
+  },
+  {
+    "Id": 25,
+    "Name": "Titanic Hydra",
+    "ApiName": "TFT_Item_Artifact_TitanicHydra",
+    "Icon": "images/items/artifact_titanichydra.png",
+    "Category": "Artifact"
+  },
+  {
+    "Id": 26,
+    "Name": "Bramble Vest",
+    "ApiName": "TFT_Item_BrambleVest",
+    "Icon": "images/items/bramblevest.png",
+    "Category": "Completed",
+    "Components": [ 2, 2 ]
+  },
+  {
+    "Id": 27,
+    "Name": "Unending Despair",
+    "ApiName": "TFT_Item_Artifact_UnendingDespair",
+    "Icon": "images/items/artifact_unendingdespair.png",
+    "Category": "Artifact"
+  },
+  {
+    "Id": 28,
+    "Name": "Giant Slayer",
+    "ApiName": "TFT_Item_MadredsBloodrazor",
+    "Icon": "images/items/madredsbloodrazor.png",
+    "Category": "Completed",
+    "Components": [ 1, 6 ]
+  },
+  {
+    "Id": 29,
+    "Name": "Sunfire Cape",
+    "ApiName": "TFT_Item_RedBuff",
+    "Icon": "images/items/redbuff.png",
+    "Category": "Completed",
+    "Components": [ 2, 3 ]
+  },
+  {
+    "Id": 30,
+    "Name": "Hand Of Justice",
+    "ApiName": "TFT_Item_UnstableConcoction",
+    "Icon": "images/items/unstableconcoction.png",
+    "Category": "Completed",
+    "Components": [ 7, 8 ]
+  },
+  {
+    "Id": 31,
+    "Name": "Edge of Night",
+    "ApiName": "TFT_Item_GuardianAngel",
+    "Icon": "images/items/guardianangel.png",
+    "Category": "Completed",
+    "Components": [ 1, 2 ]
+  },
+  {
+    "Id": 32,
+    "Name": "Titan's Resolve",
+    "ApiName": "TFT_Item_TitansResolve",
+    "Icon": "images/items/titansresolve.png",
+    "Category": "Completed",
+    "Components": [ 2, 6 ]
+  },
+  {
+    "Id": 33,
+    "Name": "Luden's Tempest",
+    "ApiName": "TFT_Item_Artifact_LudensTempest",
+    "Icon": "images/items/artifact_ludenstempest.png",
+    "Category": "Artifact"
+  },
+  {
+    "Id": 34,
+    "Name": "Spectral Cutlass",
+    "ApiName": "TFT_Item_Artifact_SpectralCutlass",
+    "Icon": "images/items/artifact_spectralcutlass.png",
+    "Category": "Artifact"
+  },
+  {
+    "Id": 35,
+    "Name": "Kraken's Fury",
+    "ApiName": "TFT_Item_RunaansHurricane",
+    "Icon": "images/items/runaanhurricane.png",
+    "Category": "Completed",
+    "Components": [ 5, 6 ]
+  },
+  {
+    "Id": 36,
+    "Name": "Rapid Firecannon",
+    "ApiName": "TFT_Item_Artifact_RapidFirecannon",
+    "Icon": "images/items/artifact_rapidfirecannon.png",
+    "Category": "Artifact"
+  },
+  {
+    "Id": 37,
+    "Name": "Bloodthirster",
+    "ApiName": "TFT_Item_Bloodthirster",
+    "Icon": "images/items/bloodthirster.png",
+    "Category": "Completed",
+    "Components": [ 1, 5 ]
+  },
+  {
+    "Id": 38,
+    "Name": "Statikk Shiv",
+    "ApiName": "TFT_Item_Artifact_StatikkShiv",
+    "Icon": "images/items/artifact_statikkshiv.png",
+    "Category": "Artifact"
+  },
+  {
+    "Id": 39,
+    "Name": "Archangel's Staff",
+    "ApiName": "TFT_Item_ArchangelsStaff",
+    "Icon": "images/items/archangelsstaff.png",
+    "Category": "Completed",
+    "Components": [ 4, 8 ]
+  },
+  {
+    "Id": 40,
+    "Name": "Dawncore",
+    "ApiName": "TFT_Item_Artifact_Dawncore",
+    "Icon": "images/items/artifact_dawncore.png",
+    "Category": "Artifact"
+  },
+  {
+    "Id": 41,
+    "Name": "Lightshield Crest",
+    "ApiName": "TFT_Item_Artifact_LightshieldCrest",
+    "Icon": "images/items/artifact_lightshieldcrest.png",
+    "Category": "Artifact"
+  },
+  {
+    "Id": 42,
+    "Name": "Spear of Shojin",
+    "ApiName": "TFT_Item_SpearOfShojin",
+    "Icon": "images/items/spearofshojin.png",
+    "Category": "Completed",
+    "Components": [ 1, 8 ]
+  },
+  {
+    "Id": 43,
+    "Name": "Evenshroud",
+    "ApiName": "TFT_Item_SpectralGauntlet",
+    "Icon": "images/items/spectralgauntlet.png",
+    "Category": "Completed",
+    "Components": [ 3, 5 ]
+  },
+  {
+    "Id": 44,
+    "Name": "Blighting Jewel",
+    "ApiName": "TFT_Item_Artifact_BlightingJewel",
+    "Icon": "images/items/artifact_blightingjewel.png",
+    "Category": "Artifact"
+  },
+  {
+    "Id": 45,
+    "Name": "Talisman Of Ascension",
+    "ApiName": "TFT_Item_Artifact_TalismanOfAscension",
+    "Icon": "images/items/artifact_talismanofascension.png",
+    "Category": "Artifact"
+  },
+  {
+    "Id": 46,
+    "Name": "Nashor's Tooth",
+    "ApiName": "TFT_Item_Leviathan",
+    "Icon": "images/items/leviathan.png",
+    "Category": "Completed",
+    "Components": [ 3, 6 ]
+  },
+  {
+    "Id": 47,
+    "Name": "Suspicious Trench Coat",
+    "ApiName": "TFT_Item_Artifact_SuspiciousTrenchCoat",
+    "Icon": "images/items/artifact_suspicioustrenchcoat.png",
+    "Category": "Artifact"
+  },
+  {
+    "Id": 48,
+    "Name": "Morellonomicon",
+    "ApiName": "TFT_Item_Morellonomicon",
+    "Icon": "images/items/morellonomicon.png",
+    "Category": "Completed",
+    "Components": [ 3, 4 ]
+  },
+  {
+    "Id": 49,
+    "Name": "Crownguard",
+    "ApiName": "TFT_Item_Crownguard",
+    "Icon": "images/items/crownguard.png",
+    "Category": "Completed",
+    "Components": [ 2, 4 ]
+  },
+  {
+    "Id": 50,
+    "Name": "Mittens",
+    "ApiName": "TFT_Item_Artifact_Mittens",
+    "Icon": "images/items/artifact_mittens.png",
+    "Category": "Artifact"
+  },
+  {
+    "Id": 51,
+    "Name": "Adaptive Helm",
+    "ApiName": "TFT_Item_AdaptiveHelm",
+    "Icon": "images/items/adaptivehelm.png",
+    "Category": "Completed",
+    "Components": [ 5, 8 ]
+  },
+  {
+    "Id": 52,
+    "Name": "Flickerblades",
+    "ApiName": "TFT_Item_Artifact_NavoriFlickerblades",
+    "Icon": "images/items/artifact_navoriflickerblades.png",
+    "Category": "Artifact"
+  },
+  {
+    "Id": 53,
+    "Name": "Blue Buff",
+    "ApiName": "TFT_Item_BlueBuff",
+    "Icon": "images/items/bluebuff.png",
+    "Category": "Completed",
+    "Components": [ 8, 8 ]
+  },
+  {
+    "Id": 54,
+    "Name": "Last Whisper",
+    "ApiName": "TFT_Item_LastWhisper",
+    "Icon": "images/items/lastwhisper.png",
+    "Category": "Completed",
+    "Components": [ 6, 7 ]
+  },
+  {
+    "Id": 55,
+    "Name": "Jeweled Gauntlet",
+    "ApiName": "TFT_Item_JeweledGauntlet",
+    "Icon": "images/items/jeweledgauntlet.png",
+    "Category": "Completed",
+    "Components": [ 4, 7 ]
+  },
+  {
+    "Id": 56,
+    "Name": "Wit's End",
+    "ApiName": "TFT_Item_Artifact_WitsEnd",
+    "Icon": "images/items/artifact_witsend.png",
+    "Category": "Artifact"
+  },
+  {
+    "Id": 57,
+    "Name": "Horizon Focus",
+    "ApiName": "TFT_Item_Artifact_HorizonFocus",
+    "Icon": "images/items/artifact_horizonfocus.png",
+    "Category": "Artifact"
+  },
+  {
+    "Id": 58,
+    "Name": "Steadfast Heart",
+    "ApiName": "TFT_Item_NightHarvester",
+    "Icon": "images/items/nightharvester.png",
+    "Category": "Completed",
+    "Components": [ 2, 7 ]
+  },
+  {
+    "Id": 59,
+    "Name": "Prowler's Claw",
+    "ApiName": "TFT_Item_Artifact_ProwlersClaw",
+    "Icon": "images/items/artifact_prowlersclaw.png",
+    "Category": "Artifact"
+  },
+  {
+    "Id": 60,
+    "Name": "Quicksilver",
+    "ApiName": "TFT_Item_Quicksilver",
+    "Icon": "images/items/quicksilver.png",
+    "Category": "Completed",
+    "Components": [ 5, 7 ]
+  },
+  {
+    "Id": 61,
+    "Name": "Deathblade",
+    "ApiName": "TFT_Item_Deathblade",
+    "Icon": "images/items/deathblade.png",
+    "Category": "Completed",
+    "Components": [ 1, 1 ]
+  },
+  {
+    "Id": 62,
+    "Name": "Silvermere Dawn",
+    "ApiName": "TFT_Item_Artifact_SilvermereDawn",
+    "Icon": "images/items/artifact_silvermeredawn.png",
+    "Category": "Artifact"
+  },
+  {
+    "Id": 63,
+    "Name": "Warmog's Armor",
+    "ApiName": "TFT_Item_WarmogsArmor",
+    "Icon": "images/items/warmogsarmor.png",
+    "Category": "Completed",
+    "Components": [ 3, 3 ]
+  },
+  {
+    "Id": 64,
+    "Name": "Seeker's Armguard",
+    "ApiName": "TFT_Item_Artifact_SeekersArmguard",
+    "Icon": "images/items/artifact_seekersarmguard.png",
+    "Category": "Artifact"
+  },
+  {
+    "Id": 65,
+    "Name": "Void Staff",
+    "ApiName": "TFT_Item_StatikkShiv",
+    "Icon": "images/items/statikkshiv.png",
+    "Category": "Completed",
+    "Components": [ 5, 8 ]
+  },
+  {
+    "Id": 66,
+    "Name": "Hextech Gunblade",
+    "ApiName": "TFT_Item_HextechGunblade",
+    "Icon": "images/items/hextechgunblade.png",
+    "Category": "Completed",
+    "Components": [ 1, 4 ]
   }
 ]

@@ -1,7 +1,8 @@
 [
   {
     "Id": 1,
-    "name": "Atrox",
+    "name": "Aatrox",
+    "apiName": "TFT15_Aatrox",
     "cost": 1,
     "traits": [ "Mighty Mech", "Heavyweight", "Juggernaut" ],
     "recommendedItems": []
@@ -9,6 +10,7 @@
   {
     "Id": 2,
     "name": "Ezreal",
+    "apiName": "TFT15_Ezreal",
     "cost": 1,
     "traits": [ "Battle Academia", "Prodigy" ],
     "recommendedItems": []
@@ -16,6 +18,7 @@
   {
     "Id": 3,
     "name": "Garen",
+    "apiName": "TFT15_Garen",
     "cost": 1,
     "traits": [ "Battle Academia", "Bastion" ],
     "recommendedItems": []
@@ -23,6 +26,7 @@
   {
     "Id": 4,
     "name": "Gnar",
+    "apiName": "TFT15_Gnar",
     "cost": 1,
     "traits": [ "Luchador", "Sniper" ],
     "recommendedItems": []
@@ -30,6 +34,7 @@
   {
     "Id": 5,
     "name": "Kalista",
+    "apiName": "TFT15_Kalista",
     "cost": 1,
     "traits": [ "Soul Fighter", "Executioner" ],
     "recommendedItems": []
@@ -37,6 +42,7 @@
   {
     "Id": 6,
     "name": "Kayle",
+    "apiName": "TFT15_Kayle",
     "cost": 1,
     "traits": [ "Wraith", "Duelist", "Juggernaut" ],
     "recommendedItems": []
@@ -44,6 +50,7 @@
   {
     "Id": 7,
     "name": "Kennen",
+    "apiName": "TFT15_Kennen",
     "cost": 1,
     "traits": [ "Supreme Cells", "Protector", "Sorcerer" ],
     "recommendedItems": []
@@ -51,6 +58,7 @@
   {
     "Id": 8,
     "name": "Lucian",
+    "apiName": "TFT15_Lucian",
     "cost": 1,
     "traits": [ "Mighty Mech", "Sorcerer" ],
     "recommendedItems": []
@@ -58,6 +66,7 @@
   {
     "Id": 9,
     "name": "Malphite",
+    "apiName": "TFT15_Malphite",
     "cost": 1,
     "traits": [ "The Crew", "Protector" ],
     "recommendedItems": []
@@ -65,6 +74,7 @@
   {
     "Id": 10,
     "name": "Naafiri",
+    "apiName": "TFT15_Naafiri",
     "cost": 1,
     "traits": [ "Soul Fighter", "Juggernaut" ],
     "recommendedItems": []
@@ -72,6 +82,7 @@
   {
     "Id": 11,
     "name": "Rell",
+    "apiName": "TFT15_Rell",
     "cost": 1,
     "traits": [ "Star Guardian", "Bastion" ],
     "recommendedItems": []
@@ -79,6 +90,7 @@
   {
     "Id": 12,
     "name": "Sivir",
+    "apiName": "TFT15_Sivir",
     "cost": 1,
     "traits": [ "The Crew", "Sniper" ],
     "recommendedItems": []
@@ -86,6 +98,7 @@
   {
     "Id": 13,
     "name": "Syndra",
+    "apiName": "TFT15_Syndra",
     "cost": 1,
     "traits": [ "Crystal Gambit", "Star Guardian", "Prodigy" ],
     "recommendedItems": []
@@ -93,6 +106,7 @@
   {
     "Id": 14,
     "name": "Zac",
+    "apiName": "TFT15_Zac",
     "cost": 1,
     "traits": [ "Wraith", "Heavyweight" ],
     "recommendedItems": []
@@ -100,6 +114,7 @@
   {
     "Id": 15,
     "name": "Dr. Mundo",
+    "apiName": "TFT15_DrMundo",
     "cost": 2,
     "traits": [ "Luchador", "Juggernaut" ],
     "recommendedItems": []
@@ -107,6 +122,7 @@
   {
     "Id": 16,
     "name": "Gangplank",
+    "apiName": "TFT15_Gangplank",
     "cost": 2,
     "traits": [ "Mighty Mech", "Duelist" ],
     "recommendedItems": []
@@ -114,6 +130,7 @@
   {
     "Id": 17,
     "name": "Janna",
+    "apiName": "TFT15_Janna",
     "cost": 2,
     "traits": [ "Crystal Gambit", "Protector", "Strategist" ],
     "recommendedItems": []
@@ -121,6 +138,7 @@
   {
     "Id": 18,
     "name": "Jhin",
+    "apiName": "TFT15_Jhin",
     "cost": 2,
     "traits": [ "Wraith", "Sniper" ],
     "recommendedItems": []
@@ -128,6 +146,7 @@
   {
     "Id": 19,
     "name": "Kai'Sa",
+    "apiName": "TFT15_Kaisa",
     "cost": 2,
     "traits": [ "Supreme Cells", "Duelist" ],
     "recommendedItems": []
@@ -135,6 +154,7 @@
   {
     "Id": 20,
     "name": "Katarina",
+    "apiName": "TFT15_Katarina",
     "cost": 2,
     "traits": [ "Battle Academia", "Executioner" ],
     "recommendedItems": []
@@ -142,6 +162,7 @@
   {
     "Id": 21,
     "name": "Kobuko",
+    "apiName": "TFT15_Kobuko",
     "cost": 2,
     "traits": [ "Mentor", "Heavyweight" ],
     "recommendedItems": []
@@ -149,6 +170,7 @@
   {
     "Id": 22,
     "name": "Lux",
+    "apiName": "TFT15_Lux",
     "cost": 2,
     "traits": [ "Soul Fighter", "Sorcerer" ],
     "recommendedItems": []
@@ -156,6 +178,7 @@
   {
     "Id": 23,
     "name": "Rakan",
+    "apiName": "TFT15_Rakan",
     "cost": 2,
     "traits": [ "Battle Academia", "Protector" ],
     "recommendedItems": []
@@ -163,6 +186,7 @@
   {
     "Id": 24,
     "name": "Shen",
+    "apiName": "TFT15_Shen",
     "cost": 2,
     "traits": [ "The Crew", "Protector", "Edgelord" ],
     "recommendedItems": []
@@ -170,6 +194,7 @@
   {
     "Id": 25,
     "name": "Vi",
+    "apiName": "TFT15_Vi",
     "cost": 2,
     "traits": [ "Crystal Gambit", "Juggernaut" ],
     "recommendedItems": []
@@ -177,6 +202,7 @@
   {
     "Id": 26,
     "name": "Xayah",
+    "apiName": "TFT15_Xayah",
     "cost": 2,
     "traits": [ "Star Guardian", "Edgelord" ],
     "recommendedItems": []
@@ -184,6 +210,7 @@
   {
     "Id": 27,
     "name": "Xin Zhao",
+    "apiName": "TFT15_XinZhao",
     "cost": 2,
     "traits": [ "Monster Trainer", "Soul Fighter" ],
     "recommendedItems": []
@@ -191,6 +218,7 @@
   {
     "Id": 28,
     "name": "Ahri",
+    "apiName": "TFT15_Ahri",
     "cost": 3,
     "traits": [ "Star Guardian", "Sorcerer" ],
     "recommendedItems": []
@@ -198,6 +226,7 @@
   {
     "Id": 29,
     "name": "Caitlyn",
+    "apiName": "TFT15_Caitlyn",
     "cost": 3,
     "traits": [ "Battle Academia", "Sniper" ],
     "recommendedItems": []
@@ -205,6 +234,7 @@
   {
     "Id": 30,
     "name": "Darius",
+    "apiName": "TFT15_Darius",
     "cost": 3,
     "traits": [ "Supreme Cells", "Heavyweight" ],
     "recommendedItems": []
@@ -212,6 +242,7 @@
   {
     "Id": 31,
     "name": "Jayce",
+    "apiName": "TFT15_Jayce",
     "cost": 3,
     "traits": [ "Battle Academia", "Heavyweight" ],
     "recommendedItems": []
@@ -219,6 +250,7 @@
   {
     "Id": 32,
     "name": "Kog'Maw",
+    "apiName": "TFT15_KogMaw",
     "cost": 3,
     "traits": [ "Monster Trainer" ],
     "recommendedItems": []
@@ -226,6 +258,7 @@
   {
     "Id": 33,
     "name": "Lulu",
+    "apiName": "TFT15_Lulu",
     "cost": 3,
     "traits": [ "Monster Trainer" ],
     "recommendedItems": []
@@ -233,6 +266,7 @@
   {
     "Id": 34,
     "name": "Malzahar",
+    "apiName": "TFT15_Malzahar",
     "cost": 3,
     "traits": [ "Wraith", "Prodigy" ],
     "recommendedItems": []
@@ -240,6 +274,7 @@
   {
     "Id": 35,
     "name": "Neeko",
+    "apiName": "TFT15_Neeko",
     "cost": 3,
     "traits": [ "Star Guardian", "Protector" ],
     "recommendedItems": []
@@ -247,6 +282,7 @@
   {
     "Id": 36,
     "name": "Rammus",
+    "apiName": "TFT15_Rammus",
     "cost": 3,
     "traits": [ "Monster Trainer" ],
     "recommendedItems": []
@@ -254,6 +290,7 @@
   {
     "Id": 37,
     "name": "Senna",
+    "apiName": "TFT15_Senna",
     "cost": 3,
     "traits": [ "Mighty Mech", "Executioner" ],
     "recommendedItems": []
@@ -261,6 +298,7 @@
   {
     "Id": 38,
     "name": "Smolder",
+    "apiName": "TFT15_Smolder",
     "cost": 3,
     "traits": [ "Monster Trainer" ],
     "recommendedItems": []
@@ -268,6 +306,7 @@
   {
     "Id": 39,
     "name": "Swain",
+    "apiName": "TFT15_Swain",
     "cost": 3,
     "traits": [ "Crystal Gambit", "Bastion", "Sorcerer" ],
     "recommendedItems": []
@@ -275,6 +314,7 @@
   {
     "Id": 40,
     "name": "Udyr",
+    "apiName": "TFT15_Udyr",
     "cost": 3,
     "traits": [ "Mentor", "Juggernaut", "Duelist" ],
     "recommendedItems": []
@@ -282,6 +322,7 @@
   {
     "Id": 41,
     "name": "Viego",
+    "apiName": "TFT15_Viego",
     "cost": 3,
     "traits": [ "Soul Fighter", "Duelist" ],
     "recommendedItems": []
@@ -289,6 +330,7 @@
   {
     "Id": 42,
     "name": "Yasuo",
+    "apiName": "TFT15_Yasuo",
     "cost": 3,
     "traits": [ "Mentor", "Edgelord" ],
     "recommendedItems": []
@@ -296,6 +338,7 @@
   {
     "Id": 43,
     "name": "Ziggs",
+    "apiName": "TFT15_Ziggs",
     "cost": 3,
     "traits": [ "The Crew", "Strategist" ],
     "recommendedItems": []
@@ -303,6 +346,7 @@
   {
     "Id": 44,
     "name": "Akali",
+    "apiName": "TFT15_Akali",
     "cost": 4,
     "traits": [ "Supreme Cells", "Executioner" ],
     "recommendedItems": []
@@ -310,6 +354,7 @@
   {
     "Id": 45,
     "name": "Ashe",
+    "apiName": "TFT15_Ashe",
     "cost": 4,
     "traits": [ "Crystal Gambit", "Duelist" ],
     "recommendedItems": []
@@ -317,6 +362,7 @@
   {
     "Id": 46,
     "name": "Jarvan IV",
+    "apiName": "TFT15_JarvanIV",
     "cost": 4,
     "traits": [ "Mighty Mech", "Strategist" ],
     "recommendedItems": []
@@ -324,6 +370,7 @@
   {
     "Id": 47,
     "name": "Jinx",
+    "apiName": "TFT15_Jinx",
     "cost": 4,
     "traits": [ "Star Guardian", "Sniper" ],
     "recommendedItems": []
@@ -331,6 +378,7 @@
   {
     "Id": 48,
     "name": "Karma",
+    "apiName": "TFT15_Karma",
     "cost": 4,
     "traits": [ "Mighty Mech", "Sorcerer" ],
     "recommendedItems": []
@@ -338,6 +386,7 @@
   {
     "Id": 49,
     "name": "K'Sante",
+    "apiName": "TFT15_Ksante",
     "cost": 4,
     "traits": [ "Wraith", "Protector" ],
     "recommendedItems": []
@@ -345,6 +394,7 @@
   {
     "Id": 50,
     "name": "Leona",
+    "apiName": "TFT15_Leona",
     "cost": 4,
     "traits": [ "Battle Academia", "Bastion" ],
     "recommendedItems": []
@@ -352,6 +402,7 @@
   {
     "Id": 51,
     "name": "Poppy",
+    "apiName": "TFT15_Poppy",
     "cost": 4,
     "traits": [ "Star Guardian", "Heavyweight" ],
     "recommendedItems": []
@@ -359,6 +410,7 @@
   {
     "Id": 52,
     "name": "Ryze",
+    "apiName": "TFT15_Ryze",
     "cost": 4,
     "traits": [ "Mentor", "Executioner", "Strategist" ],
     "recommendedItems": []
@@ -366,6 +418,7 @@
   {
     "Id": 53,
     "name": "Samira",
+    "apiName": "TFT15_Samira",
     "cost": 4,
     "traits": [ "Soul Fighter", "Edgelord" ],
     "recommendedItems": []
@@ -373,6 +426,7 @@
   {
     "Id": 54,
     "name": "Sett",
+    "apiName": "TFT15_Sett",
     "cost": 4,
     "traits": [ "Soul Fighter", "Juggernaut" ],
     "recommendedItems": []
@@ -380,6 +434,7 @@
   {
     "Id": 55,
     "name": "Volibear",
+    "apiName": "TFT15_Volibear",
     "cost": 4,
     "traits": [ "Luchador", "Edgelord" ],
     "recommendedItems": []
@@ -387,6 +442,7 @@
   {
     "Id": 56,
     "name": "Yuumi",
+    "apiName": "TFT15_Yuumi",
     "cost": 4,
     "traits": [ "Battle Academia", "Prodigy" ],
     "recommendedItems": []
@@ -394,6 +450,7 @@
   {
     "Id": 57,
     "name": "Braum",
+    "apiName": "TFT15_Braum",
     "cost": 5,
     "traits": [ "The Crew", "Luchador", "Bastion" ],
     "recommendedItems": []
@@ -401,6 +458,7 @@
   {
     "Id": 58,
     "name": "Gwen",
+    "apiName": "TFT15_Gwen",
     "cost": 5,
     "traits": [ "Soul Fighter", "Sorcerer" ],
     "recommendedItems": []
@@ -408,6 +466,7 @@
   {
     "Id": 59,
     "name": "Lee Sin",
+    "apiName": "TFT15_LeeSin",
     "cost": 5,
     "traits": [ "Stance Master" ],
     "recommendedItems": []
@@ -415,6 +474,7 @@
   {
     "Id": 60,
     "name": "Seraphine",
+    "apiName": "TFT15_Seraphine",
     "cost": 5,
     "traits": [ "Star Guardian", "Prodigy" ],
     "recommendedItems": []
@@ -422,6 +482,7 @@
   {
     "Id": 61,
     "name": "Twisted Fate",
+    "apiName": "TFT15_TwistedFate",
     "cost": 5,
     "traits": [ "Rogue Captain", "The Crew" ],
     "recommendedItems": []
@@ -429,6 +490,7 @@
   {
     "Id": 62,
     "name": "Varus",
+    "apiName": "TFT15_Varus",
     "cost": 5,
     "traits": [ "Wraith", "Sniper" ],
     "recommendedItems": []
@@ -436,6 +498,7 @@
   {
     "Id": 63,
     "name": "Yone",
+    "apiName": "TFT15_Yone",
     "cost": 5,
     "traits": [ "Mighty Mech", "Edgelord" ],
     "recommendedItems": []
@@ -443,6 +506,7 @@
   {
     "Id": 64,
     "name": "Zyra",
+    "apiName": "TFT15_Zyra",
     "cost": 5,
     "traits": [ "Crystal Gambit", "Rosemother" ],
     "recommendedItems": []

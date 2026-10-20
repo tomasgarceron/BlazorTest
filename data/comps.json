@@ -1,2131 +1,3657 @@
 [
   {
-    "name": "Mighty Mecha Karma-Senna Carrys",
-    "champions": [
-      8,
-      1,
-      7,
-      16,
-      37,
-      46,
-      48,
-      52,
-      63
-      
-    ],
-    "coreChampions": [
-      {
-        "id": 1,
-        "weight": 2,
-        "isEarlyCore": true
-      },
-      {
-        "id": 8,
-        "weight": 2,
-        "isEarlyCore": true
-      },
-      {
-        "id": 37,
-        "weight": 2.5
-      },
-      {
-        "id": 46,
-        "weight": 3
-      },
-      {
-        "id": 48,
-        "weight": 3
-      },
-      {
-        "id": 63,
-        "weight": 3
-      }
-    ],
-    "requiredTraits": [
-      {
-        "name": "Mighty Mech",
-        "minUnits": 3,
-        "weight": 3
-      },
-      {
-        "name": "Mighty Mech",
-        "minUnits": 5,
-        "weight": 5
-      },
-      {
-        "name": "Mighty Mech",
-        "minUnits": 7,
-        "weight": 7
-      }
-    ],
-    "coreItems": [
-      {
-        "id": 8,
-        "weight": 3,
-        "maxEffective": 5
-      },
-      {
-        "id": 4,
-        "weight": 2,
-        "maxEffective": 3
-      }
-    ],
-    "recommendedItems": [
-      {
-        "id": 3,
-        "weight": 1.5,
-        "maxEffective": 3
-      },
-      {
-        "id": 2,
-        "weight": 1.5,
-        "maxEffective": 2
-      },
-      {
-        "id": 1,
-        "weight": 1,
-        "maxEffective": 2
-      }
-    ],
-    "tier": "C"
-  },
-  {
-    "Id": 2,
-    "name": "Mentor Mighty Mech Ryze",
-    "description": "Composición con synergy Mentor + Mighty Mech, carry principal Ryze. Lucian hold items for Ryze",
-    "tier": "C",
-    "champions": [ 1, 8, 16, 21, 37, 40, 42, 46, 52, 55 ],
-    "coreChampions": [
-      {
-        "id": 8,
-        "weight":2, 
-        "isEarlyCore": true
-      },
-      {
-        "id": 52,
-        "weight": 4
-      },
-      {
-        "id": 55,
-        "weight": 4
-      }
-    ],
-    "requiredTraits": [
-      {
-        "name": "Mentor",
-        "minUnits": 1,
-        "weight": 1
-      },
-        {
-          "name": "Mentor",
-          "minUnits": 4,
-          "weight": 6
-        },
-        {
-          "name": "Mighty Mech",
-          "minUnits": 3,
-          "weight": 4
-        }
-      ],
-      "recommendedItems":
-      [
-        {
-          "id": 4,
-          "weight": 2,
-          "maxEffective": 1
-        },
-        {
-          "id": 1,
-          "weight": 2,
-          "maxEffective": 3
-        },
-        {
-          "id": 2,
-          "weight": 1,
-          "maxEffective": 2
-        },
-        {
-          "id": 5,
-          "weight": 1,
-          "maxEffective": 1
-        }
-      ],
-    "coreItems": [
-      {
-        "id": 6,
-        "weight": 3,
-        "maxEffective": 4
-      },
-      {
-        "id": 8,
-        "weight": 2,
-        "maxEffective": 3
-      }
-    ]
-  },
-
-  {
-    "Id": 3,
-    "name": "Varus/Tf Fast 9",
-    "description": "Legendary cap version of Varus and a duo carry in TF or Zyra. Make sure you have a mana item for Varus (Blue Buff \u003E Shojin but both are good). Itemize whichever duo carry you 2* first (TF 2 \u003E Zyra 2 \u003E TF \u00601).",
-    "tier": "B",
-    "champions": [
-      1,
-      4,
-      15,
-      17,
-      18,
-      39,
-      46,
-      49,
-      57,
-      61,
-      62,
-      64
-    ],
-    "coreChampions": [
-      {
-        "id": 4,
-        "weight": 2,
-        "isEarlyCore": true
-      },
-      {
-        "id": 15,
-        "weight": 2,
-        "isEarlyCore": true
-      },
-      {
-        "id": 49,
-        "weight": 3
-      },
-      {
-        "id": 61,
-        "weight": 3
-      },
-      {
-        "id": 62,
-        "weight": 3
-      },
-      {
-        "id": 64,
-        "weight": 3
-      }
-    ],
-    "requiredTraits": [],
-    "recommendedItems": [
-      {
-        "id": 3,
-        "weight": 1.5,
-        "maxEffective": 6
-      },
-      {
-        "id": 8,
-        "weight": 1.5,
-        "maxEffective": 5
-      }
-    ],
-    "coreItems": [
-      {
-        "id": 1,
-        "weight": 1,
-        "maxEffective": 1
-      },
-      {
-        "id": 6,
-        "weight": 2,
-        "maxEffective": 3
-      },
-      {
-        "id": 4,
-        "weight": 2,
-        "maxEffective": 3
-      },
-      {
-        "id": 7,
-        "weight": 1.5,
-        "maxEffective": 3
-      }
-    ]
-  },
-
-  {
     "id": 4,
-    "name": "Star Guardians Jinx Carry",
-    "description": "Syndra hold items for jinx and Rell for Poppy",
+    "name": "AZIR RAMMUS",
+    "description": "Playstyle: 3-Cost Reroll (EASY) -- Augment Priority -\u003E Items -\u003E Econ -\u003E Combat",
     "champions": [
-      11,
-      13,
-      24,
-      26,
-      21,
-      35,
-      49,
-      51,
-      47,
-      60,
-      62,
-      57
-    ],
-    "coreChampions": [
-      {
-        "id": 11,
-        "weight": 2,
-        "isEarlyCore": true
-      },
-      {
-        "id": 13,
-        "weight": 2,
-        "isEarlyCore": true
-      },
-      {
-        "id": 51,
-        "weight": 3
-      },
-      {
-        "id": 47,
-        "weight": 3
-      },
-      {
-        "id": 60,
-        "weight": 2
-      }
-    ],
-    "requiredTraits": [
-      {
-        "name": "Star Guardian",
-        "minUnits": 1,
-        "weight": 1
-      },
-      {
-        "name": "Star Guardian",
-        "minUnits": 2,
-        "weight": 1.5
-      },
-      {
-        "name": "Star Guardian",
-        "minUnits": 3,
-        "weight": 2
-      },
-      {
-        "name": "Star Guardian",
-        "minUnits": 4,
-        "weight": 2.5
-      },
-      {
-        "name": "Star Guardian",
-        "minUnits": 5,
-        "weight": 3
-      },
-      {
-        "name": "Star Guardian",
-        "minUnits": 6,
-        "weight": 4.5
-      }
-    ],
-    "coreItems": [
-      {
-        "id": 1,
-        "weight": 2.5,
-        "maxEffective": 3
-      },
-      {
-        "id": 8,
-        "weight": 1.5,
-        "maxEffective": 2
-      },
-      {
-        "id": 2,
-        "weight": 2,
-        "maxEffective": 2
-      }
-    ],
-    "recommendedItems": [
-      {
-        "id": 3,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 5,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 7,
-        "weight": 1,
-        "maxEffective": 3
-      }
-    ],
-    "tier": "A"
-  },
-  {
-    "id" : 5,
-    "name": "Kog\u0027Maw",
-    "champions": [
-      3,
-      11,
-      24,
-      27,
-      50,
-      39,
-      42,
-      32,
-      33
-    ],
-    "coreChampions": [
-      {
-        "id": 32 ,
-        "weight": 3
-      },
-      {
-        "id": 33,
-        "weight": 3
-      },
-      {
-        "id": 39,
-        "weight": 3
-      },    
-      {
-        "id": 42,
-        "weight": 2.5
-      }    
-    ],
-    "requiredTraits": [
-      {
-        "name": "Bastion",
-        "minUnits": 2,
-        "weight": 2
-      },
-      {
-        "name": "Bastion",
-        "minUnits": 4,
-        "weight": 3
-      },
-      {
-        "name": "Bastion",
-        "minUnits": 6,
-        "weight": 4
-      }
-    ],
-    "coreItems": [
-      {
-        "id": 8,
-        "weight": 2,
-        "maxEffective": 2
-      },
-      {
-        "id": 1,
-        "weight": 1.5,
-        "maxEffective": 1
-      }
-    ],
-    "recommendedItems": [
-      {
-        "id": 6,
-        "weight": 1,
-        "maxEffective": 1
-      },
-      {
-        "id": 2,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 3,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 7,
-        "weight": 1,
-        "maxEffective": 3
-      }
-    ],
-    "tier": "B"
-  },
-  {
-    "id": 6,
-    "name": "Rerroll Janna \u002B Kobuko",
-    "champions": [
-      1,
-      17,
-      21,
-      37,
-      40,
-      49,
-      46,
-      52
-    ],
-    "coreChampions": [
-      {
-        "id": 17,
-        "weight": 3
-      },
-      {
-        "id": 21,
-        "weight": 3
-      }
-    ],
-    "requiredTraits": [
-      {
-        "name": "Strategist",
-        "minUnits": 2,
-        "weight": 2.5
-      },
-      {
-        "name": "Strategist",
-        "minUnits": 3,
-        "weight": 3
-      },
-      {
-        "name": "Mighty Mech",
-        "minUnits": 3,
-        "weight": 2.5
-      }
-    ],
-    "coreItems": [
-      {
-        "id": 8,
-        "weight": 2.5,
-        "maxEffective": 5
-      },
-      {
-        "id": 4,
-        "weight": 1.5,
-        "maxEffective": 3
-      }
-    ],
-    "recommendedItems": [
-      {
-        "id": 2,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 3,
-        "weight": 1,
-        "maxEffective": 3
-      },
-      {
-        "id": 1,
-        "weight": 1,
-        "maxEffective": 1
-      },
-      {
-        "id": 6,
-        "weight": 1,
-        "maxEffective": 1
-      }
-    ],
-    "tier": "B"
-  },
-  {
-    "id": 7,
-    "name": "Katarina Assasin Battle Academia",
-    "description": "Ezreal can hold ap items for Yuumi",
-    "champions": [
-      2,
-      3,
-      5,
-      23,
-      20,
+      14,
       31,
-      50,
-      52,
-      56
-    ],
-    "coreChampions": [
-      {
-        "id": 23,
-        "weight": 2
-      },
-      {
-        "id": 20,
-        "weight": 3
-      },
-      {
-        "id": 56,
-        "weight": 3
-      }
-    ],
-    "requiredTraits": [
-      {
-        "name": "Battle Academia",
-        "minUnits": 3,
-        "weight": 3
-      },
-      {
-        "name": "Battle Academia",
-        "minUnits": 5,
-        "weight": 4
-      },
-      {
-        "name": "Executioner",
-        "minUnits": 2,
-        "weight": 2
-      },
-      {
-        "name": "Battle Academia",
-        "minUnits": 7,
-        "weight": 5
-      }
-    ],
-    "coreItems": [
-      {
-        "id": 2,
-        "weight": 1,
-        "maxEffective": 3
-      },
-      {
-        "id": 7,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 8,
-        "weight": 1.5,
-        "maxEffective": 2
-      },
-      {
-        "id": 4,
-        "weight": 1.5,
-        "maxEffective": 3
-      }
-    ],
-    "recommendedItems": [
-      {
-        "id": 3,
-        "weight": 1,
-        "maxEffective": 4
-      },
-      {
-        "id": 1,
-        "weight": 1,
-        "maxEffective": 1
-      },
-      {
-        "id": 6,
-        "weight": 1.5,
-        "maxEffective": 2
-      }
-    ],
-    "tier": "S"
-  },
-  {
-    "id": 8,
-    "name": "Soul fighters Samira \u0026 Gwen Carrys",
-    "champions": [
-      1,
-      5,
-      14,
-      10,
-      22,
-      27,
-      41,
-      54,
-      55,
-      53,
-      58
-    ],
-    "coreChampions": [
-      {
-        "id": 10,
-        "weight": 2,
-        "isEarlyCore": true
-
-      },
-      {
-        "id": 54,
-        "weight": 2
-      },
-      {
-        "id": 53,
-        "weight": 3
-      },
-      {
-        "id": 58,
-        "weight": 4
-      }
-    ],
-    "requiredTraits": [
-      {
-        "name": "Soul Fighter",
-        "minUnits": 2,
-        "weight": 2
-      },
-      {
-        "name": "Soul Fighter",
-        "minUnits": 4,
-        "weight": 2.5
-      },
-      {
-        "name": "Soul Fighter",
-        "minUnits": 6,
-        "weight": 3
-      },
-      {
-        "name": "Soul Fighter",
-        "minUnits": 8,
-        "weight": 4
-      }
-    ],
-    "coreItems": [
-      {
-        "id": 1,
-        "weight": 2,
-        "maxEffective": 3
-      },
-      {
-        "id": 7,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 8,
-        "weight": 1,
-        "maxEffective": 2
-      }
-    ],
-    "recommendedItems": [
-      {
-        "id": 6,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 4,
-        "weight": 1,
-        "maxEffective": 1
-      },
-      {
-        "id": 2,
-        "weight": 1,
-        "maxEffective": 3
-      },
-      {
-        "id": 3,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 5,
-        "weight": 1,
-        "maxEffective": 1
-      }
-    ],
-    "tier": "B"
-  },
-  {
-    "id": 9,
-    "name": "Heavy Malza",
-    "champions": [
-      1,
-      14,
-      13,
-      34,
-      30,
-      21,
-      31,
+      16,
       51,
-      60
-    ],
-    "coreChampions": [
-      {
-        "id": 34,
-        "weight": 3
-      },
-      {
-        "id": 30,
-        "weight": 2
-      },
-      {
-        "id": 51,
-        "weight": 2
-      }
-    ],
-    "requiredTraits": [
-      {
-        "name": "Heavyweight",
-        "minUnits": 2,
-        "weight": 2
-      },
-      {
-        "name": "Heavyweight",
-        "minUnits": 4,
-        "weight": 2.5
-      },
-      {
-        "name": "Heavyweight",
-        "minUnits": 6,
-        "weight": 4
-      }
-    ],
-    "coreItems": [
-      {
-        "id": 4,
-        "weight": 2.5,
-        "maxEffective": 4
-      },
-      {
-        "id": 8,
-        "weight": 2,
-        "maxEffective": 3
-      },
-      {
-        "id": 1,
-        "weight": 1.5,
-        "maxEffective": 2
-      }
-    ],
-    "recommendedItems": [
-      {
-        "id": 7,
-        "weight": 1,
-        "maxEffective": 3
-      },
-      {
-        "id": 3,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 2,
-        "weight": 1,
-        "maxEffective": 3
-      }
-    ],
-    "tier": "S"
-  },
-  {
-    "id": 9,
-    "description": "Play when have aerly 3 crystals. At 5 play for winstreak",
-    "name": "Crystals Malza",
-    "champions": [
-      13,
-      17,
-      25,
-      39,
-      34,
-      46,
-      49,
-      64
-    ],
-    "coreChampions": [
-      {
-        "id": 39,
-        "weight": 3,
-        "isEarlyCore": false
-      },
-      {
-        "id": 34,
-        "weight": 2,
-        "isEarlyCore": false
-      },
-      {
-        "id": 64,
-        "weight": 3,
-        "isEarlyCore": false
-      }
-    ],
-    "requiredTraits": [
-      {
-        "name": "Crystal Gambit",
-        "minUnits": 3,
-        "weight": 4
-      },
-      {
-        "name": "Crystal Gambit",
-        "minUnits": 5,
-        "weight": 5
-      }
-    ],
-    "coreItems": [
-      {
-        "id": 8,
-        "weight": 2,
-        "maxEffective": 3
-      },
-      {
-        "id": 4,
-        "weight": 1.5,
-        "maxEffective": 4
-      }
-    ],
-    "recommendedItems": [
-      {
-        "id": 7,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 3,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 5,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 2,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 1,
-        "weight": 1,
-        "maxEffective": 1
-      }
-    ],
-    "tier": "C"
-  },
-  {
-    "id": 10,
-    "name": "Bastion Yasuo",
-    "description": "Yasuo \u002B Kog\u0027Maw carry. Reroll 3 cost. Bastion emblem on yasuo or Sniper\u0027s Focus otherwise go fast 8 for 6 bastions.",
-    "champions": [
-      3,
-      11,
-      24,
-      27,
-      42,
-      39,
-      33,
       32,
-      50,
-      57
-    ],
-    "coreChampions": [
-      {
-        "id": 42,
-        "weight": 3,
-        "isEarlyCore": false
-      },
-      {
-        "id": 39,
-        "weight": 2,
-        "isEarlyCore": false
-      },
-      {
-        "id": 33,
-        "weight": 2,
-        "isEarlyCore": false
-      },
-      {
-        "id": 32,
-        "weight": 2,
-        "isEarlyCore": false
-      }
-    ],
-    "requiredTraits": [
-      {
-        "name": "Bastion",
-        "minUnits": 2,
-        "weight": 1.5
-      },
-      {
-        "name": "Bastion",
-        "minUnits": 4,
-        "weight": 2.5
-      },
-      {
-        "name": "Bastion",
-        "minUnits": 6,
-        "weight": 5
-      }
-    ],
-    "coreItems": [
-      {
-        "id": 7,
-        "weight": 2,
-        "maxEffective": 2
-      },
-      {
-        "id": 1,
-        "weight": 2,
-        "maxEffective": 2
-      },
-      {
-        "id": 8,
-        "weight": 1,
-        "maxEffective": 3
-      },
-      {
-        "id": 3,
-        "weight": 1.5,
-        "maxEffective": 5
-      }
-    ],
-    "recommendedItems": [
-      {
-        "id": 4,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 2,
-        "weight": 1,
-        "maxEffective": 1
-      }
-    ],
-    "tier": "C"
-  },
-  {
-    "id": 11,
-    "name": "Mecha Akali-Ryze",
-    "description": "Fast 8. Ideal Supreme cells emblem on ryze. Otherwise go fast 9",
-    "champions": [
-      1,
-      7,
-      8,
-      16,
-      30,
-      37,
-      44,
-      46,
-      49,
-      52
-    ],
-    "coreChampions": [
-      {
-        "id": 8,
-        "weight": 2,
-        "isEarlyCore": true
-      },
-      {
-        "id": 44,
-        "weight": 3,
-        "isEarlyCore": false
-      },
-      {
-        "id": 49,
-        "weight": 2,
-        "isEarlyCore": false
-      },
-      {
-        "id": 52,
-        "weight": 2,
-        "isEarlyCore": false
-      }
-    ],
-    "requiredTraits": [
-      {
-        "name": "Supreme Cells",
-        "minUnits": 2,
-        "weight": 2
-      },
-      {
-        "name": "Supreme Cells",
-        "minUnits": 3,
-        "weight": 3
-      },
-      {
-        "name": "Supreme Cells",
-        "minUnits": 4,
-        "weight": 4.5
-      },
-      {
-        "name": "Executioner",
-        "minUnits": 2,
-        "weight": 1.5
-      },
-      {
-        "name": "Executioner",
-        "minUnits": 3,
-        "weight": 3
-      }
-    ],
-    "coreItems": [
-      {
-        "id": 6,
-        "weight": 3,
-        "maxEffective": 3
-      },
-      {
-        "id": 7,
-        "weight": 1,
-        "maxEffective": 2
-      }
-    ],
-    "recommendedItems": [
-      {
-        "id": 8,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 2,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 3,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 5,
-        "weight": 1,
-        "maxEffective": 1
-      }
-    ],
-    "tier": "C"
-  },
-  {
-    "id": 12,
-    "name": "The Crew",
-    "description": "1 Cost reroll. Prio defensive items on Malphite.",
-    "champions": [
-      7,
-      4,
-      9,
-      12,
-      24,
-      17,
-      43,
-      46,
       52,
-      61
-    ],
-    "coreChampions": [
-      {
-        "id": 9,
-        "weight": 2.5,
-        "isEarlyCore": false
-      },
-      {
-        "id": 12,
-        "weight": 2,
-        "isEarlyCore": true
-      },
-      {
-        "id": 43,
-        "weight": 3,
-        "isEarlyCore": false
-      },
-      {
-        "id": 61,
-        "weight": 1,
-        "isEarlyCore": false
-      }
-    ],
-    "requiredTraits": [
-      {
-        "name": "The Crew",
-        "minUnits": 2,
-        "weight": 2
-      },
-      {
-        "name": "The Crew",
-        "minUnits": 3,
-        "weight": 3
-      },
-      {
-        "name": "Strategist",
-        "minUnits": 2,
-        "weight": 2
-      },
-      {
-        "name": "Strategist",
-        "minUnits": 3,
-        "weight": 2.5
-      },
-      {
-        "name": "Strategist",
-        "minUnits": 4,
-        "weight": 4
-      }
-    ],
-    "coreItems": [
-      {
-        "id": 6,
-        "weight": 2.5,
-        "maxEffective": 5
-      },
-      {
-        "id": 4,
-        "weight": 2,
-        "maxEffective": 3
-      }
-    ],
-    "recommendedItems": [
-      {
-        "id": 1,
-        "weight": 1,
-        "maxEffective": 1
-      },
-      {
-        "id": 8,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 7,
-        "weight": 1,
-        "maxEffective": 3
-      },
-      {
-        "id": 3,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 2,
-        "weight": 1,
-        "maxEffective": 3
-      },
-      {
-        "id": 5,
-        "weight": 1,
-        "maxEffective": 1
-      }
-    ],
-    "tier": "B"
-  },
-  {
-    "id": 13,
-    "name": "Kayle \u0026 Zac ",
-    "description": "1 Cost Reroll. Move Zac items to k\u0027Sante 2 in late game.",
-    "champions": [
-      1,
-      14,
-      6,
-      16,
-      18,
-      34,
-      35,
-      40,
-      49,
-      51,
-      62
+      50
     ],
     "coreChampions": [
       {
         "id": 14,
-        "weight": 3,
-        "isEarlyCore": false
+        "weight": 4,
+        "requiresThreeStars": true
       },
       {
-        "id": 6,
-        "weight": 3,
-        "isEarlyCore": false
+        "id": 32,
+        "weight": 4,
+        "requiresThreeStars": true
       },
       {
-        "id": 62,
-        "weight": 2,
-        "isEarlyCore": false
-      }
-    ],
-    "requiredTraits": [
-      {
-        "name": "Wraith",
-        "minUnits": 2,
-        "weight": 2
-      },
-      {
-        "name": "Wraith",
-        "minUnits": 4,
-        "weight": 3
-      },
-      {
-        "name": "Wraith",
-        "minUnits": 6,
-        "weight": 4.5
-      }
-    ],
-    "coreItems": [
-      {
-        "id": 6,
-        "weight": 3,
-        "maxEffective": 4
-      },
-      {
-        "id": 1,
-        "weight": 2,
-        "maxEffective": 3
-      },
-      {
-        "id": 7,
-        "weight": 1.5,
-        "maxEffective": 3
-      }
-    ],
-    "recommendedItems": [
-      {
-        "id": 4,
-        "weight": 1,
-        "maxEffective": 1
-      },
-      {
-        "id": 3,
-        "weight": 1,
-        "maxEffective": 3
-      },
-      {
-        "id": 8,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 2,
-        "weight": 1,
-        "maxEffective": 1
-      },
-      {
-        "id": 5,
-        "weight": 1,
-        "maxEffective": 1
-      }
-    ],
-    "tier": "B"
-  },
-  {
-    "id": 14,
-    "name": "Bastion Guardians Xayah",
-    "description": "2 cost reroll",
-    "champions": [
-      3,
-      11,
-      27,
-      26,
-      24,
-      39,
-      50,
-      47,
-      57
-    ],
-    "coreChampions": [
-      {
-        "id": 26,
-        "weight": 2,
-        "isEarlyCore": false
-      },
-      {
-        "id": 24,
-        "weight": 2,
-        "isEarlyCore": false
-      }
-    ],
-    "requiredTraits": [
-      {
-        "name": "Bastion",
-        "minUnits": 2,
-        "weight": 2
-      },
-      {
-        "name": "Bastion",
-        "minUnits": 4,
-        "weight": 3
-      },
-      {
-        "name": "Bastion",
-        "minUnits": 6,
-        "weight": 4
-      }
-    ],
-    "coreItems": [
-      {
-        "id": 6,
-        "weight": 3,
-        "maxEffective": 3
-      },
-      {
-        "id": 1,
-        "weight": 1,
-        "maxEffective": 1
-      },
-      {
-        "id": 5,
-        "weight": 2,
-        "maxEffective": 2
-      }
-    ],
-    "recommendedItems": [
-      {
-        "id": 4,
-        "weight": 1.5,
-        "maxEffective": 1
-      },
-      {
-        "id": 3,
-        "weight": 1,
-        "maxEffective": 3
-      },
-      {
-        "id": 2,
-        "weight": 1,
-        "maxEffective": 1
-      },
-      {
-        "id": 8,
-        "weight": 1,
-        "maxEffective": 1
-      }
-    ],
-    "tier": "A"
-  },
-  {
-    "id": 15,
-    "name": "Karma Sorcs",
-    "description": "Fast 8. Play Kennen until Gwen. Itemize Swain 2 before J4 2. Anti heal goes on Gwen. Ksante 2 is also strong frontline, but you keep Kennen. If you get Sorc emblem, put on Ryze and play Xin Zhao over Lux. Otherwise, level 9 is Braum.",
-    "champions": [
-      1,
-      7,
-      8,
-      16,
-      22,
-      28,
-      39,
-      46,
-      48,
-      52,
-      58
-    ],
-    "coreChampions": [
-      {
-        "id": 8,
-        "weight": 2,
-        "isEarlyCore": true
-      },
-      {
-        "id": 48,
-        "weight": 3,
-        "isEarlyCore": false
-      },
-      {
-        "id": 58,
-        "weight": 3,
-        "isEarlyCore": false
-      }
-    ],
-    "requiredTraits": [
-      {
-        "name": "Sorcerer",
-        "minUnits": 2,
-        "weight": 2
-      },
-      {
-        "name": "Sorcerer",
-        "minUnits": 4,
-        "weight": 3
-      },
-      {
-        "name": "Sorcerer",
-        "minUnits": 6,
-        "weight": 4
-      }
-    ],
-    "coreItems": [
-      {
-        "id": 8,
-        "weight": 2.5,
-        "maxEffective": 4
-      },
-      {
-        "id": 3,
-        "weight": 2,
-        "maxEffective": 4
-      },
-      {
-        "id": 7,
-        "weight": 1.5,
-        "maxEffective": 3
-      }
-    ],
-    "recommendedItems": [
-      {
-        "id": 4,
-        "weight": 1.5,
-        "maxEffective": 2
-      },
-      {
-        "id": 1,
-        "weight": 1,
-        "maxEffective": 1
-      },
-      {
-        "id": 6,
-        "weight": 1,
-        "maxEffective": 1
-      },
-      {
-        "id": 2,
-        "weight": 1,
-        "maxEffective": 2
-      }
-    ],
-    "tier": "B"
-  },
-  {
-    "id": 16,
-    "name": "Yuumi Battle Academia",
-    "description": "4 Cost reroll. 2 Tanks with items. Ideal fast 9 for Seraphine",
-    "champions": [
-      2,
-      3,
-      11,
-      13,
-      23,
-      34,
-      49,
-      50,
-      56,
-      60
-    ],
-    "coreChampions": [
-      {
-        "id": 11,
-        "weight": 1.5,
-        "isEarlyCore": true
-      },
-      {
-        "id": 13,
-        "weight": 2,
-        "isEarlyCore": true
-      },
-      {
-        "id": 49,
-        "weight": 2,
-        "isEarlyCore": false
+        "id": 31,
+        "weight": 4,
+        "requiresThreeStars": true
       },
       {
         "id": 50,
-        "weight": 3,
-        "isEarlyCore": false
-      },
-      {
-        "id": 56,
-        "weight": 3,
-        "isEarlyCore": false
-      },
-      {
-        "id": 60,
-        "weight": 2,
-        "isEarlyCore": false
+        "weight": 4,
+        "requiresThreeStars": false
       }
     ],
-    "requiredTraits": [
+    "earlyCoreChampions": [
       {
-        "name": "Prodigy",
-        "minUnits": 2,
+        "id": 59,
         "weight": 1.5
       },
       {
-        "name": "Prodigy",
-        "minUnits": 3,
+        "id": 19,
+        "weight": 1.5
+      },
+      {
+        "id": 20,
+        "weight": 1.5
+      },
+      {
+        "id": 14,
         "weight": 2
       },
       {
-        "name": "Prodigy",
-        "minUnits": 4,
-        "weight": 3
-      },
-      {
-        "name": "Prodigy",
-        "minUnits": 5,
-        "weight": 4
-      },
-      {
-        "name": "Battle Academia",
-        "minUnits": 3,
-        "weight": 3
-      },
-      {
-        "name": "Battle Academia",
-        "minUnits": 5,
-        "weight": 4
-      }
-    ],
-    "coreItems": [
-      {
-        "id": 4,
-        "weight": 2.5,
-        "maxEffective": 5
-      },
-      {
-        "id": 7,
-        "weight": 1.5,
-        "maxEffective": 3
-      },
-      {
-        "id": 3,
-        "weight": 2,
-        "maxEffective": 5
-      }
-    ],
-    "recommendedItems": [
-      {
-        "id": 1,
-        "weight": 1,
-        "maxEffective": 1
-      },
-      {
-        "id": 2,
-        "weight": 1.5,
-        "maxEffective": 3
-      },
-      {
-        "id": 8,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 6,
-        "weight": 1,
-        "maxEffective": 3
-      }
-    ],
-    "tier": "B"
-  },
-  {
-    "id": 17,
-    "name": "Tf - Zyra",
-    "description": "Fast 9. Juggernaut emblem in Lee is ideal. Take econ augments aggressively",
-    "champions": [
-      1,
-      3,
-      18,
-      15,
-      10,
-      25,
-      40,
-      54,
-      59,
-      61,
-      64,
-      4
-    ],
-    "coreChampions": [
-
-      {
-        "id": 15,
-        "weight": 2,
-        "isEarlyCore": true
-      },
-      {
-        "id": 54,
-        "weight": 2.5,
-        "isEarlyCore": false
-      },
-      {
-        "id": 59,
-        "weight": 3,
-        "isEarlyCore": false
-      },
-      {
-        "id": 61,
-        "weight": 3,
-        "isEarlyCore": false
-      },
-      {
-        "id": 64,
-        "weight": 3,
-        "isEarlyCore": false
-      },
-      {
-        "id": 4,
-        "weight": 2,
-        "isEarlyCore": true
+        "id": 31,
+        "weight": 2
       }
     ],
     "requiredTraits": [
       {
-        "name": "Juggernaut",
+        "apiName": "DA_FloraFatalis18",
         "minUnits": 2,
-        "weight": 2
+        "weight": 3.5
       },
       {
-        "name": "Juggernaut",
-        "minUnits": 4,
+        "apiName": "DA_18_Sprykin",
+        "minUnits": 3,
         "weight": 3
       },
       {
-        "name": "Juggernaut",
-        "minUnits": 6,
-        "weight": 4
+        "apiName": "DA_18_Blackthorn",
+        "minUnits": 2,
+        "weight": 3
+      },
+      {
+        "apiName": "DA_18_Defender",
+        "minUnits": 2,
+        "weight": 3
+      },
+      {
+        "apiName": "DA_18_Executioner",
+        "minUnits": 2,
+        "weight": 3
       }
     ],
-    "coreItems": [
+    "items": [
       {
-        "id": 6,
-        "weight": 2.5,
-        "maxEffective": 2
-      },
-      {
-        "id": 1,
-        "weight": 2,
-        "maxEffective": 4
-      },
-      {
-        "id": 4,
-        "weight": 2.5,
-        "maxEffective": 5
-      }
-    ],
-    "recommendedItems": [
-      {
-        "id": 8,
-        "weight": 1.5,
-        "maxEffective": 2
-      },
-      {
-        "id": 7,
-        "weight": 1.5,
-        "maxEffective": 2
-      },
-      {
-        "id": 3,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 4,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 2,
-        "weight": 1,
-        "maxEffective": 2
-      }
-    ],
-    "tier": "S"
-  },
-  {
-    "id": 18,
-    "name": "Bastions TF and 5 costs. Fast 9",
-    "description": "Play when have strong early like Rageblade Gnar",
-    "champions": [
-      1,
-      14,
-      4,
-      15,
-      11,
-      24,
-      27,
-      39,
-      50,
-      57,
-      60,
-      61,
-      64
-    ],
-    "coreChampions": [
-      {
-        "id": 4,
-        "weight": 2,
-        "isEarlyCore": true
+        "id": 32,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
       },
       {
         "id": 15,
         "weight": 2,
-        "isEarlyCore": true
+        "maxEffective": 2,
+        "isCore": true,
+        "components": []
       },
       {
-        "id": 50,
-        "weight": 3,
-        "isEarlyCore": false
+        "id": 28,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
       },
       {
-        "id": 57,
-        "weight": 4,
-        "isEarlyCore": false
-      },
-      {
-        "id": 60,
-        "weight": 4,
-        "isEarlyCore": false
-      },
-      {
-        "id": 61,
-        "weight": 4,
-        "isEarlyCore": false
-      },
-      {
-        "id": 64,
-        "weight": 4,
-        "isEarlyCore": false
-      }
-    ],
-    "requiredTraits": [
-      {
-        "name": "Bastion",
-        "minUnits": 2,
-        "weight": 2
-      },
-      {
-        "name": "Bastion",
-        "minUnits": 4,
-        "weight": 3
-      },
-      {
-        "name": "Bastion",
-        "minUnits": 6,
-        "weight": 4
-      }
-    ],
-    "coreItems": [
-      {
-        "id": 6,
-        "weight": 3,
-        "maxEffective": 4
-      },
-      {
-        "id": 1,
+        "id": 35,
         "weight": 2.5,
-        "maxEffective": 4
-      },
-      {
-        "id": 4,
-        "weight": 3,
-        "maxEffective": 5
-      }
-    ],
-    "recommendedItems": [
-      {
-        "id": 8,
-        "weight": 1.5,
-        "maxEffective": 2
-      },
-      {
-        "id": 7,
-        "weight": 1,
-        "maxEffective": 3
-      },
-      {
-        "id": 3,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 2,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 5,
-        "weight": 1,
-        "maxEffective": 2
-      }
-    ],
-    "tier": "S"
-  },
-  {
-    "id": 19,
-    "name": "Crystal Ashe Carry",
-    "description": "Lose streak if gets early Crystals. When have 5 play for win streak and get the first cash out to spike your board.",
-    "champions": [
-      13,
-      6,
-      17,
-      25,
-      39,
-      45,
-      46,
-      49,
-      57,
-      64
-    ],
-    "coreChampions": [
-      {
-        "id": 13,
-        "weight": 2,
-        "isEarlyCore": true
-      },
-      {
-        "id": 17,
-        "weight": 2,
-        "isEarlyCore": true
-      },
-      {
-        "id": 25,
-        "weight": 2,
-        "isEarlyCore": true
-      },
-      {
-        "id": 39,
-        "weight": 2,
-        "isEarlyCore": true
-      },
-      {
-        "id": 45,
-        "weight": 3,
-        "isEarlyCore": false
-      },
-      {
-        "id": 49,
-        "weight": 3,
-        "isEarlyCore": false
-      },
-      {
-        "id": 64,
-        "weight": 3.5,
-        "isEarlyCore": false
-      }
-    ],
-    "requiredTraits": [
-      {
-        "name": "Crystal Gambit",
-        "minUnits": 3,
-        "weight": 3
-      },
-      {
-        "name": "Crystal Gambit",
-        "minUnits": 5,
-        "weight": 4
-      }
-    ],
-    "coreItems": [
-      {
-        "id": 6,
-        "weight": 3,
-        "maxEffective": 4
-      },
-      {
-        "id": 5,
-        "weight": 3,
-        "maxEffective": 4
-      },
-      {
-        "id": 8,
-        "weight": 2.5,
-        "maxEffective": 3
-      }
-    ],
-    "recommendedItems": [
-      {
-        "id": 3,
-        "weight": 2,
-        "maxEffective": 5
-      },
-      {
-        "id": 4,
-        "weight": 1,
-        "maxEffective": 1
-      }
-    ],
-    "tier": "S"
-  },
-  {
-    "id": 20,
-    "name": "Smolder - Darius",
-    "description": "3 Cost reroll. Leftlovers ad items on Jayce. At 8 add in a 5 cost or Supreme Cell for Darius",
-    "champions": [
-      1,
-      3,
-      11,
-      24,
-      14,
-      21,
-      31,
-      30,
-      33,
-      38,
-      51
-    ],
-    "coreChampions": [
-      {
-        "id": 30,
-        "weight": 3,
-        "isEarlyCore": false
-      },
-      {
-        "id": 33,
-        "weight": 3,
-        "isEarlyCore": false
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
       },
       {
         "id": 38,
         "weight": 3,
-        "isEarlyCore": false
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
       },
       {
-        "id": 51,
-        "weight": 3,
-        "isEarlyCore": false
+        "id": 22,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 19,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
       }
     ],
-    "requiredTraits": [
-      {
-        "name": "Heavyweight",
-        "minUnits": 2,
-        "weight": 2
-      },
-      {
-        "name": "Heavyweight",
-        "minUnits": 4,
-        "weight": 3
-      },
-      {
-        "name": "Heavyweight",
-        "minUnits": 6,
-        "weight": 4
-      }
-    ],
-    "coreItems": [
-      {
-        "id": 1,
-        "weight": 3,
-        "maxEffective": 4
-      },
+    "components": [
       {
         "id": 7,
-        "weight": 2.5,
-        "maxEffective": 3
+        "weight": 3.5,
+        "max": 6
       },
       {
-        "id": 8,
-        "weight": 2.5,
-        "maxEffective": 5
+        "id": 4,
+        "weight": 3,
+        "max": 2
       },
-      {
-        "id": 6,
-        "weight": 1.5,
-        "maxEffective": 2
-      }
-    ],
-    "recommendedItems": [
       {
         "id": 3,
-        "weight": 1,
-        "maxEffective": 2
+        "weight": 2,
+        "max": 1
       },
       {
-        "id": 2,
-        "weight": 1,
-        "maxEffective": 1
+        "id": 9,
+        "weight": 2.5,
+        "max": 3
       },
       {
         "id": 5,
-        "weight": 1,
-        "maxEffective": 1
+        "weight": 1.5,
+        "max": 1
+      },
+      {
+        "id": 2,
+        "weight": 1.5,
+        "max": 1
+      },
+      {
+        "id": 1,
+        "weight": 2,
+        "max": 2
       }
     ],
-    "tier": "A"
+    "tier": "S",
+    "assignedItems": [
+      {
+        "championId": 14,
+        "itemId": 32,
+        "scope": 5,
+        "showEarlyCore": null,
+        "showCore": null,
+        "showFull": null,
+        "isShownInEarlyCore": true,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 14,
+        "itemId": 35,
+        "scope": 4,
+        "showEarlyCore": null,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 14,
+        "itemId": 28,
+        "scope": 4,
+        "showEarlyCore": null,
+        "showCore": null,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 32,
+        "itemId": 15,
+        "scope": 4,
+        "showEarlyCore": null,
+        "showCore": null,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 32,
+        "itemId": 15,
+        "scope": 4,
+        "showEarlyCore": null,
+        "showCore": null,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 32,
+        "itemId": 38,
+        "scope": 4,
+        "showEarlyCore": null,
+        "showCore": null,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 50,
+        "itemId": 22,
+        "scope": 1,
+        "showEarlyCore": null,
+        "showCore": true,
+        "showFull": null,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 50,
+        "itemId": 19,
+        "scope": 1,
+        "showEarlyCore": null,
+        "showCore": true,
+        "showFull": null,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      }
+    ],
+    "situationalRequirements": [
+      {
+        "apiName": "DA_WandOverflow",
+        "type": "Augment",
+        "weight": 5,
+        "isRequired": false
+      }
+    ],
+    "recommendedAugments": [
+      "DA_WandOverflow",
+      "DA_DeadlierCaps",
+      "DA_PrismaticTicket",
+      "DA_LegionOfThrees",
+      "DA_BlackthornTraitAugment",
+      "DA_PandorasItemsIII",
+      "DA_SoloPlate",
+      "DA_CyberneticUplink_Gold"
+    ]
   },
   {
-    "id": 21,
-    "name": "Edgelord Bastions Voli and 5 costs carrys",
-    "description": "Fast 9. Play around itemized Xayah, Samira or Yasuo until get your level 9 cap with Yone",
+    "id": 5,
+    "name": "LUNARWOOD KHA\u0027ZIX",
+    "description": "Playstyle: 3-Cost Reroll\nAugments priority -\u003E Items -\u003E Econ -\u003E Combat",
     "champions": [
-      3,
-      11,
-      24,
-      26,
-      27,
-      39,
+      10,
+      47,
+      51,
+      12,
       42,
-      53,
-      55,
-      50,
-      63,
-      57
+      52,
+      13,
+      23
     ],
     "coreChampions": [
       {
-        "id": 26,
-        "weight": 2.5,
-        "isEarlyCore": true
-      },
-      {
         "id": 42,
-        "weight": 3,
-        "isEarlyCore": true
+        "weight": 4,
+        "requiresThreeStars": true
       },
       {
-        "id": 53,
-        "weight": 2.5,
-        "isEarlyCore": false
+        "id": 47,
+        "weight": 4,
+        "requiresThreeStars": true
       },
       {
-        "id": 55,
-        "weight": 3,
-        "isEarlyCore": false
+        "id": 12,
+        "weight": 4,
+        "requiresThreeStars": true
       },
       {
-        "id": 50,
-        "weight": 3,
-        "isEarlyCore": false
+        "id": 13,
+        "weight": 4,
+        "requiresThreeStars": false
+      }
+    ],
+    "earlyCoreChampions": [
+      {
+        "id": 60,
+        "weight": 2
       },
       {
-        "id": 63,
-        "weight": 3,
-        "isEarlyCore": false
+        "id": 56,
+        "weight": 2
       },
       {
-        "id": 57,
-        "weight": 3,
-        "isEarlyCore": false
+        "id": 10,
+        "weight": 2
+      },
+      {
+        "id": 47,
+        "weight": 2
       }
     ],
     "requiredTraits": [
       {
-        "name": "Edgelord",
+        "apiName": "DA_FloraFatalis18",
         "minUnits": 2,
         "weight": 3
       },
       {
-        "name": "Edgelord",
-        "minUnits": 4,
-        "weight": 4
+        "apiName": "DA_18_Elderwood",
+        "minUnits": 3,
+        "weight": 2.5
       },
       {
-        "name": "Bastion",
+        "apiName": "DA_FloraFatalis18",
+        "minUnits": 1,
+        "weight": 2
+      },
+      {
+        "apiName": "DA_18_Defender",
         "minUnits": 2,
         "weight": 2
       },
       {
-        "name": "Bastion",
-        "minUnits": 4,
-        "weight": 3
+        "apiName": "DA_18_Executioner",
+        "minUnits": 2,
+        "weight": 2
       },
       {
-        "name": "Bastion",
-        "minUnits": 6,
-        "weight": 4
+        "apiName": "DA_18_Lunar",
+        "minUnits": 2,
+        "weight": 2
+      },
+      {
+        "apiName": "DA_18_Executioner",
+        "minUnits": 3,
+        "weight": 2.5
       }
     ],
-    "coreItems": [
+    "items": [
+      {
+        "id": 29,
+        "weight": 3,
+        "maxEffective": 3,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 35,
+        "weight": 2.5,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 44,
+        "weight": 2.5,
+        "maxEffective": 2,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 34,
+        "weight": 1,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 21,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 24,
+        "weight": 2.5,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 15,
+        "weight": 1,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 11,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 13,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 49,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      }
+    ],
+    "components": [
+      {
+        "id": 2,
+        "weight": 3,
+        "max": 5
+      },
+      {
+        "id": 6,
+        "weight": 3,
+        "max": 4
+      },
+      {
+        "id": 7,
+        "weight": 3,
+        "max": 4
+      },
+      {
+        "id": 3,
+        "weight": 2,
+        "max": 3
+      },
       {
         "id": 1,
+        "weight": 2,
+        "max": 2
+      },
+      {
+        "id": 5,
         "weight": 3,
-        "maxEffective": 5
+        "max": 3
+      },
+      {
+        "id": 9,
+        "weight": 1.5,
+        "max": 1
+      },
+      {
+        "id": 4,
+        "weight": 1.5,
+        "max": 2
+      }
+    ],
+    "tier": "S",
+    "assignedItems": [
+      {
+        "championId": 47,
+        "itemId": 29,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": true,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 47,
+        "itemId": 34,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 47,
+        "itemId": 29,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 47,
+        "itemId": 35,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 56,
+        "itemId": 21,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 56,
+        "itemId": 24,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 12,
+        "itemId": 24,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 12,
+        "itemId": 21,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 12,
+        "itemId": 15,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 42,
+        "itemId": 44,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 42,
+        "itemId": 29,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 42,
+        "itemId": 34,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 13,
+        "itemId": 11,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 13,
+        "itemId": 13,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 13,
+        "itemId": 49,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      }
+    ],
+    "situationalRequirements": [],
+    "recommendedAugments": [
+      "DA_ChampDelivery",
+      "DA_PandorasBench",
+      "DA_FlowingTears",
+      "DA_AdvancedLoanPlus",
+      "DA_LegionOfThrees",
+      "DA_LuckyGlovesPlus",
+      "DA_PrismaticTicket"
+    ]
+  },
+    {
+      "id": 6,
+      "name": "RIFTBEAST REROLL",
+      "description": "1 Cost rerroll ",
+      "champions": [
+        4,
+        3,
+        5,
+        2,
+        6,
+        8,
+        33,
+        7
+      ],
+      "coreChampions": [
+        {
+          "id": 3,
+          "weight": 3,
+          "requiresThreeStars": true
+        },
+        {
+          "id": 4,
+          "weight": 3,
+          "requiresThreeStars": true
+        },
+        {
+          "id": 5,
+          "weight": 2,
+          "requiresThreeStars": true
+        },
+        {
+          "id": 6,
+          "weight": 3.5,
+          "requiresThreeStars": false
+        }
+      ],
+      "earlyCoreChampions": [
+        {
+          "id": 3,
+          "weight": 2
+        },
+        {
+          "id": 4,
+          "weight": 2
+        },
+        {
+          "id": 19,
+          "weight": 2
+        },
+        {
+          "id": 5,
+          "weight": 2
+        }
+      ],
+      "requiredTraits": [
+        {
+          "apiName": "DA_Riftbeast18",
+          "minUnits": 3,
+          "weight": 3
+        },
+        {
+          "apiName": "DA_Riftbeast18",
+          "minUnits": 5,
+          "weight": 4
+        },
+        {
+          "apiName": "DA_Riftbeast18",
+          "minUnits": 7,
+          "weight": 5
+        },
+        {
+          "apiName": "DA_18_Brawler",
+          "minUnits": 2,
+          "weight": 2
+        },
+        {
+          "apiName": "DA_18_Invoker",
+          "minUnits": 2,
+          "weight": 2
+        },
+        {
+          "apiName": "DA_18_Slayer",
+          "minUnits": 2,
+          "weight": 2
+        }
+      ],
+      "items": [
+        {
+          "id": 46,
+          "weight": 3,
+          "maxEffective": 2,
+          "isCore": true,
+          "components": []
+        },
+        {
+          "id": 35,
+          "weight": 2.5,
+          "maxEffective": 1,
+          "isCore": false,
+          "components": []
+        },
+        {
+          "id": 44,
+          "weight": 2.5,
+          "maxEffective": 1,
+          "isCore": false,
+          "components": []
+        },
+        {
+          "id": 18,
+          "weight": 2.5,
+          "maxEffective": 1,
+          "isCore": true,
+          "components": []
+        },
+        {
+          "id": 37,
+          "weight": 2.5,
+          "maxEffective": 1,
+          "isCore": true,
+          "components": []
+        },
+        {
+          "id": 17,
+          "weight": 2,
+          "maxEffective": 1,
+          "isCore": false,
+          "components": []
+        },
+        {
+          "id": 15,
+          "weight": 2.5,
+          "maxEffective": 1,
+          "isCore": false,
+          "components": []
+        },
+        {
+          "id": 21,
+          "weight": 2.5,
+          "maxEffective": 1,
+          "isCore": false,
+          "components": []
+        },
+        {
+          "id": 24,
+          "weight": 2.5,
+          "maxEffective": 1,
+          "isCore": false,
+          "components": []
+        }
+      ],
+      "components": [
+        {
+          "id": 2,
+          "weight": 3.5,
+          "max": 5
+        },
+        {
+          "id": 3,
+          "weight": 2.5,
+          "max": 1
+        },
+        {
+          "id": 7,
+          "weight": 2.5,
+          "max": 3
+        },
+        {
+          "id": 6,
+          "weight": 3,
+          "max": 3
+        },
+        {
+          "id": 4,
+          "weight": 2.5,
+          "max": 1
+        },
+        {
+          "id": 1,
+          "weight": 2,
+          "max": 1
+        },
+        {
+          "id": 5,
+          "weight": 3,
+          "max": 3
+        },
+        {
+          "id": 9,
+          "weight": 2,
+          "max": 1
+        }
+      ],
+      "tier": "A",
+      "assignedItems": [
+        {
+          "championId": 6,
+          "itemId": 21,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 6,
+          "itemId": 15,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 6,
+          "itemId": 24,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 8,
+          "itemId": 17,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": false,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": false,
+          "isShownInFull": true
+        },
+        {
+          "championId": 4,
+          "itemId": 18,
+          "scope": 5,
+          "showEarlyCore": true,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": true,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 4,
+          "itemId": 46,
+          "scope": 5,
+          "showEarlyCore": true,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": true,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 4,
+          "itemId": 37,
+          "scope": 5,
+          "showEarlyCore": true,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": true,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 3,
+          "itemId": 46,
+          "scope": 5,
+          "showEarlyCore": true,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": true,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 3,
+          "itemId": 35,
+          "scope": 5,
+          "showEarlyCore": true,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": true,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 3,
+          "itemId": 44,
+          "scope": 5,
+          "showEarlyCore": true,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": true,
+          "isShownInCore": true,
+          "isShownInFull": true
+        }
+      ],
+      "situationalRequirements": [
+        {
+          "apiName": "DA_18_RiftbeastTraitAugment",
+          "type": "Augment",
+          "weight": 4,
+          "isRequired": false
+        }
+      ],
+      "recommendedAugments": [
+        "DA_18_RiftbeastTraitAugment",
+        "DA_JeweledLotus_I",
+        "DA_GlassCannon_Silver",
+        "DA_WorththeWaitII",
+        "DA_18_CaretakersAlly",
+        "DA_LuckyGlovesPlus",
+        "DA_NestingDollsPlus"
+      ]
+    },
+  {
+    "id": 7,
+    "name": "DRAVEN EZREAL 9 ",
+    "description": "Fast 9. Only play from early win streak and lots of gold.",
+    "champions": [
+      56,
+      39,
+      13,
+      57,
+      33,
+      54,
+      40,
+      53,
+      17
+    ],
+    "coreChampions": [
+      {
+        "id": 57,
+        "weight": 4,
+        "requiresThreeStars": false
+      },
+      {
+        "id": 13,
+        "weight": 4,
+        "requiresThreeStars": false
+      },
+      {
+        "id": 17,
+        "weight": 4,
+        "requiresThreeStars": false
+      }
+    ],
+    "earlyCoreChampions": [
+      {
+        "id": 15,
+        "weight": 2
+      },
+      {
+        "id": 48,
+        "weight": 2
+      },
+      {
+        "id": 63,
+        "weight": 2
+      },
+      {
+        "id": 56,
+        "weight": 2
+      }
+    ],
+    "requiredTraits": [
+      {
+        "apiName": "DA_18_Elderwood",
+        "minUnits": 3,
+        "weight": 2
+      },
+      {
+        "apiName": "DA_18_Brawler",
+        "minUnits": 2,
+        "weight": 2
+      },
+      {
+        "apiName": "DA_18_Executioner",
+        "minUnits": 2,
+        "weight": 2
+      },
+      {
+        "apiName": "DA_18_Inferno",
+        "minUnits": 2,
+        "weight": 2
+      },
+      {
+        "apiName": "DA_Juggernaut18",
+        "minUnits": 2,
+        "weight": 2
+      }
+    ],
+    "items": [
+      {
+        "id": 32,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 47,
+        "weight": 2.5,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 49,
+        "weight": 2.5,
+        "maxEffective": 2,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 13,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 37,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 21,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 15,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 43,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 17,
+        "weight": 3,
+        "maxEffective": 2,
+        "isCore": false,
+        "components": []
+      }
+    ],
+    "components": [
+      {
+        "id": 4,
+        "weight": 3,
+        "max": 3
       },
       {
         "id": 3,
         "weight": 2.5,
-        "maxEffective": 6
+        "max": 5
+      },
+      {
+        "id": 6,
+        "weight": 2.5,
+        "max": 5
+      },
+      {
+        "id": 1,
+        "weight": 2,
+        "max": 2
       },
       {
         "id": 7,
-        "weight": 2,
-        "maxEffective": 2
-      },
-      {
-        "id": 8,
-        "weight": 2,
-        "maxEffective": 4
-      }
-    ],
-    "recommendedItems": [
-      {
-        "id": 6,
-        "weight": 1,
-        "maxEffective": 2
-      },
-      {
-        "id": 2,
-        "weight": 1.5,
-        "maxEffective": 3
+        "weight": 2.5,
+        "max": 1
       },
       {
         "id": 5,
-        "weight": 1,
-        "maxEffective": 2
+        "weight": 2,
+        "max": 2
+      },
+      {
+        "id": 9,
+        "weight": 2,
+        "max": 3
+      },
+      {
+        "id": 2,
+        "weight": 2,
+        "max": 2
       }
     ],
-    "tier": "A"
-  }
-
-]
+    "tier": "A",
+    "assignedItems": [
+      {
+        "championId": 48,
+        "itemId": 32,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 48,
+        "itemId": 37,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 48,
+        "itemId": 21,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 17,
+        "itemId": 21,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 17,
+        "itemId": 43,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 17,
+        "itemId": 15,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 33,
+        "itemId": 17,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": false,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": false,
+        "isShownInFull": true
+      },
+      {
+        "championId": 40,
+        "itemId": 17,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": false,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": false,
+        "isShownInFull": true
+      },
+      {
+        "championId": 57,
+        "itemId": 32,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 57,
+        "itemId": 47,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 57,
+        "itemId": 49,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 13,
+        "itemId": 13,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 13,
+        "itemId": 37,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 13,
+        "itemId": 49,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      }
+    ],
+    "situationalRequirements": [
+      {
+        "apiName": "DA_LevelUp",
+        "type": "Augment",
+        "weight": 3,
+        "isRequired": false
+      }
+    ],
+    "recommendedAugments": [
+      "DA_LevelUp",
+      "DA_LateGameScaling",
+      "DA_InvestedPlusPlus",
+      "DA_LuxurySubscription",
+      "DA_18_DuoQueue",
+      "DA_LateGameSpecialist",
+      "DA_ExplosiveGrowthPlus",
+      "DA_BirthdayPresent"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "AHRI MORGANA",
+    "description": "Playstyle: 4-Cost Fast 8\nAugment Priority -\u003E Econ -\u003E Items -\u003E Combat ",
+    "champions": [
+      59,
+      3,
+      20,
+      6,
+      27,
+      21,
+      22,
+      7
+    ],
+    "coreChampions": [
+      {
+        "id": 22,
+        "weight": 4,
+        "requiresThreeStars": false
+      },
+      {
+        "id": 27,
+        "weight": 4,
+        "requiresThreeStars": false
+      },
+      {
+        "id": 7,
+        "weight": 4,
+        "requiresThreeStars": false
+      }
+    ],
+    "earlyCoreChampions": [
+      {
+        "id": 59,
+        "weight": 3
+      },
+      {
+        "id": 28,
+        "weight": 2
+      },
+      {
+        "id": 19,
+        "weight": 2
+      },
+      {
+        "id": 20,
+        "weight": 2
+      }
+    ],
+    "requiredTraits": [
+      {
+        "apiName": "DA_18_Invoker",
+        "minUnits": 2,
+        "weight": 2
+      },
+      {
+        "apiName": "DA_18_Invoker",
+        "minUnits": 3,
+        "weight": 3
+      }
+    ],
+    "items": [
+      {
+        "id": 44,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 30,
+        "weight": 2.5,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 13,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 22,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 19,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 23,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 43,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 21,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      }
+    ],
+    "components": [
+      {
+        "id": 2,
+        "weight": 2.5,
+        "max": 2
+      },
+      {
+        "id": 6,
+        "weight": 3,
+        "max": 2
+      },
+      {
+        "id": 5,
+        "weight": 3,
+        "max": 4
+      },
+      {
+        "id": 7,
+        "weight": 3,
+        "max": 2
+      },
+      {
+        "id": 4,
+        "weight": 2,
+        "max": 1
+      },
+      {
+        "id": 1,
+        "weight": 2,
+        "max": 2
+      },
+      {
+        "id": 9,
+        "weight": 2,
+        "max": 2
+      },
+      {
+        "id": 3,
+        "weight": 2,
+        "max": 1
+      }
+    ],
+    "tier": "A",
+    "assignedItems": [
+      {
+        "championId": 59,
+        "itemId": 44,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 59,
+        "itemId": 13,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 7,
+        "itemId": 21,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 7,
+        "itemId": 23,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 7,
+        "itemId": 43,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 22,
+        "itemId": 44,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 22,
+        "itemId": 30,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 22,
+        "itemId": 13,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 27,
+        "itemId": 22,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 27,
+        "itemId": 19,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      }
+    ],
+    "situationalRequirements": [],
+    "recommendedAugments": [
+      "DA_JeweledLotus_I",
+      "DA_JeweledLotus_II",
+      "DA_GlassCannon_Silver",
+      "DA_GlassCannon_Gold",
+      "DA_18_FOURcing",
+      "DA_Staffsmith",
+      "DA_CyberneticUplink_Gold",
+      "DA_WandOverflow"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Elderwood Executioners",
+    "description": "Playstyle: 4-Cost Fast 8\nAugment Priority -\u003E ITEMS -\u003E ECON -\u003E COMBAT",
+    "champions": [
+      10,
+      9,
+      51,
+      12,
+      13,
+      52,
+      33,
+      40,
+      53,
+      55
+    ],
+    "coreChampions": [
+      {
+        "id": 12,
+        "weight": 3.5,
+        "requiresThreeStars": false
+      },
+      {
+        "id": 13,
+        "weight": 4,
+        "requiresThreeStars": false
+      },
+      {
+        "id": 52,
+        "weight": 4,
+        "requiresThreeStars": false
+      }
+    ],
+    "earlyCoreChampions": [
+      {
+        "id": 10,
+        "weight": 2
+      },
+      {
+        "id": 9,
+        "weight": 4
+      },
+      {
+        "id": 60,
+        "weight": 3
+      },
+      {
+        "id": 62,
+        "weight": 2
+      }
+    ],
+    "requiredTraits": [
+      {
+        "apiName": "DA_FloraFatalis18",
+        "minUnits": 2,
+        "weight": 3
+      },
+      {
+        "apiName": "DA_18_Elderwood",
+        "minUnits": 3,
+        "weight": 3
+      },
+      {
+        "apiName": "DA_18_Elderwood",
+        "minUnits": 5,
+        "weight": 5
+      },
+      {
+        "apiName": "DA_18_Executioner",
+        "minUnits": 2,
+        "weight": 3
+      },
+      {
+        "apiName": "DA_18_Executioner",
+        "minUnits": 3,
+        "weight": 4
+      },
+      {
+        "apiName": "DA_18_Defender",
+        "minUnits": 2,
+        "weight": 2
+      },
+      {
+        "apiName": "DA_18_Vanguard",
+        "minUnits": 2,
+        "weight": 2
+      }
+    ],
+    "items": [
+      {
+        "id": 49,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 37,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 13,
+        "weight": 3.5,
+        "maxEffective": 3,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 35,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 17,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 23,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 43,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 40,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      }
+    ],
+    "components": [
+      {
+        "id": 2,
+        "weight": 3.5,
+        "max": 3
+      },
+      {
+        "id": 6,
+        "weight": 2,
+        "max": 3
+      },
+      {
+        "id": 4,
+        "weight": 2,
+        "max": 1
+      },
+      {
+        "id": 3,
+        "weight": 3.5,
+        "max": 4
+      },
+      {
+        "id": 9,
+        "weight": 3.5,
+        "max": 4
+      },
+      {
+        "id": 7,
+        "weight": 2.5,
+        "max": 2
+      },
+      {
+        "id": 5,
+        "weight": 2,
+        "max": 1
+      },
+      {
+        "id": 1,
+        "weight": 2,
+        "max": 2
+      },
+      {
+        "id": 8,
+        "weight": 4,
+        "max": 1
+      }
+    ],
+    "tier": "A",
+    "assignedItems": [
+      {
+        "championId": 9,
+        "itemId": 13,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 9,
+        "itemId": 37,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 60,
+        "itemId": 13,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 12,
+        "itemId": 43,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 12,
+        "itemId": 23,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 12,
+        "itemId": 40,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 33,
+        "itemId": 17,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": false,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": false,
+        "isShownInFull": true
+      },
+      {
+        "championId": 52,
+        "itemId": 13,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 52,
+        "itemId": 35,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 52,
+        "itemId": 131,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 13,
+        "itemId": 13,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 13,
+        "itemId": 37,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 13,
+        "itemId": 49,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 55,
+        "itemId": 13,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      }
+    ],
+    "situationalRequirements": [
+      {
+        "apiName": "DA_18_EmblemElderwood",
+        "type": "Emblem",
+        "weight": 4,
+        "isRequired": true
+      }
+    ],
+    "recommendedAugments": [
+      "DA_18_ElderwoodTraitAugment",
+      "DA_BodyguardTraining",
+      "DA_18_LuxAugmentII",
+      "DA_SwordOverflow",
+      "DA_Swordsmith",
+      "DA_Staffsmith",
+      "DA_WandOverflow",
+      "DA_CommerceCore"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Aphelios Nidalee",
+    "description": "Playstyle: 4-Cost Fast 8 \nAugment Priority -\u003E ITEMS -\u003E ECON -\u003E COMBAT",
+    "champions": [
+      62,
+      38,
+      42,
+      49,
+      36,
+      39,
+      11,
+      7,
+      41
+    ],
+    "coreChampions": [
+      {
+        "id": 41,
+        "weight": 4,
+        "requiresThreeStars": false
+      },
+      {
+        "id": 11,
+        "weight": 4,
+        "requiresThreeStars": false
+      },
+      {
+        "id": 7,
+        "weight": 4,
+        "requiresThreeStars": false
+      }
+    ],
+    "earlyCoreChampions": [
+      {
+        "id": 37,
+        "weight": 5
+      },
+      {
+        "id": 64,
+        "weight": 2
+      },
+      {
+        "id": 44,
+        "weight": 2
+      }
+    ],
+    "requiredTraits": [
+      {
+        "apiName": "DA_18_Adaptor",
+        "minUnits": 2,
+        "weight": 3
+      },
+      {
+        "apiName": "DA_18_Inferno",
+        "minUnits": 2,
+        "weight": 3
+      },
+      {
+        "apiName": "DA_18_Invoker",
+        "minUnits": 2,
+        "weight": 2
+      },
+      {
+        "apiName": "DA_18_Lunar",
+        "minUnits": 2,
+        "weight": 3
+      },
+      {
+        "apiName": "DA_18_Rapidfire",
+        "minUnits": 2,
+        "weight": 2
+      }
+    ],
+    "items": [
+      {
+        "id": 18,
+        "weight": 4,
+        "maxEffective": 2,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 32,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 47,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 13,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 39,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 20,
+        "weight": 3,
+        "maxEffective": 2,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 21,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      }
+    ],
+    "components": [
+      {
+        "id": 5,
+        "weight": 2.5,
+        "max": 3
+      },
+      {
+        "id": 9,
+        "weight": 2,
+        "max": 2
+      },
+      {
+        "id": 2,
+        "weight": 2.5,
+        "max": 3
+      },
+      {
+        "id": 6,
+        "weight": 3,
+        "max": 2
+      },
+      {
+        "id": 3,
+        "weight": 4,
+        "max": 4
+      },
+      {
+        "id": 1,
+        "weight": 2,
+        "max": 1
+      },
+      {
+        "id": 7,
+        "weight": 2.5,
+        "max": 1
+      },
+      {
+        "id": 4,
+        "weight": 3,
+        "max": 2
+      }
+    ],
+    "tier": "A",
+    "assignedItems": [
+      {
+        "championId": 37,
+        "itemId": 18,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 37,
+        "itemId": 18,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 37,
+        "itemId": 39,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 7,
+        "itemId": 20,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 7,
+        "itemId": 20,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 7,
+        "itemId": 21,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 41,
+        "itemId": 32,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 41,
+        "itemId": 18,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 41,
+        "itemId": 47,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 11,
+        "itemId": 13,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 11,
+        "itemId": 39,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 11,
+        "itemId": 18,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      }
+    ],
+    "situationalRequirements": [],
+    "recommendedAugments": [
+      "DA_Swordsmith",
+      "DA_CarveAPath",
+      "DA_SwordOverflow",
+      "DA_BuriedTreasuresIII",
+      "DA_18_FOURcing",
+      "DA_EpicRolldown",
+      "DA_OneBuffTwoBuff"
+    ]
+  },
+    {
+      "id": 9,
+      "name": "Solar Blossom",
+      "description": "Playstyle: 2-Cost Reroll\nAugment Priority -\u003E ECON -\u003E ITEMS -\u003E COMBAT",
+      "champions": [
+        59,
+        19,
+        60,
+        44,
+        46,
+        45,
+        14,
+        20
+      ],
+      "coreChampions": [
+        {
+          "id": 59,
+          "weight": 4,
+          "requiresThreeStars": true
+        },
+        {
+          "id": 44,
+          "weight": 2.5,
+          "requiresThreeStars": true
+        },
+        {
+          "id": 19,
+          "weight": 3.5,
+          "requiresThreeStars": true
+        },
+        {
+          "id": 20,
+          "weight": 4,
+          "requiresThreeStars": true
+        },
+        {
+          "id": 46,
+          "weight": 4,
+          "requiresThreeStars": true
+        }
+      ],
+      "earlyCoreChampions": [
+        {
+          "id": 59,
+          "weight": 3
+        },
+        {
+          "id": 60,
+          "weight": 2
+        },
+        {
+          "id": 20,
+          "weight": 4
+        },
+        {
+          "id": 19,
+          "weight": 2
+        }
+      ],
+      "requiredTraits": [
+        {
+          "apiName": "DA_18_Solar",
+          "minUnits": 3,
+          "weight": 4
+        },
+        {
+          "apiName": "DA_18_Blossom",
+          "minUnits": 3,
+          "weight": 3.5
+        },
+        {
+          "apiName": "DA_18_Executioner",
+          "minUnits": 2,
+          "weight": 2.5
+        },
+        {
+          "apiName": "DA_18_Spellweaver",
+          "minUnits": 2,
+          "weight": 3
+        },
+        {
+          "apiName": "DA_18_Summoner",
+          "minUnits": 2,
+          "weight": 3
+        }
+      ],
+      "items": [
+        {
+          "id": 44,
+          "weight": 3.5,
+          "maxEffective": 1,
+          "isCore": true,
+          "components": []
+        },
+        {
+          "id": 15,
+          "weight": 3,
+          "maxEffective": 2,
+          "isCore": true,
+          "components": []
+        },
+        {
+          "id": 46,
+          "weight": 3,
+          "maxEffective": 1,
+          "isCore": true,
+          "components": []
+        },
+        {
+          "id": 35,
+          "weight": 3,
+          "maxEffective": 1,
+          "isCore": true,
+          "components": []
+        },
+        {
+          "id": 49,
+          "weight": 2.5,
+          "maxEffective": 1,
+          "isCore": false,
+          "components": []
+        },
+        {
+          "id": 13,
+          "weight": 3,
+          "maxEffective": 1,
+          "isCore": true,
+          "components": []
+        },
+        {
+          "id": 37,
+          "weight": 2.5,
+          "maxEffective": 1,
+          "isCore": false,
+          "components": []
+        },
+        {
+          "id": 21,
+          "weight": 2,
+          "maxEffective": 1,
+          "isCore": false,
+          "components": []
+        },
+        {
+          "id": 22,
+          "weight": 2,
+          "maxEffective": 1,
+          "isCore": false,
+          "components": []
+        }
+      ],
+      "components": [
+        {
+          "id": 3,
+          "weight": 3,
+          "max": 1
+        },
+        {
+          "id": 9,
+          "weight": 2.5,
+          "max": 2
+        },
+        {
+          "id": 5,
+          "weight": 2,
+          "max": 2
+        },
+        {
+          "id": 7,
+          "weight": 3,
+          "max": 3
+        },
+        {
+          "id": 1,
+          "weight": 2.5,
+          "max": 2
+        },
+        {
+          "id": 4,
+          "weight": 2,
+          "max": 2
+        },
+        {
+          "id": 6,
+          "weight": 3,
+          "max": 2
+        },
+        {
+          "id": 2,
+          "weight": 3,
+          "max": 3
+        }
+      ],
+      "tier": "A",
+      "assignedItems": [
+        {
+          "championId": 59,
+          "itemId": 44,
+          "scope": 5,
+          "showEarlyCore": true,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": true,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 59,
+          "itemId": 46,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 59,
+          "itemId": 35,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 19,
+          "itemId": 15,
+          "scope": 5,
+          "showEarlyCore": true,
+          "showCore": false,
+          "showFull": false,
+          "isShownInEarlyCore": true,
+          "isShownInCore": false,
+          "isShownInFull": false
+        },
+        {
+          "championId": 46,
+          "itemId": 15,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 46,
+          "itemId": 21,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 46,
+          "itemId": 15,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 20,
+          "itemId": 49,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 20,
+          "itemId": 13,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 20,
+          "itemId": 37,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 60,
+          "itemId": 22,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        }
+      ],
+      "situationalRequirements": [],
+      "recommendedAugments": [
+        "DA_18_CaretakersAlly",
+        "DA_SwordOverflow",
+        "DA_HeroicGrabBag",
+        "DA_SoloPlate",
+        "DA_PandorasBench",
+        "DA_PrismaticTicket",
+        "DA_TradeSector",
+        "DA_18_WispRebatePlusPlus"
+      ]
+    },
+  {
+    "id": 9,
+    "name": "Defender Cassio",
+    "description": "Playstyle: 3-Cost Reroll\nAugment Priority -\u003E ITEMS -\u003E ECON -\u003E COMBAT\nIf have Defender Emblem can replace Leona for Rengar with the emblem.",
+    "champions": [
+      44,
+      10,
+      62,
+      51,
+      32,
+      26,
+      29
+    ],
+    "coreChampions": [
+      {
+        "id": 44,
+        "weight": 4,
+        "requiresThreeStars": false
+      },
+      {
+        "id": 10,
+        "weight": 3,
+        "requiresThreeStars": true
+      },
+      {
+        "id": 51,
+        "weight": 4,
+        "requiresThreeStars": false
+      },
+      {
+        "id": 32,
+        "weight": 4,
+        "requiresThreeStars": false
+      },
+      {
+        "id": 26,
+        "weight": 4,
+        "requiresThreeStars": false
+      }
+    ],
+    "earlyCoreChampions": [
+      {
+        "id": 59,
+        "weight": 2
+      },
+      {
+        "id": 44,
+        "weight": 2
+      },
+      {
+        "id": 60,
+        "weight": 2
+      }
+    ],
+    "requiredTraits": [
+      {
+        "apiName": "DA_18_Defender",
+        "minUnits": 2,
+        "weight": 2.5
+      },
+      {
+        "apiName": "DA_18_Defender",
+        "minUnits": 4,
+        "weight": 3.5
+      },
+      {
+        "apiName": "DA_18_Defender",
+        "minUnits": 6,
+        "weight": 5
+      },
+      {
+        "apiName": "DA_18_Spellweaver",
+        "minUnits": 2,
+        "weight": 3
+      },
+      {
+        "apiName": "DA_FloraFatalis18",
+        "minUnits": 1,
+        "weight": 2
+      },
+      {
+        "apiName": "DA_FloraFatalis18",
+        "minUnits": 2,
+        "weight": 3.5
+      }
+    ],
+    "items": [
+      {
+        "id": 13,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 28,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 41,
+        "weight": 2.5,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 26,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 42,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 38,
+        "weight": 2.5,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 34,
+        "weight": 2.5,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 40,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 31,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 17,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      }
+    ],
+    "components": [
+      {
+        "id": 2,
+        "weight": 3,
+        "max": 3
+      },
+      {
+        "id": 3,
+        "weight": 3,
+        "max": 2
+      },
+      {
+        "id": 7,
+        "weight": 3,
+        "max": 4
+      },
+      {
+        "id": 9,
+        "weight": 3,
+        "max": 4
+      },
+      {
+        "id": 5,
+        "weight": 2,
+        "max": 1
+      },
+      {
+        "id": 1,
+        "weight": 2.5,
+        "max": 2
+      },
+      {
+        "id": 4,
+        "weight": 1.5,
+        "max": 1
+      },
+      {
+        "id": 6,
+        "weight": 2,
+        "max": 3
+      }
+    ],
+    "tier": "A",
+    "assignedItems": [
+      {
+        "championId": 59,
+        "itemId": 13,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 59,
+        "itemId": 28,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 10,
+        "itemId": 40,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 10,
+        "itemId": 34,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 51,
+        "itemId": 26,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 51,
+        "itemId": 38,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 51,
+        "itemId": 42,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 32,
+        "itemId": 34,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 32,
+        "itemId": 40,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 32,
+        "itemId": 31,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 26,
+        "itemId": 13,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 26,
+        "itemId": 28,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 26,
+        "itemId": 41,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 29,
+        "itemId": 17,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      }
+    ],
+    "situationalRequirements": [
+      {
+        "apiName": "DA_18_EmblemDefender",
+        "type": "Emblem",
+        "weight": 4,
+        "isRequired": false
+      }
+    ],
+    "recommendedAugments": [
+      "DA_Ascension",
+      "DA_18_FloraFatalisAugment",
+      "DA_SpiritOfRedemption",
+      "DA_ItsMeBaby",
+      "DA_WovenMagic",
+      "DA_HeroicGrabBagPlusPlus",
+      "DA_FlowingTears"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Elderwood Veigar",
+    "description": "Playstyle: 1-Cost Reroll\nPlay with lots of copies of Ornn and Veigar.\nBest with emblem or artifact.\nAugment Priority -\u003E ITEMS -\u003E ECON -\u003E COMBAT",
+    "champions": [
+      15,
+      16,
+      10,
+      60,
+      26,
+      51,
+      56
+    ],
+    "coreChampions": [
+      {
+        "id": 10,
+        "weight": 5,
+        "requiresThreeStars": true
+      },
+      {
+        "id": 15,
+        "weight": 4,
+        "requiresThreeStars": true
+      },
+      {
+        "id": 16,
+        "weight": 5,
+        "requiresThreeStars": true
+      },
+      {
+        "id": 56,
+        "weight": 4,
+        "requiresThreeStars": true
+      },
+      {
+        "id": 60,
+        "weight": 4,
+        "requiresThreeStars": true
+      }
+    ],
+    "earlyCoreChampions": [
+      {
+        "id": 30,
+        "weight": 2
+      },
+      {
+        "id": 31,
+        "weight": 2
+      },
+      {
+        "id": 16,
+        "weight": 2
+      },
+      {
+        "id": 15,
+        "weight": 2
+      }
+    ],
+    "requiredTraits": [
+      {
+        "apiName": "DA_18_Spellweaver",
+        "minUnits": 2,
+        "weight": 3
+      },
+      {
+        "apiName": "DA_18_Spellweaver",
+        "minUnits": 4,
+        "weight": 5
+      },
+      {
+        "apiName": "DA_18_Elderwood",
+        "minUnits": 3,
+        "weight": 3
+      },
+      {
+        "apiName": "DA_18_Blackthorn",
+        "minUnits": 2,
+        "weight": 2.5
+      },
+      {
+        "apiName": "DA_18_Brawler",
+        "minUnits": 2,
+        "weight": 2
+      },
+      {
+        "apiName": "DA_18_Defender",
+        "minUnits": 2,
+        "weight": 2
+      }
+    ],
+    "items": [
+      {
+        "id": 44,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 46,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 66,
+        "weight": 4,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 21,
+        "weight": 2.5,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 38,
+        "weight": 2.5,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 15,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 22,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 19,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      }
+    ],
+    "components": [
+      {
+        "id": 2,
+        "weight": 3,
+        "max": 3
+      },
+      {
+        "id": 5,
+        "weight": 2.5,
+        "max": 3
+      },
+      {
+        "id": 7,
+        "weight": 3.5,
+        "max": 4
+      },
+      {
+        "id": 9,
+        "weight": 2.5,
+        "max": 2
+      },
+      {
+        "id": 4,
+        "weight": 2,
+        "max": 1
+      },
+      {
+        "id": 6,
+        "weight": 3,
+        "max": 1
+      },
+      {
+        "id": 1,
+        "weight": 2,
+        "max": 1
+      }
+    ],
+    "tier": "A",
+    "assignedItems": [
+      {
+        "championId": 16,
+        "itemId": 46,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": true,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 16,
+        "itemId": 44,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": true,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 16,
+        "itemId": 66,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 10,
+        "itemId": 21,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 10,
+        "itemId": 38,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 10,
+        "itemId": 15,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 60,
+        "itemId": 22,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 60,
+        "itemId": 19,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      }
+    ],
+    "situationalRequirements": [
+      {
+        "apiName": "DA_18_EmblemFloraFatalis",
+        "type": "Emblem",
+        "weight": 4,
+        "isRequired": false
+      }
+    ],
+    "recommendedAugments": [
+      "DA_LivingForge",
+      "DA_ForgedInStrength",
+      "DA_PortableForge",
+      "DA_LatentForge",
+      "DA_18_FloraFatalisAugment",
+      "DA_MissedConnections",
+      "DA_PandorasBench",
+      "DA_DeadlierCaps"
+    ]
+  },
+    {
+      "id": 11,
+      "name": "Zyra Juggernaut",
+      "description": "Playstyle: 4-Cost Fast 8\nAugment Priority -\u003E ITEMS -\u003E ECON -\u003E COMBAT\nBest with Juggernaut emblem on Kennen.",
+      "champions": [
+        28,
+        19,
+        5,
+        36,
+        39,
+        11,
+        50,
+        54,
+        17
+      ],
+      "coreChampions": [
+        {
+          "id": 39,
+          "weight": 4,
+          "requiresThreeStars": false
+        },
+        {
+          "id": 11,
+          "weight": 4,
+          "requiresThreeStars": false
+        },
+        {
+          "id": 50,
+          "weight": 4,
+          "requiresThreeStars": false
+        },
+        {
+          "id": 54,
+          "weight": 4,
+          "requiresThreeStars": false
+        }
+      ],
+      "earlyCoreChampions": [
+        {
+          "id": 59,
+          "weight": 4
+        },
+        {
+          "id": 28,
+          "weight": 2
+        },
+        {
+          "id": 19,
+          "weight": 2
+        },
+        {
+          "id": 20,
+          "weight": 2
+        }
+      ],
+      "requiredTraits": [
+        {
+          "apiName": "DA_Juggernaut18",
+          "minUnits": 2,
+          "weight": 3
+        },
+        {
+          "apiName": "DA_Juggernaut18",
+          "minUnits": 4,
+          "weight": 4
+        },
+        {
+          "apiName": "DA_Juggernaut18",
+          "minUnits": 6,
+          "weight": 6
+        },
+        {
+          "apiName": "DA_18_Summoner",
+          "minUnits": 2,
+          "weight": 3
+        },
+        {
+          "apiName": "DA_Primal18",
+          "minUnits": 2,
+          "weight": 3
+        }
+      ],
+      "items": [
+        {
+          "id": 41,
+          "weight": 3.5,
+          "maxEffective": 2,
+          "isCore": true,
+          "components": []
+        },
+        {
+          "id": 32,
+          "weight": 3.5,
+          "maxEffective": 2,
+          "isCore": true,
+          "components": []
+        },
+        {
+          "id": 13,
+          "weight": 3.5,
+          "maxEffective": 2,
+          "isCore": true,
+          "components": []
+        },
+        {
+          "id": 28,
+          "weight": 3,
+          "maxEffective": 1,
+          "isCore": true,
+          "components": []
+        },
+        {
+          "id": 22,
+          "weight": 2,
+          "maxEffective": 1,
+          "isCore": false,
+          "components": []
+        },
+        {
+          "id": 21,
+          "weight": 3,
+          "maxEffective": 1,
+          "isCore": true,
+          "components": []
+        },
+        {
+          "id": 43,
+          "weight": 2,
+          "maxEffective": 1,
+          "isCore": false,
+          "components": []
+        },
+        {
+          "id": 23,
+          "weight": 2,
+          "maxEffective": 1,
+          "isCore": false,
+          "components": []
+        }
+      ],
+      "components": [
+        {
+          "id": 3,
+          "weight": 3,
+          "max": 3
+        },
+        {
+          "id": 9,
+          "weight": 2,
+          "max": 2
+        },
+        {
+          "id": 5,
+          "weight": 2.5,
+          "max": 2
+        },
+        {
+          "id": 7,
+          "weight": 3,
+          "max": 5
+        },
+        {
+          "id": 1,
+          "weight": 2,
+          "max": 2
+        },
+        {
+          "id": 4,
+          "weight": 3,
+          "max": 3
+        },
+        {
+          "id": 2,
+          "weight": 3,
+          "max": 5
+        }
+      ],
+      "tier": "B",
+      "assignedItems": [
+        {
+          "championId": 39,
+          "itemId": 21,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 39,
+          "itemId": 43,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 39,
+          "itemId": 23,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 11,
+          "itemId": 32,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 11,
+          "itemId": 41,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 11,
+          "itemId": 22,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 50,
+          "itemId": 13,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 50,
+          "itemId": 41,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 50,
+          "itemId": 28,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 54,
+          "itemId": 13,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 54,
+          "itemId": 32,
+          "scope": 5,
+          "showEarlyCore": false,
+          "showCore": true,
+          "showFull": true,
+          "isShownInEarlyCore": false,
+          "isShownInCore": true,
+          "isShownInFull": true
+        },
+        {
+          "championId": 59,
+          "itemId": 13,
+          "scope": 5,
+          "showEarlyCore": true,
+          "showCore": false,
+          "showFull": false,
+          "isShownInEarlyCore": true,
+          "isShownInCore": false,
+          "isShownInFull": false
+        },
+        {
+          "championId": 59,
+          "itemId": 41,
+          "scope": 5,
+          "showEarlyCore": true,
+          "showCore": false,
+          "showFull": false,
+          "isShownInEarlyCore": true,
+          "isShownInCore": false,
+          "isShownInFull": false
+        }
+      ],
+      "situationalRequirements": [],
+      "recommendedAugments": [
+        "DA_18_BigGrabBag",
+        "DA_CyberneticUplink_Gold",
+        "DA_CommerceCore",
+        "DA_SeraphimsStaff",
+        "DA_SpreadingRoots",
+        "DA_WandOverflow",
+        "DA_TheTraitTree",
+        "DA_BoxingLessons"
+      ]
+    }
+  ]
+  
+  
+  
+  

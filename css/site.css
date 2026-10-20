@@ -1,4 +1,4 @@
-﻿/* ===== Layout principal ===== */
+﻿/* ===== Base general ===== */
 body {
     color: #f0f0f0;
     background: #1c1e21;
@@ -6,7 +6,7 @@ body {
     font-family: 'Segoe UI', sans-serif;
 }
 
-/* ===== Contenedor principal ===== */
+/* ===== Layout principal ===== */
 .main-container {
     display: flex;
     flex-direction: row;
@@ -25,102 +25,195 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
     display: flex;
     flex-direction: column;
-    height: 100%;
 }
+
     .section.champions {
-        flex: 2; /* ocupa el doble de ancho */
+        flex: 2;
     }
 
     .section.items {
-        flex: 1; /* ocupa la mitad */
+        flex: 1;
     }
 
-/* ===== Botones de Campeones / Ítems ===== */
+/* ===== Grillas ===== */
 .button-grid {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
     gap: 10px;
+    justify-items: center;
 }
 
-.champ-button, .item-button {
-    border: none;
+/* ===== Campeones ===== */
+.champ-button {
+    position: relative;
+    width: 76px;
+    height: 76px;
+    border: 3px solid transparent;
     border-radius: 10px;
-    padding: 8px 14px;
-    font-size: 14px;
-    font-weight: 600;
+    background: #222;
     cursor: pointer;
     transition: transform 0.15s ease, box-shadow 0.15s ease;
-    color: #fff;
 }
 
-/* ==== Campeones: colores por coste ==== */
+    .champ-button:hover {
+        transform: scale(1.06);
+        box-shadow: 0 0 8px rgba(255,255,255,0.25);
+    }
+
+.champ-icon {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: contain;
+    box-shadow: none; /* sin sombra */
+}
+
+/* ===== Colores por coste ===== */
 .cost-1 {
-    background-color: #555;
+    border-color: #7f8c8d;
 }
-/* Gris */
+/* gris */
 .cost-2 {
-    background-color: #2ecc71;
+    border-color: #2ecc71;
 }
-/* Verde */
+/* verde */
 .cost-3 {
-    background-color: #3498db;
+    border-color: #3498db;
 }
-/* Azul */
+/* azul */
 .cost-4 {
-    background-color: #9b59b6;
+    border-color: #9b59b6;
 }
-/* Violeta */
+/* violeta */
 .cost-5 {
-    background-color: #c29f15;
+    border-color: #f1c40f;
 }
-/* Amarillo */
+/* dorado */
+
+/* ===== Tooltip (nombre al pasar el mouse) ===== */
+.champ-button[title]:hover::after,
+.item-button[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    bottom: 105%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #111;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0.95;
+    z-index: 9999;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
 
 /* ===== Ítems ===== */
 .item-button {
-    background: linear-gradient(145deg, #666, #777);
-    border: 1px solid #888;
-    color: #fff;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
     .item-button:hover {
-        background: linear-gradient(145deg, #777, #888);
-        box-shadow: 0 0 12px rgba(255, 255, 255, 0.25);
-        transform: scale(1.05);
+        transform: scale(1.1);
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
     }
 
-/* ===== Listas de seleccionados ===== */
-.selected-list {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    margin-top: 12px;
+.item-icon {
+    width: 56px;
+    height: 56px;
+    aspect-ratio: 1 / 1;
+    border-radius: 8px;
+    object-fit: contain;
+    background: #000;
+    box-shadow: none;
+    display: block;
+    margin: auto;
 }
 
-.selected-champ, .selected-item {
+/* ===== Seleccionados ===== */
+.selected-list {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+}
+
+.selected-item {
+    display: flex;
     align-items: center;
     background: #3d4349;
-    padding: 6px 10px;
-    border-radius: 6px;
-    font-size: 14px;
+    padding: 4px 6px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    gap: 4px;
+    border: 2px solid transparent;
 }
+
+.selected-champ {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: #2b2f33;
+    padding: 4px 6px;
+    border-radius: 8px;
+    border: 3px solid transparent;
+    width: fit-content;
+}
+
+    /* Bordes por coste en seleccionados */
+    .selected-champ.cost-1 {
+        border-color: #7f8c8d;
+    }
+
+    .selected-champ.cost-2 {
+        border-color: #2ecc71;
+    }
+
+    .selected-champ.cost-3 {
+        border-color: #3498db;
+    }
+
+    .selected-champ.cost-4 {
+        border-color: #9b59b6;
+    }
+
+    .selected-champ.cost-5 {
+        border-color: #f1c40f;
+    }
+
+    .selected-champ img, .selected-item img {
+        width: 42px;
+        height: 42px;
+        border-radius: 6px;
+        object-fit: cover;
+    }
 
 .remove-btn {
     background: #e74c3c;
     border: none;
     color: white;
-    padding: 4px 8px;
+    padding: 2px 6px;
     border-radius: 6px;
     cursor: pointer;
     transition: background 0.2s ease;
+    font-size: 0.8rem;
 }
 
     .remove-btn:hover {
         background: #c0392b;
     }
 
-/* ===== COMPOSICIONES ===== */
+/* ===== Composiciones ===== */
 .comps-grid {
     display: flex;
     justify-content: center;
@@ -130,17 +223,17 @@ body {
     margin-top: 2rem;
 }
 
-/* Cada columna representa un Tier */
 .tier-column {
+    flex: 1;
+    min-width: 320px;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 1rem;
     background: #1f2225;
     padding: 10px;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-    min-width: 260px;
 }
 
 .tier-header {
@@ -151,154 +244,6 @@ body {
     margin-bottom: 0.5rem;
 }
 
-/* Tarjeta de composición */
-.comp-card {
-    background: #2b2f33;
-    border-radius: 10px;
-    padding: 10px 14px;
-    width: 240px;
-    color: #ddd;
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
-    cursor: pointer;
-    border-left: 6px solid transparent;
-}
-
-    .comp-card:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 4px 10px rgba(255,255,255,0.1);
-    }
-
-.comp-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-    .comp-header h5 {
-        margin: 0;
-        font-size: 1rem;
-        font-weight: bold;
-    }
-
-/* Porcentaje destacado */
-.comp-percent {
-    margin-top: 6px;
-    font-weight: bold;
-    font-size: 0.9rem;
-    padding: 3px 8px;
-    border-radius: 8px;
-    border: 1px solid transparent;
-}
-
-    .comp-percent[data-color="low"] {
-        color: #f44336;
-        border-color: #f44336;
-    }
-
-    .comp-percent[data-color="mid"] {
-        color: #ff9800;
-        border-color: #ff9800;
-    }
-
-    .comp-percent[data-color="high"] {
-        color: #4caf50;
-        border-color: #4caf50;
-    }
-
-/* Info dentro de comp cerrada */
-.comp-info {
-    margin-top: 6px;
-    font-size: 0.85rem;
-    color: #ccc;
-}
-
-/* Campeones mini-preview */
-.champ-preview {
-    display: inline-block;
-    margin-right: 4px;
-    font-size: 0.85rem;
-    border-radius: 4px;
-    padding: 1px 4px;
-    color: #fff;
-}
-
-    .champ-preview.cost-1 {
-        background: #555;
-    }
-
-    .champ-preview.cost-2 {
-        background: #2ecc71;
-    }
-
-    .champ-preview.cost-3 {
-        background: #3498db;
-    }
-
-    .champ-preview.cost-4 {
-        background: #9b59b6;
-    }
-
-    .champ-preview.cost-5 {
-        background: #c29f15;
-    }
-
-/* Expansión */
-.comp-details {
-    background: #222428;
-    border-radius: 8px;
-    padding: 8px;
-    margin-top: 8px;
-}
-
-    .comp-details h6 {
-        margin-top: 10px;
-        font-size: 0.9em;
-        color: #ddd;
-    }
-
-    .comp-details p {
-        margin: 4px 0;
-        font-size: 0.9em;
-        color: #ccc;
-    }
-
-/* Bordes del color según porcentaje */
-.comp-card[data-color="low"] {
-    border-left-color: #f44336;
-}
-
-.comp-card[data-color="mid"] {
-    border-left-color: #ff9800;
-}
-
-.comp-card[data-color="high"] {
-    border-left-color: #4caf50;
-}
-
-/* ===== Responsive ===== */
-@media (max-width: 900px) {
-    .main-container {
-        flex-direction: column;
-    }
-}
-.comps-grid {
-    display: flex;
-    gap: 2rem;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-
-.tier-column {
-    flex: 1;
-    min-width: 320px;
-    max-width: 400px; /* ✅ tarjetas más grandes */
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
 .comp-card {
     background: #2b2f33;
     border-radius: 12px;
@@ -306,6 +251,7 @@ body {
     color: #ddd;
     box-shadow: 0 3px 10px rgba(0,0,0,0.4);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-left: 6px solid transparent;
 }
 
     .comp-card:hover {
@@ -323,7 +269,7 @@ body {
     .comp-header h5 {
         flex: 1;
         margin: 0;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         font-weight: bold;
         color: #fff;
     }
@@ -333,24 +279,545 @@ body {
     padding: 3px 8px;
     border-radius: 6px;
     font-weight: bold;
+    font-size: 0.9rem;
 }
 
-.core-list {
+/* ===== Iconos dentro de tarjetas de composiciones ===== */
+.comp-card .core-list {
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.core-chip, .item-chip {
-    background: #444;
-    padding: 3px 8px;
+.champ-icon-container {
+    position: relative;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+    /* Diferenciación visual Core y Early-Core */
+    .champ-icon-container.core {
+        border: 2px solid gold;
+    }
+
+    .champ-icon-container.early-core {
+        border: 2px solid #00bcd4;
+        opacity: 0.9;
+    }
+
+/* Estilo de íconos */
+.comp-card .champ-icon {
+    width: 55px;
+    height: 55px;
     border-radius: 6px;
+    border-width: 2px;
+    cursor: pointer;
+    transition: transform 0.15s ease;
+}
+
+    .comp-card .champ-icon:hover {
+        transform: scale(1.1);
+        z-index: 2;
+    }
+
+.comp-card .item-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.15s ease;
+}
+
+    .comp-card .item-icon:hover {
+        transform: scale(1.1);
+        z-index: 2;
+    }
+
+/* Marcadores visuales */
+.core-marker {
+    position: absolute;
+    bottom: -6px;
+    right: -4px;
+    font-size: 0.9rem;
+    text-shadow: 0 0 3px #000;
+}
+.core-star {
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+    font-size: 14px;
+    color: gold;
+    text-shadow: 0 0 4px black;
+}
+.item-container {
+    position: relative;
+    display: inline-block;
+    margin: 3px;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+    .item-container.core {
+        border: 2px solid gold;
+    }
+
+.item-badge {
+    position: absolute;
+    bottom: -6px;
+    right: 2px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-size: 0.7rem;
+    border-radius: 4px;
+    padding: 1px 3px;
+}
+
+/* Tooltip dentro de tarjetas */
+.comp-card .champ-icon[title]:hover::after,
+.comp-card .item-icon[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    bottom: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    padding: 4px 6px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 10;
+}
+
+/* ===== Expansión detalles ===== */
+.comp-details {
+    background: #222428;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+    .comp-details h6 {
+        margin-top: 8px;
+        margin-bottom: 4px;
+        font-size: 0.85rem;
+        color: #ddd;
+        font-weight: 600;
+    }
+
+    .comp-details p {
+        margin: 4px 0;
+        font-size: 0.9em;
+        color: #ccc;
+    }
+
+/* Iconos pequeños para aportes/recomendaciones */
+.mini-icon {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    margin: 0 4px;
+    border-radius: 4px;
+    object-fit: contain;
+}
+
+/* Borde por coste en las tarjetas también */
+.comp-card .champ-icon.cost-1 {
+    border: 2px solid #7f8c8d;
+}
+
+.comp-card .champ-icon.cost-2 {
+    border: 2px solid #2ecc71;
+}
+
+.comp-card .champ-icon.cost-3 {
+    border: 2px solid #3498db;
+}
+
+.comp-card .champ-icon.cost-4 {
+    border: 2px solid #9b59b6;
+}
+
+.comp-card .champ-icon.cost-5 {
+    border: 2px solid #f1c40f;
+}
+.champ-icon-container.early-core .champ-icon {
+    box-shadow: 0 0 8px rgba(0, 180, 255, 0.5);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 900px) {
+    .main-container {
+        flex-direction: column;
+    }
+}
+.champ-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.assigned-items-bar {
+    position: absolute;
+    top: -10px;
+    display: flex;
+    gap: 4px;
+    z-index: 5;
+}
+
+.assigned-item-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 2px;
+    background: rgba(20, 20, 20, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+
+.champ-items-under {
+    display: flex;
+    gap: 6px;
+    margin-top: 4px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-icon-small {
+    width: 26px;
+    height: 26px;
+}
+
+.component-row {
+    display: flex;
+    gap: 2px;
+    margin-top: 1px;
+}
+
+.component-icon {
+    width: 18px;
+    height: 18px;
+}
+.champ-icon-container {
+    position: relative;
+}
+.item-tooltip {
+    position: fixed;
+    padding: 8px;
+    background: rgba(25, 25, 25, 0.95);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    color: #fff;
+    font-size: 0.8rem;
+    z-index: 9999;
+    pointer-events: none;
+    transition: opacity 0.12s ease-in-out;
+    opacity: 0;
+}
+
+    .item-tooltip.visible {
+        opacity: 1;
+    }
+
+.tooltip-components {
+    display: flex;
+    gap: 8px;
+    margin-top: 6px;
+}
+
+.tooltip-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tooltip-icon {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 4px;
+}
+/* Añadir al final de wwwroot/css/site.css */
+
+/* Contenedor para item con componentes */
+.item-with-components {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Tooltip flotante que contiene los iconos de componentes */
+.components-tooltip {
+    display: none; /* se muestra en hover */
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(20, 20, 20, 0.95);
+    color: #fff;
+    padding: 6px;
+    border-radius: 6px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+    z-index: 1200;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    min-width: 40px;
+}
+
+/* Mostrar tooltip al hacer hover sobre el contenedor */
+.item-with-components:hover > .components-tooltip {
+    display: flex;
+}
+
+/* Iconos dentro del tooltip */
+.component-tooltip-icon {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.03);
+    padding: 2px;
+}
+
+/* Flecha opcional */
+.components-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgba(20,20,20,0.95) transparent transparent transparent;
+}
+
+/* Tooltip de componentes: oculto por defecto, aparece al hover del contenedor */
+.item-with-components {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    /* tooltip inicialmente oculto (no interactuable) */
+    .item-with-components > .components-tooltip {
+        display: flex; /* mantenemos el layout, lo ocultamos visualmente */
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transform: translateY(6px) scale(0.98);
+        transition: opacity 140ms ease, transform 140ms ease, visibility 140ms;
+        position: absolute;
+        bottom: calc(100% + 8px);
+        left: 50%;
+        transform-origin: bottom center;
+        transform: translateX(-50%) translateY(6px) scale(0.98);
+        background: rgba(20, 20, 20, 0.95);
+        color: #fff;
+        padding: 6px;
+        border-radius: 6px;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+        z-index: 1200;
+        gap: 6px;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        min-width: 40px;
+    }
+
+    /* mostrar tooltip sólo cuando se hace hover en el contenedor padre */
+    .item-with-components:hover > .components-tooltip,
+    .item-with-components:focus-within > .components-tooltip {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        transform: translateX(-50%) translateY(0) scale(1);
+    }
+
+/* iconos dentro del tooltip */
+.component-tooltip-icon {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.03);
+    padding: 2px;
+}
+
+/* flecha opcional */
+.item-with-components > .components-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgba(20,20,20,0.95) transparent transparent transparent;
+}
+
+/* Assigned items above champions: layout y prevención de solapamiento */
+.assigned-items-bar {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap; /* permite que los iconos hagan wrap en varias filas */
+    justify-content: center;
+    max-width: 220px; /* limita el ancho para evitar solapamiento con campeones adyacentes */
+    margin-bottom: 6px;
+    pointer-events: auto;
+}
+
+/* Contenedor para cada icono asignado (reusa la lógica del tooltip existente) */
+.assigned-item-with-components {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Icono pequeño usado sobre el campeón */
+.assigned-item-icon {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    border-radius: 4px;
+    padding: 2px;
+    background: rgba(0,0,0,0.18);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.45);
+}
+
+/* Ajustes especificos del tooltip cuando se usa sobre assigned items */
+.assigned-item-with-components > .components-tooltip {
+    bottom: calc(100% + 6px);
+    left: 50%;
+    transform: translateX(-50%) translateY(6px) scale(0.98);
+    min-width: auto;
+    padding: 4px;
+    gap: 4px;
+    transition: opacity 120ms ease, transform 120ms ease, visibility 120ms;
+}
+
+/* Mostrar tooltip solo al hover/focus del icono asignado */
+.assigned-item-with-components:hover > .components-tooltip,
+.assigned-item-with-components:focus-within > .components-tooltip {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateX(-50%) translateY(0) scale(1);
+}
+
+/* Si usas item-with-components globalmente, esta regla ya la tienes; estas son mejoras específicas */
+.component-tooltip-icon {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+    border-radius: 4px;
+    padding: 2px;
+    background: rgba(255,255,255,0.03);
+}
+
+.item-tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.item-tooltip {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 8px;
+    padding: 10px;
+    background: #222;
+    border: 1px solid #555;
+    border-radius: 8px;
+    min-width: 180px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.item-tooltip-container:hover .item-tooltip {
+    display: block;
+}
+
+.item-tooltip-components {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.item-tooltip-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
+
+    .item-tooltip-component img {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+    }
+
+.selection-card {
+    position: relative;
+    padding: 0;
+    border-radius: 6px;
+    border: 2px solid #555;
+    background: #222;
+    cursor: pointer;
+}
+
+    .selection-card:hover {
+        border-color: #d4af37;
+    }
+
+.selection-tooltip {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: calc(100% + 8px);
+    width: 260px;
+    padding: 10px;
+    background: #111;
+    border: 1px solid #777;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+    z-index: 100;
+    text-align: left;
+    pointer-events: none;
+}
+
+.selection-card:hover .selection-tooltip {
+    display: block;
+}
+
+.selection-tooltip-name {
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 6px;
+}
+
+.selection-tooltip-description {
     font-size: 0.85rem;
+    color: #ddd;
+    line-height: 1.3;
 }
-
-.comp-summary ul, .comp-details ul {
-    margin: 0;
-    padding-left: 1.2rem;
-}
-
-
