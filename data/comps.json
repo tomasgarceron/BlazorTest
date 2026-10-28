@@ -5309,6 +5309,351 @@
       "DA_BronzeForLifeI",
       "DA_BronzeForLifeII"
     ]
+  },
+  {
+    "id": 16,
+    "name": "PRIMAL SIVIR ",
+    "description": "Playstyle: 4-Cost Fast 8\nKog\u0027maw and Inferno provide utility so you can focus on building pure offense / tank items. Choose Execute Primal ideally. Ashe with utility items caps the final board.\nAugment Priority\nECON -\u003E ITEMS -\u003ECOMBAT",
+    "champions": [
+      28,
+      62,
+      49,
+      7,
+      39,
+      35,
+      11,
+      29
+    ],
+    "coreChampions": [
+      {
+        "id": 39,
+        "weight": 4,
+        "requiresThreeStars": false
+      },
+      {
+        "id": 11,
+        "weight": 4,
+        "requiresThreeStars": false
+      },
+      {
+        "id": 35,
+        "weight": 4,
+        "requiresThreeStars": false
+      }
+    ],
+    "earlyCoreChampions": [
+      {
+        "id": 4,
+        "weight": 3
+      },
+      {
+        "id": 19,
+        "weight": 2
+      },
+      {
+        "id": 1,
+        "weight": 2
+      },
+      {
+        "id": 5,
+        "weight": 3
+      }
+    ],
+    "requiredTraits": [
+      {
+        "apiName": "DA_18_Adaptor",
+        "minUnits": 2,
+        "weight": 3
+      },
+      {
+        "apiName": "DA_18_Defender",
+        "minUnits": 2,
+        "weight": 2.5
+      },
+      {
+        "apiName": "DA_18_Fae",
+        "minUnits": 2,
+        "weight": 2.5
+      },
+      {
+        "apiName": "DA_18_Inferno",
+        "minUnits": 2,
+        "weight": 3
+      },
+      {
+        "apiName": "DA_18_Invoker",
+        "minUnits": 2,
+        "weight": 2.5
+      }
+    ],
+    "items": [
+      {
+        "id": 46,
+        "weight": 4,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 18,
+        "weight": 3.5,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 49,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 33,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 39,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 25,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 21,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 24,
+        "weight": 2.5,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 20,
+        "weight": 2.5,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      }
+    ],
+    "components": [
+      {
+        "id": 2,
+        "weight": 3.5,
+        "max": 4
+      },
+      {
+        "id": 6,
+        "weight": 2.5,
+        "max": 1
+      },
+      {
+        "id": 3,
+        "weight": 4,
+        "max": 6
+      },
+      {
+        "id": 5,
+        "weight": 3,
+        "max": 4
+      },
+      {
+        "id": 9,
+        "weight": 2,
+        "max": 2
+      },
+      {
+        "id": 1,
+        "weight": 2,
+        "max": 1
+      }
+    ],
+    "tier": "A",
+    "assignedItems": [
+      {
+        "championId": 4,
+        "itemId": 46,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 4,
+        "itemId": 18,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 5,
+        "itemId": 21,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 39,
+        "itemId": 21,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 39,
+        "itemId": 20,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 39,
+        "itemId": 24,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 11,
+        "itemId": 39,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 11,
+        "itemId": 33,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 11,
+        "itemId": 25,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 35,
+        "itemId": 18,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 35,
+        "itemId": 46,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 35,
+        "itemId": 49,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      }
+    ],
+    "situationalRequirements": [
+      {
+        "apiName": "DA_18_PrimalAugment_Sivir",
+        "type": "Augment",
+        "weight": 5,
+        "isRequired": false,
+        "showInCard": true
+      }
+    ],
+    "flexUnits": [
+      {
+        "type": "AddAtLevel",
+        "championId": 23,
+        "replaceChampionId": 0,
+        "level": 9,
+        "weight": 2
+      },
+      {
+        "type": "Replace",
+        "championId": 53,
+        "replaceChampionId": 7,
+        "level": 0,
+        "weight": 2
+      }
+    ],
+    "alternativeBuilds": [],
+    "recommendedAugments": [
+      "DA_18_PrimalAugment_Sivir",
+      "DA_Swordsmith",
+      "DA_SwordOverflow",
+      "DA_CarveAPath",
+      "DA_JeweledLotus_II",
+      "DA_CyberneticImplants_Gold",
+      "DA_BoxingLessons",
+      "DA_DeadlierBlades"
+    ]
   }
 ]
   
