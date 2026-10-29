@@ -5654,6 +5654,1812 @@
       "DA_BoxingLessons",
       "DA_DeadlierBlades"
     ]
+  },
+  {
+    "id": 17,
+    "name": "DEFENDER CASSIO",
+    "description": "Playstyle: 3-Cost Reroll\nVery BIS dependent. Can play from Coven Cashout. Can also play for Ornn 3 to potentially farm Artifacts. Always play 6 Defender. Duo carry on 8 is any 4 or 5 cost AP carry. \nAugment Priority\nITEMS -\u003E ECON -\u003E COMBAT",
+    "champions": [
+      44,
+      10,
+      62,
+      32,
+      51,
+      29,
+      26
+    ],
+    "coreChampions": [
+      {
+        "id": 10,
+        "weight": 3,
+        "requiresThreeStars": true
+      },
+      {
+        "id": 26,
+        "weight": 4,
+        "requiresThreeStars": true
+      },
+      {
+        "id": 51,
+        "weight": 3.5,
+        "requiresThreeStars": true
+      },
+      {
+        "id": 32,
+        "weight": 4,
+        "requiresThreeStars": true
+      }
+    ],
+    "earlyCoreChampions": [
+      {
+        "id": 59,
+        "weight": 2
+      },
+      {
+        "id": 44,
+        "weight": 2
+      },
+      {
+        "id": 10,
+        "weight": 4
+      },
+      {
+        "id": 60,
+        "weight": 2
+      }
+    ],
+    "requiredTraits": [],
+    "items": [
+      {
+        "id": 13,
+        "weight": 1,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 28,
+        "weight": 1,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 41,
+        "weight": 1,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 38,
+        "weight": 1,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 42,
+        "weight": 1,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 26,
+        "weight": 1,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 34,
+        "weight": 1,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 40,
+        "weight": 1,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 31,
+        "weight": 1,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 17,
+        "weight": 1,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      }
+    ],
+    "components": [
+      {
+        "id": 6,
+        "weight": 2,
+        "max": 3
+      },
+      {
+        "id": 2,
+        "weight": 3,
+        "max": 3
+      },
+      {
+        "id": 7,
+        "weight": 3.5,
+        "max": 4
+      },
+      {
+        "id": 9,
+        "weight": 3,
+        "max": 4
+      },
+      {
+        "id": 1,
+        "weight": 2.5,
+        "max": 2
+      },
+      {
+        "id": 4,
+        "weight": 1.5,
+        "max": 1
+      },
+      {
+        "id": 5,
+        "weight": 1.5,
+        "max": 1
+      },
+      {
+        "id": 3,
+        "weight": 2.5,
+        "max": 2
+      }
+    ],
+    "tier": "B",
+    "assignedItems": [
+      {
+        "championId": 59,
+        "itemId": 13,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 10,
+        "itemId": 40,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": false,
+        "showFull": false,
+        "isShownInEarlyCore": true,
+        "isShownInCore": false,
+        "isShownInFull": false
+      },
+      {
+        "championId": 26,
+        "itemId": 13,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 26,
+        "itemId": 28,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 26,
+        "itemId": 41,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 51,
+        "itemId": 26,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 51,
+        "itemId": 42,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 51,
+        "itemId": 38,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 32,
+        "itemId": 34,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 32,
+        "itemId": 40,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 32,
+        "itemId": 31,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 29,
+        "itemId": 17,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      }
+    ],
+    "situationalRequirements": [],
+    "flexUnits": [
+      {
+        "type": "AddAtLevel",
+        "championId": 52,
+        "replaceChampionId": 0,
+        "level": 8,
+        "weight": 3
+      },
+      {
+        "type": "AddAtLevel",
+        "championId": 43,
+        "replaceChampionId": 0,
+        "level": 9,
+        "weight": 3.5
+      },
+      {
+        "type": "Replace",
+        "championId": 48,
+        "replaceChampionId": 44,
+        "level": 0,
+        "weight": 2
+      }
+    ],
+    "alternativeBuilds": [
+      {
+        "championId": 48,
+        "name": "Defender emblem can replace for Leona",
+        "items": [
+          {
+            "itemId": 122,
+            "weight": 6
+          },
+          {
+            "itemId": 32,
+            "weight": 3
+          },
+          {
+            "itemId": 26,
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "recommendedAugments": [
+      "DA_Ascension",
+      "DA_18_FloraFatalisAugment",
+      "DA_SpiritOfRedemption",
+      "DA_ItsMeBaby",
+      "DA_WovenMagic",
+      "DA_HeroicGrabBagPlusPlus",
+      "DA_FlowingTears"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "CAITLYN HUNTERS",
+    "description": "Playstyle: 2-Cost Reroll \nCan also tank Sejuani 3. Tank whoever you can hit first. Can also play 4 Vanguard version with Elise. Sivir takes leftover utility / AD items (red buff highly impractical so oftentimes you play Morello). Take Turtle Primal buff. \u002B1 or 2 tiers with radiant items (especially radiant Guinsoo).",
+    "champions": [
+      28,
+      25,
+      34,
+      36,
+      5,
+      35,
+      46
+    ],
+    "coreChampions": [
+      {
+        "id": 25,
+        "weight": 4,
+        "requiresThreeStars": false
+      },
+      {
+        "id": 5,
+        "weight": 4,
+        "requiresThreeStars": false
+      },
+      {
+        "id": 35,
+        "weight": 4,
+        "requiresThreeStars": false
+      }
+    ],
+    "earlyCoreChampions": [
+      {
+        "id": 28,
+        "weight": 2
+      },
+      {
+        "id": 19,
+        "weight": 2
+      },
+      {
+        "id": 25,
+        "weight": 2
+      },
+      {
+        "id": 34,
+        "weight": 2
+      }
+    ],
+    "requiredTraits": [
+      {
+        "apiName": "DA_Juggernaut18",
+        "minUnits": 2,
+        "weight": 3.5
+      },
+      {
+        "apiName": "DA_Juggernaut18",
+        "minUnits": 4,
+        "weight": 5
+      },
+      {
+        "apiName": "DA_Juggernaut18",
+        "minUnits": 6,
+        "weight": 7
+      },
+      {
+        "apiName": "DA_18_Hunter",
+        "minUnits": 2,
+        "weight": 3.5
+      },
+      {
+        "apiName": "DA_18_Hunter",
+        "minUnits": 3,
+        "weight": 4.5
+      },
+      {
+        "apiName": "DA_18_Fae",
+        "minUnits": 2,
+        "weight": 3
+      },
+      {
+        "apiName": "DA_Primal18",
+        "minUnits": 2,
+        "weight": 3
+      }
+    ],
+    "items": [
+      {
+        "id": 32,
+        "weight": 4,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 18,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 47,
+        "weight": 3.5,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 28,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 37,
+        "weight": 2.5,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 11,
+        "weight": 2.5,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 24,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 15,
+        "weight": 2.5,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 21,
+        "weight": 2.5,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      }
+    ],
+    "components": [
+      {
+        "id": 5,
+        "weight": 2.5,
+        "max": 3
+      },
+      {
+        "id": 9,
+        "weight": 2,
+        "max": 1
+      },
+      {
+        "id": 1,
+        "weight": 2,
+        "max": 1
+      },
+      {
+        "id": 7,
+        "weight": 4,
+        "max": 1
+      },
+      {
+        "id": 4,
+        "weight": 4,
+        "max": 5
+      },
+      {
+        "id": 3,
+        "weight": 3,
+        "max": 2
+      },
+      {
+        "id": 6,
+        "weight": 2.5,
+        "max": 2
+      },
+      {
+        "id": 2,
+        "weight": 2,
+        "max": 1
+      }
+    ],
+    "tier": "B",
+    "assignedItems": [
+      {
+        "championId": 25,
+        "itemId": 32,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": true,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 25,
+        "itemId": 47,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 25,
+        "itemId": 28,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 5,
+        "itemId": 24,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 5,
+        "itemId": 15,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 5,
+        "itemId": 21,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 35,
+        "itemId": 18,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 35,
+        "itemId": 37,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 35,
+        "itemId": 11,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      }
+    ],
+    "situationalRequirements": [],
+    "flexUnits": [
+      {
+        "type": "AddAtLevel",
+        "championId": 39,
+        "replaceChampionId": 0,
+        "level": 8,
+        "weight": 3
+      },
+      {
+        "type": "AddAtLevel",
+        "championId": 17,
+        "replaceChampionId": 0,
+        "level": 9,
+        "weight": 4
+      }
+    ],
+    "alternativeBuilds": [
+      {
+        "championId": 25,
+        "name": "Guinsoo\u0027s Radiant",
+        "items": [
+          {
+            "itemId": 102,
+            "weight": 6
+          },
+          {
+            "itemId": 28,
+            "weight": 0
+          },
+          {
+            "itemId": 47,
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "championId": 25,
+        "name": "Artifacts",
+        "items": [
+          {
+            "itemId": 75,
+            "weight": 5
+          },
+          {
+            "itemId": 73,
+            "weight": 5
+          },
+          {
+            "itemId": 63,
+            "weight": 4.5
+          }
+        ]
+      }
+    ],
+    "recommendedAugments": [
+      "DA_Expedition",
+      "DA_BackupBows",
+      "DA_PrismaticTicket",
+      "DA_ShimmerscaleEssence",
+      "DA_TradeSector",
+      "DA_HeroicGrabBagPlusPlus",
+      "DA_RadiantRelic",
+      "DA_GoldenGamblePlusPlus"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Solar Melee",
+    "description": "Playstyle: 1-Cost Reroll\nAkali can be AD or AP (Flex IE/JG) Itemize Tank \u002B 3star melee first -\u003E 2nd melee -\u003E Varus items. Only go for Kayle and Sej 3 with lots of money. Can Swap out Ornn for Yorick/Rakan.\nAugment Priority\nCOMBAT -\u003E ITEMS -\u003E ECON",
+    "champions": [
+      37,
+      64,
+      44,
+      10,
+      38,
+      46,
+      45
+    ],
+    "coreChampions": [
+      {
+        "id": 10,
+        "weight": 4,
+        "requiresThreeStars": true
+      },
+      {
+        "id": 37,
+        "weight": 4,
+        "requiresThreeStars": true
+      },
+      {
+        "id": 64,
+        "weight": 4,
+        "requiresThreeStars": true
+      },
+      {
+        "id": 44,
+        "weight": 2,
+        "requiresThreeStars": true
+      },
+      {
+        "id": 38,
+        "weight": 4,
+        "requiresThreeStars": true
+      }
+    ],
+    "earlyCoreChampions": [
+      {
+        "id": 37,
+        "weight": 2
+      },
+      {
+        "id": 64,
+        "weight": 2
+      },
+      {
+        "id": 44,
+        "weight": 2
+      },
+      {
+        "id": 10,
+        "weight": 2
+      }
+    ],
+    "requiredTraits": [
+      {
+        "apiName": "DA_18_Solar",
+        "minUnits": 3,
+        "weight": 4.5
+      },
+      {
+        "apiName": "DA_18_Defender",
+        "minUnits": 2,
+        "weight": 3
+      },
+      {
+        "apiName": "DA_18_Inferno",
+        "minUnits": 2,
+        "weight": 3.5
+      },
+      {
+        "apiName": "DA_18_Rapidfire",
+        "minUnits": 2,
+        "weight": 3
+      },
+      {
+        "apiName": "DA_18_Slayer",
+        "minUnits": 2,
+        "weight": 3
+      }
+    ],
+    "items": [
+      {
+        "id": 44,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 29,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 25,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 39,
+        "weight": 2.5,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 14,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 18,
+        "weight": 4,
+        "maxEffective": 2,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 13,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 37,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 21,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 15,
+        "weight": 3.5,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 38,
+        "weight": 2.5,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      }
+    ],
+    "components": [
+      {
+        "id": 3,
+        "weight": 4,
+        "max": 5
+      },
+      {
+        "id": 9,
+        "weight": 2.5,
+        "max": 3
+      },
+      {
+        "id": 5,
+        "weight": 2,
+        "max": 3
+      },
+      {
+        "id": 7,
+        "weight": 2.5,
+        "max": 2
+      },
+      {
+        "id": 1,
+        "weight": 2.5,
+        "max": 2
+      },
+      {
+        "id": 4,
+        "weight": 2,
+        "max": 1
+      },
+      {
+        "id": 6,
+        "weight": 4,
+        "max": 6
+      },
+      {
+        "id": 2,
+        "weight": 2,
+        "max": 1
+      }
+    ],
+    "tier": "B",
+    "assignedItems": [
+      {
+        "championId": 37,
+        "itemId": 44,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 37,
+        "itemId": 29,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 37,
+        "itemId": 25,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 64,
+        "itemId": 39,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 64,
+        "itemId": 14,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 64,
+        "itemId": 18,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 10,
+        "itemId": 15,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 10,
+        "itemId": 38,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 10,
+        "itemId": 21,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 38,
+        "itemId": 13,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 38,
+        "itemId": 37,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 38,
+        "itemId": 18,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      }
+    ],
+    "situationalRequirements": [
+      {
+        "apiName": "DA_EarlyLearnings",
+        "type": "Augment",
+        "weight": 5,
+        "isRequired": false,
+        "showInCard": true
+      }
+    ],
+    "flexUnits": [
+      {
+        "type": "Replace",
+        "championId": 28,
+        "replaceChampionId": 10,
+        "level": 0,
+        "weight": 1
+      },
+      {
+        "type": "Replace",
+        "championId": 19,
+        "replaceChampionId": 10,
+        "level": 0,
+        "weight": 1
+      }
+    ],
+    "alternativeBuilds": [
+      {
+        "championId": 64,
+        "name": "Artifacts",
+        "items": [
+          {
+            "itemId": 71,
+            "weight": 5
+          },
+          {
+            "itemId": 51,
+            "weight": 4.5
+          },
+          {
+            "itemId": 74,
+            "weight": 4.5
+          }
+        ]
+      },
+      {
+        "championId": 37,
+        "name": "Artifacts",
+        "items": [
+          {
+            "itemId": 61,
+            "weight": 5
+          },
+          {
+            "itemId": 57,
+            "weight": 4.5
+          },
+          {
+            "itemId": 56,
+            "weight": 4.5
+          }
+        ]
+      }
+    ],
+    "recommendedAugments": [
+      "DA_PandorasBench",
+      "DA_PrismaticTicket",
+      "DA_NoScoutNoPivot",
+      "DA_EarlyLearnings",
+      "DA_WorththeWait",
+      "DA_LuckyGlovesPlus",
+      "DA_SoloPlate",
+      "DA_CursedCrown"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "TEEMOWOOD ",
+    "description": "Playstyle: 2-Cost Reroll\nBest with winstreak opener around Leblanc or Teemo with Brawler frontline. Teemo likes crit items but slam any strong AP items to get the streak going. Morgana holds utility items late game.\nAugment Priority\nITEMS -\u003E ECON -\u003E COMBAT",
+    "champions": [
+      30,
+      16,
+      31,
+      60,
+      56,
+      12,
+      7,
+      27
+    ],
+    "coreChampions": [
+      {
+        "id": 56,
+        "weight": 4,
+        "requiresThreeStars": true
+      },
+      {
+        "id": 60,
+        "weight": 3.5,
+        "requiresThreeStars": true
+      },
+      {
+        "id": 31,
+        "weight": 4,
+        "requiresThreeStars": true
+      },
+      {
+        "id": 27,
+        "weight": 3.5,
+        "requiresThreeStars": false
+      }
+    ],
+    "earlyCoreChampions": [
+      {
+        "id": 30,
+        "weight": 2
+      },
+      {
+        "id": 15,
+        "weight": 2
+      },
+      {
+        "id": 16,
+        "weight": 2
+      }
+    ],
+    "requiredTraits": [
+      {
+        "apiName": "DA_18_Invoker",
+        "minUnits": 2,
+        "weight": 3
+      },
+      {
+        "apiName": "DA_18_Invoker",
+        "minUnits": 3,
+        "weight": 4
+      },
+      {
+        "apiName": "DA_18_Sprykin",
+        "minUnits": 3,
+        "weight": 4.5
+      },
+      {
+        "apiName": "DA_18_Brawler",
+        "minUnits": 2,
+        "weight": 2
+      },
+      {
+        "apiName": "DA_18_Spellweaver",
+        "minUnits": 2,
+        "weight": 3
+      }
+    ],
+    "items": [
+      {
+        "id": 13,
+        "weight": 4,
+        "maxEffective": 2,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 30,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 44,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 35,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 22,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 19,
+        "weight": 2,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 21,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 15,
+        "weight": 3.5,
+        "maxEffective": 2,
+        "isCore": true,
+        "components": []
+      }
+    ],
+    "components": [
+      {
+        "id": 3,
+        "weight": 3,
+        "max": 2
+      },
+      {
+        "id": 9,
+        "weight": 2.5,
+        "max": 2
+      },
+      {
+        "id": 5,
+        "weight": 2.5,
+        "max": 4
+      },
+      {
+        "id": 7,
+        "weight": 3,
+        "max": 4
+      },
+      {
+        "id": 1,
+        "weight": 2.5,
+        "max": 2
+      },
+      {
+        "id": 4,
+        "weight": 2,
+        "max": 1
+      },
+      {
+        "id": 6,
+        "weight": 2.5,
+        "max": 2
+      },
+      {
+        "id": 2,
+        "weight": 3,
+        "max": 3
+      }
+    ],
+    "tier": "B",
+    "assignedItems": [
+      {
+        "championId": 56,
+        "itemId": 13,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 56,
+        "itemId": 13,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 56,
+        "itemId": 21,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 60,
+        "itemId": 13,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 60,
+        "itemId": 35,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 31,
+        "itemId": 44,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 31,
+        "itemId": 30,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 31,
+        "itemId": 13,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 27,
+        "itemId": 19,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 27,
+        "itemId": 22,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      }
+    ],
+    "situationalRequirements": [],
+    "flexUnits": [
+      {
+        "type": "Replace",
+        "championId": 49,
+        "replaceChampionId": 7,
+        "level": 0,
+        "weight": 2
+      },
+      {
+        "type": "Replace",
+        "championId": 33,
+        "replaceChampionId": 30,
+        "level": 0,
+        "weight": 4
+      }
+    ],
+    "alternativeBuilds": [],
+    "recommendedAugments": [
+      "DA_WorththeWait",
+      "DA_18_CaretakersAlly",
+      "DA_DeadlierCaps",
+      "DA_18_SprykinAugment",
+      "DA_SoloPlate",
+      "DA_TradeSector",
+      "DA_PandorasBench",
+      "DA_NoScoutNoPivot"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Eclipse Kayle",
+    "description": "Playstyle: 2-Cost Reroll\nRoll on level 5 for 3* 1 costs, then level up to roll on 6 for 3*. Kayle has built in 20% Shred at 2*. When in doubt, add more tank and stall for Eclipse to kill units.\nAugment Priority\nECON -\u003E ITEMS -\u003E COMBAT",
+    "champions": [
+      44,
+      38,
+      62,
+      45,
+      46,
+      42,
+      41,
+      39
+    ],
+    "coreChampions": [
+      {
+        "id": 46,
+        "weight": 4,
+        "requiresThreeStars": true
+      },
+      {
+        "id": 62,
+        "weight": 3,
+        "requiresThreeStars": true
+      },
+      {
+        "id": 38,
+        "weight": 3,
+        "requiresThreeStars": true
+      },
+      {
+        "id": 44,
+        "weight": 3,
+        "requiresThreeStars": true
+      },
+      {
+        "id": 45,
+        "weight": 4,
+        "requiresThreeStars": true
+      },
+      {
+        "id": 41,
+        "weight": 3,
+        "requiresThreeStars": false
+      }
+    ],
+    "earlyCoreChampions": [
+      {
+        "id": 44,
+        "weight": 2
+      },
+      {
+        "id": 38,
+        "weight": 2
+      },
+      {
+        "id": 45,
+        "weight": 3
+      },
+      {
+        "id": 62,
+        "weight": 2
+      }
+    ],
+    "requiredTraits": [
+      {
+        "apiName": "DA_18_Solar",
+        "minUnits": 3,
+        "weight": 4
+      },
+      {
+        "apiName": "DA_18_Inferno",
+        "minUnits": 2,
+        "weight": 3
+      },
+      {
+        "apiName": "DA_18_Inferno",
+        "minUnits": 3,
+        "weight": 4.5
+      },
+      {
+        "apiName": "DA_18_Lunar",
+        "minUnits": 2,
+        "weight": 3.5
+      },
+      {
+        "apiName": "DA_18_Lunar",
+        "minUnits": 3,
+        "weight": 4.5
+      },
+      {
+        "apiName": "DA_18_Rapidfire",
+        "minUnits": 2,
+        "weight": 3
+      },
+      {
+        "apiName": "DA_18_Rapidfire",
+        "minUnits": 3,
+        "weight": 4
+      },
+      {
+        "apiName": "DA_18_Defender",
+        "minUnits": 2,
+        "weight": 2.5
+      }
+    ],
+    "items": [
+      {
+        "id": 32,
+        "weight": 4,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 35,
+        "weight": 3.5,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 11,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 37,
+        "weight": 2.5,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 15,
+        "weight": 3.5,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      },
+      {
+        "id": 24,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 21,
+        "weight": 3,
+        "maxEffective": 1,
+        "isCore": false,
+        "components": []
+      },
+      {
+        "id": 129,
+        "weight": 5.5,
+        "maxEffective": 1,
+        "isCore": true,
+        "components": []
+      }
+    ],
+    "components": [
+      {
+        "id": 4,
+        "weight": 4,
+        "max": 4
+      },
+      {
+        "id": 6,
+        "weight": 2,
+        "max": 1
+      },
+      {
+        "id": 7,
+        "weight": 4,
+        "max": 3
+      },
+      {
+        "id": 9,
+        "weight": 3,
+        "max": 1
+      },
+      {
+        "id": 5,
+        "weight": 3.5,
+        "max": 1
+      },
+      {
+        "id": 1,
+        "weight": 3,
+        "max": 1
+      },
+      {
+        "id": 2,
+        "weight": 2.5,
+        "max": 2
+      },
+      {
+        "id": 8,
+        "weight": 4.5,
+        "max": 1
+      }
+    ],
+    "tier": "B",
+    "assignedItems": [
+      {
+        "championId": 46,
+        "itemId": 32,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 46,
+        "itemId": 24,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 46,
+        "itemId": 21,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 45,
+        "itemId": 32,
+        "scope": 5,
+        "showEarlyCore": true,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": true,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 45,
+        "itemId": 35,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 45,
+        "itemId": 11,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 41,
+        "itemId": 37,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      },
+      {
+        "championId": 38,
+        "itemId": 129,
+        "scope": 5,
+        "showEarlyCore": false,
+        "showCore": true,
+        "showFull": true,
+        "isShownInEarlyCore": false,
+        "isShownInCore": true,
+        "isShownInFull": true
+      }
+    ],
+    "situationalRequirements": [],
+    "flexUnits": [
+      {
+        "type": "AddAtLevel",
+        "championId": 43,
+        "replaceChampionId": 0,
+        "level": 8,
+        "weight": 3
+      },
+      {
+        "type": "AddAtLevel",
+        "championId": 55,
+        "replaceChampionId": 0,
+        "level": 9,
+        "weight": 4
+      }
+    ],
+    "alternativeBuilds": [
+      {
+        "championId": 45,
+        "name": "Artifacts",
+        "items": [
+          {
+            "itemId": 50,
+            "weight": 5
+          },
+          {
+            "itemId": 75,
+            "weight": 5
+          },
+          {
+            "itemId": 69,
+            "weight": 4.5
+          }
+        ]
+      },
+      {
+        "championId": 46,
+        "name": "Artifacts",
+        "items": [
+          {
+            "itemId": 60,
+            "weight": 4.5
+          }
+        ]
+      }
+    ],
+    "recommendedAugments": [
+      "DA_18_SolarTraitAugment",
+      "DA_PandorasBench",
+      "DA_PrismaticTicket",
+      "DA_NoScoutNoPivot",
+      "DA_HeroicGrabBagPlus",
+      "DA_MissedConnections",
+      "DA_PortableForge",
+      "DA_CraftedCrafting"
+    ]
   }
 ]
   
