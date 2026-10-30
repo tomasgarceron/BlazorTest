@@ -1553,7 +1553,8 @@
       27,
       21,
       22,
-      7
+      7,
+      53
     ],
     "coreChampions": [
       {
@@ -2803,7 +2804,7 @@
         "max": 3
       }
     ],
-    "tier": "B",
+    "tier": "A",
     "assignedItems": [
       {
         "championId": 59,
@@ -3823,56 +3824,56 @@
     "items": [
       {
         "id": 26,
-        "weight": 1,
-        "maxEffective": 1,
-        "isCore": false,
+        "weight": 3.5,
+        "maxEffective": 2,
+        "isCore": true,
         "components": []
       },
       {
         "id": 25,
-        "weight": 1,
-        "maxEffective": 1,
-        "isCore": false,
+        "weight": 3,
+        "maxEffective": 2,
+        "isCore": true,
         "components": []
       },
       {
         "id": 32,
-        "weight": 1,
-        "maxEffective": 1,
-        "isCore": false,
+        "weight": 4,
+        "maxEffective": 3,
+        "isCore": true,
         "components": []
       },
       {
         "id": 13,
-        "weight": 1,
+        "weight": 2.5,
         "maxEffective": 1,
         "isCore": false,
         "components": []
       },
       {
         "id": 35,
-        "weight": 1,
+        "weight": 2.5,
         "maxEffective": 1,
         "isCore": false,
         "components": []
       },
       {
         "id": 15,
-        "weight": 1,
+        "weight": 3,
         "maxEffective": 1,
-        "isCore": false,
+        "isCore": true,
         "components": []
       },
       {
         "id": 21,
-        "weight": 1,
+        "weight": 3,
         "maxEffective": 1,
-        "isCore": false,
+        "isCore": true,
         "components": []
       },
       {
         "id": 12,
-        "weight": 1,
+        "weight": 2,
         "maxEffective": 1,
         "isCore": false,
         "components": []
@@ -4212,56 +4213,56 @@
     "items": [
       {
         "id": 26,
-        "weight": 1,
+        "weight": 3,
         "maxEffective": 1,
         "isCore": false,
         "components": []
       },
       {
         "id": 25,
-        "weight": 1,
+        "weight": 3.5,
         "maxEffective": 1,
-        "isCore": false,
+        "isCore": true,
         "components": []
       },
       {
         "id": 32,
-        "weight": 1,
-        "maxEffective": 1,
-        "isCore": false,
+        "weight": 4,
+        "maxEffective": 2,
+        "isCore": true,
         "components": []
       },
       {
         "id": 13,
-        "weight": 1,
+        "weight": 3,
         "maxEffective": 1,
         "isCore": false,
         "components": []
       },
       {
         "id": 35,
-        "weight": 1,
+        "weight": 2.5,
         "maxEffective": 1,
         "isCore": false,
         "components": []
       },
       {
         "id": 15,
-        "weight": 1,
+        "weight": 4,
         "maxEffective": 1,
-        "isCore": false,
+        "isCore": true,
         "components": []
       },
       {
         "id": 21,
-        "weight": 1,
+        "weight": 2.5,
         "maxEffective": 1,
         "isCore": false,
         "components": []
       },
       {
         "id": 11,
-        "weight": 2.5,
+        "weight": 3,
         "maxEffective": 1,
         "isCore": false,
         "components": []
@@ -4712,7 +4713,7 @@
         "max": 1
       }
     ],
-    "tier": "A",
+    "tier": "S",
     "assignedItems": [
       {
         "championId": 59,
@@ -6029,17 +6030,22 @@
       {
         "id": 25,
         "weight": 4,
-        "requiresThreeStars": false
+        "requiresThreeStars": true
       },
       {
         "id": 5,
         "weight": 4,
-        "requiresThreeStars": false
+        "requiresThreeStars": true
       },
       {
         "id": 35,
         "weight": 4,
         "requiresThreeStars": false
+      },
+      {
+        "id": 46,
+        "weight": 3.5,
+        "requiresThreeStars": true
       }
     ],
     "earlyCoreChampions": [
